@@ -25,5 +25,5 @@
       opacity: 0.8;
     }
   }
-`,c=(0,a.Z)()((e=>{let{title:t,content:a,t:n}=e;return(0,s.jsx)(o,{href:"https://wa.me/351927252945",target:"_blank",rel:"noopener noreferrer",children:(0,s.jsx)("img",{className:"img",src:r(6449),id:""})})}))},6449:(e,t,r)=>{e.exports=r.p+"./static/media/Zap.b30a630a02b2e881c186.png"}}]);
+`,c=(0,a.Z)()((e=>{let{title:t,content:a,t:n}=e;return(0,s.jsx)(o,{href:"https://wa.me/351927252945",target:"_blank",rel:"noopener noreferrer",children:(0,s.jsx)("img",{className:"img",src:r(6449),id:""})})}))},6449:(e,t,r)=>{e.exports=r.p+"./LNA/static/media/Zap.b30a630a02b2e881c186.png"}}]);
 //# sourceMappingURL=687.cf2d0dd8.chunk.js.map

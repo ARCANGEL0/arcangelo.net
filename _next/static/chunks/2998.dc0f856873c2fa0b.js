@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2998],{12998:(e,l,s)=>{s.r(l),s.d(l,{default:()=>a});var t=s(14232);let a=()=>((0,t.useEffect)(()=>{window.open("https://arcangelo.net/valve","_self")},[]),null)}}]);

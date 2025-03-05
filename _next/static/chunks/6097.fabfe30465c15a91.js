@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6097],{6097:(e,t,u)=>{u.r(t),u.d(t,{default:()=>s});var l=u(14232);let s=()=>((0,l.useEffect)(()=>{window.open("https://github.com/ARCANGEL0/byteSec-MD","_blank")},[]),null)}}]);

@@ -1,7 +1,3 @@
 [InternetShortcut]
-BaseURL=Browser
+BaseURL=Netrunner
 IconFile=/System/Icons/net.webp
-Type=Browser
-URL=https://arcangel0.github.io/robco?run=hack
-
-

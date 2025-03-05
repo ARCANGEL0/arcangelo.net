@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5926],{25926:(e,t,l)=>{l.r(t),l.d(t,{default:()=>s});var p=l(96540);let s=()=>((0,p.useEffect)(()=>{window.open("https://www.photopea.com/","_blank")},[]),null)}}]);

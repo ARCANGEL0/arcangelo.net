@@ -1,67 +1,68 @@
 {
-  "aiEnabled": true,
-  "clockSource": "local",
-  "cursor": "",
-  "iconPositions": {},
-  "recentFiles": [
-["/session.json", "MonacoEditor", null]
-
-],
-  "runHistory": [],
-  "sortOrders": {
-    "/home/root/Desktop": [
-      [
-        "Arcangelo.url",
-        "My computer.url",
-        "Browser.url",
-             "Terminal.url",
-             "Photoshop.url",
-             "Hello.url",
-        "Doom.url",
-        "eXit.url",
-        "Fallout.url",
-        "Netrunner.url",
-        "Quake III Arena.url"
-
+    "aiEnabled": true,
+    "clockSource": "local",
+    "cursor": "",
+    "iconPositions": {},
+    "recentFiles": [
+  ["/session.json", "MonacoEditor", null]
+  
+  ],
+    "runHistory": ["Webamp"],
+    "sortOrders": {
+      "/home/root/Desktop": [
+        [
+          "Arcangelo.url",
+          "My computer.url",
+          "Browser.url",
+               "Terminal.url",
+               "Photoshop.url",
+               "Hello.url",
+          "Doom.url",
+          "eXit.url",
+          "Fallout.url",
+          "Netrunner.url",
+          "Quake III Arena.url"
+  
+        ],
+        null,
+        true
       ],
-      null,
-      true
-    ],
-    "/home/arcangelo/": [
-      [
-        "curriculum_2024.pdf",
-        "Gallery.url",
-        "Love.js.url",
-        "My certifications.url",
-        "My projects.url",
-        "README_fr.md",
-        "README_pt.md",
-        "README.md"
+      "/home/arcangelo/": [
+        [
+          "resumee.pdf",
+          "Gallery.url",
+          "My certifications.url",
+          "My projects.url",
+          "README_fr.md",
+          "README_pt.md",
+          "README.md"
+        ],
+        null,
+        true
       ],
-      null,
-      true
-    ],
-    "/": [
-      [
-        "Apps",
-        "home",
-        "img",
-        "System",
-        "ꨄ︎",
-        "favicon.ico",
-        "index.txt",
-        "robots.txt",
-        "rss.xml",
-        "Screenshot 2025-01-02 120122.png",
-        "session.json",
-        "sitemap.xml"
-      ],
-      null,
-      true
-    ]
-  },
-  "themeName": "defaultTheme",
-  "views": {},
-  "wallpaperFit": "fill",
-  "wallpaperImage": "VANTA"
-}
+      "/": [
+        [
+          "Apps",
+          "home",
+          "img",
+          "LNA",
+          "webXash",
+          "System",
+          "favicon.ico",
+          "index.txt",
+          "robots.txt",
+          "rss.xml",
+          "Screenshot 2025-01-02 120122.png",
+          "session.json",
+          "sitemap.xml"
+        ],
+        null,
+        true
+      ]
+    },
+    "themeName": "defaultTheme",
+    "views": {},
+    "wallpaperFit": "fill",
+    "wallpaperImage": "VANTA"
+  }
+  

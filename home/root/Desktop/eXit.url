@@ -1,7 +1,4 @@
 [InternetShortcut]
-BaseURL=Browser
+BaseURL=Exit
 IconFile=/System/Icons/exit.webp
-Type=Browser
-URL=https://arcangel0.github.io/robco?run=friend
-
 

@@ -1,11 +1,9 @@
-┍━━━━━━━━━━━━━━━━━━━ \
-<a href="#"><img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1000&pause=50&color=1DF71F&background=00000024&multiline=true&repeat=false&width=750&height=150&lines=Hi+there!+%F0%9F%91%8B;I'm+Henry!+;I'm+just+a+chill+guy+who+loves+to+code%2C+drink+coffee+and+play+games.+.+.+;Welcome+to+my+OS!+;Feel+free+to+explore+my+portfolio+and+tweak+.around+%3A)+;+++++++++++-+-+-+%F0%9F%92%BB+-+-+-+" alt="Typing SVG" /></a> \
-┕━━━━━━━━━━━━━━━━━━━
 
-<table style="width: 100%; border-collapse: collapse;">
+<a href="https://github/ARCANGEL0"><img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/term.gif" alt="Typing SVG" /></a> 
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <tr>
-    <td style="border: 1px solid #ccc; width: 80%; font-size: 80%;
-    border-radius: 8px; padding: 20px;">
+    <td style="width: 90%; border: 1px solid #ccc; font-size: 14px; border-radius: 8px; padding: 2%;">
       <p>🎓 Software Development Graduate</p>
       <p>🚀 Currently on the hunt for a new job opportunity.</p>
       <p>🧠 I’m passionate about coding and problem-solving, designing engaging interfaces, and enjoying a good cup of coffee to boost my creativity.</p>
@@ -13,25 +11,20 @@
       <p>💾 Coding since 0b1111 years old.</p>
       <p>🌐 My localhost is proudly set up in Porto, Portugal.</p>
     </td>
-    <td style="width: 40%; text-align: center; vertical-align: top;">
-      <div style="text-align: center; ">
-        <a style="text-decoration:none; color: inherit" href="home/arcangelo/README_pt.md">
-          <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/br-flag.png" alt="Brazil Flag" style="margin-left:15px; width: 60%; height: 60%; display: block;">
-        </a>
-      </div>
-      <div style="text-align: center; ">
-        <a style="text-decoration:none; color: inherit" href="home/arcangelo/README_fr.md">
-          <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/fr-flag.png" alt="France Flag" style="width: 60%; height: 60%; margin-left:15px;  display: block;">
-        </a>
-      </div>
-      <div style="text-align: center; ">
-        <a style="text-decoration:none; color: inherit" href="home/arcangelo/README.md">
-          <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/us-flag.png" alt="USA Flag" style="width: 60%; height: 60%; display: block; margin-left:15px; ">
-        </a>
-      </div>
+     <td style="width: 60px; text-align: center; vertical-align: top;">
+      <a href="README_pt.md">
+        <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/br-flag.png" width="50">
+      </a><br>
+      <a href="README_fr.md">
+        <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/fr-flag.png" width="50">
+      </a><br>
+      <a href="README.md">
+        <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/us-flag.png" width="50">
+      </a>
     </td>
   </tr>
 </table>
+
 
 ---
 
@@ -412,7 +405,7 @@
 <h2 align="left">
   <div style="display: flex; align-items: center;">
     <div>
-      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="auto" width="40%"></img>
+      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="40px" width="60px"></img>
     </div>
     <div style="margin-left: 10px; text-align: center;">
       $ whoami
@@ -422,10 +415,12 @@
 
 <br>
 
-<p align="center" style="font-size:16px; width:40%; margin-bottom: -5px">
+<p align="left" style="font-size:16px; margin-bottom: -5px"><a  href="https://arcangel0.github.io/robco?run=fallout">
+          <img style="height: 240px" src="https://media.tenor.com/3v2pOuthO0UAAAAM/gaming.gif" />
+        </a> 
 <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/standard%20(2).gif"></img>
 </p>
-
+</br>
 
 > ❱❱❱  Hey there! I’m Henry – a developer, gamer, and digital creator who’s all about pushing the limits of tech (and sometimes my own patience).  
 I whip up code that *mostly* works, craft clean interfaces, and build apps that aim to make the web a bit more exciting. My pronouns? TCP/IP.
@@ -434,30 +429,24 @@ I whip up code that *mostly* works, craft clean interfaces, and build apps that 
 
 #### What I’m About:
 
-> 「Techie at Heart」: I’ve got a degree in Software Development and Analysis. I mainly work on backend stuff, but I can handle frontend tasks too. Just trying to get better every day! 
-
-> 「AI & Cybersecurity Enthusiast」: I’m really interested in AI and cybersecurity. I’ve experimented with creating my own AI models and I’m currently learning about cybersecurity because I find it fascinating. I hope to specialize in red teaming and eventually earn an OSCP certification. 
-
+> 「Techie at Heart」: I’ve got a degree in Software Development and Analysis. I mainly work on backend stuff, but I can handle frontend tasks too. Just trying to get better every day! \
+> 「AI & Cybersecurity Enthusiast」: I’m really interested in AI and cybersecurity. I’ve experimented with creating my own AI models and I’m currently learning about cybersecurity because I find it fascinating. I hope to specialize in red teaming and eventually earn an OSCP certification. \
 > 「Problem Solver」: I enjoy tackling challenges and finding creative solutions. It’s like a puzzle that keeps me engaged and excited. 
 
 <br>
 
 #### Creative Side:
 
-> 「Bookworm」: I’m all about books that hit hard, like those by Dostoevsky, Orwell, Huxley, Tolstoy, and Kafka. I can’t pick a favorite, but *Metamorphosis* and *White Nights* are definitely up there. 
-
-> 「Music Lover」: Music is my jam! I play guitar and love composing. It’s a great way to express myself and unwind. 
-
+> 「Bookworm」: I’m all about books that hit hard, like those by Dostoevsky, Orwell, Huxley, Tolstoy, and Kafka. I can’t pick a favorite, but *Metamorphosis* and *White Nights* are definitely up there. \
+> 「Music Lover」: Music is my jam! I play guitar and love composing. It’s a great way to express myself and unwind. \
 > 「Art & Drawing」: I enjoy drawing and making illustrations. I like to put my thoughts and ideas on a digital canvas and see where it takes me. 
 
 <br>
 
 #### A Bit About Me:
 
-> 「Languages」: I speak Portuguese, French, and English. It’s fun to connect with people from different backgrounds. 
-
-> 「Animal Lover」: I’m a big fan of animals, especially cats. They’re just the best companions. 
-
+> 「Languages」: I speak Portuguese, French, and English. It’s fun to connect with people from different backgrounds. \
+> 「Animal Lover」: I’m a big fan of animals, especially cats. They’re just the best companions. \
 > 「Chill Vibes」: I love coding and tech, but I also enjoy taking a step back from the screen sometimes. In a world of 1s and 0s, it’s nice to log out and just relax for a bit. 
 
 <br>
@@ -467,8 +456,8 @@ I whip up code that *mostly* works, craft clean interfaces, and build apps that 
 
 <div align="center">
   
-<a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=3145g5gttpioibosks65ckvvkm4i&redirect=true">
-<img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=3145g5gttpioibosks65ckvvkm4i&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color_cover=false&bar_color=858585"></img></a>
+<a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31qfy2o2zyx2ts2g4d6mmbp457be&redirect=true">
+<img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31qfy2o2zyx2ts2g4d6mmbp457be&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color_cover=false&bar_color=858585"></img></a>
 
 </div>
 
@@ -483,62 +472,50 @@ I whip up code that *mostly* works, craft clean interfaces, and build apps that 
   <summary> Contact me here </summary>
   <br>
 
+<a href="https://arcangelo.net">
+          <img src="https://img.shields.io/badge/ArcangelOS-black.svg?&style=for-the-badge&logo=uikit&logoColor=grey" />
+        </a> 
+        </br>
 
 
-  <table border="1" width="80%">
-    <tr>
-      <td align="center">
-        <a href="https://wa.me/351927285125">
+
+ <a href="https://wa.me/351927285125">
           <img src="https://img.shields.io/badge/whatsapp-black.svg?&style=for-the-badge&logo=whatsapp&logoColor=green" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="mailto:henry.arcangello@gmail.com?subject=Olá%20Henry">
-          <img src="https://img.shields.io/badge/gmail-black.svg?&style=for-the-badge&logo=gmail&logoColor=orange" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.linkedin.com/in/henryarcangelo/">
-          <img src="https://img.shields.io/badge/linkedin-black.svg?&style=for-the-badge&logo=linkedin&logoColor=cyan" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="https://www.facebook.com/profile.php?id=100089128511446">
-          <img src="https://img.shields.io/badge/facebook-black.svg?&style=for-the-badge&logo=facebook&logoColor=blue" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://app.hackthebox.com/profile/795113">
-          <img src="https://img.shields.io/badge/Hack%20the%20Box-black.svg?&style=for-the-badge&logo=hackthebox&logoColor=%2367B438" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.instagram.com/h.arcangelo/">
-          <img src="https://img.shields.io/badge/instagram-black.svg?&style=for-the-badge&logo=instagram&logoColor=red" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="https://arcangelo.net">
-          <img src="https://img.shields.io/badge/Arcangel.OS-black.svg?&style=for-the-badge&logo=accenture&logoColor=green" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://arcangel0.github.io/RobcoTERMINAL?tr=robco">
-          <img src="https://img.shields.io/badge/Fallout%20terminal-%23092e13.svg?&style=for-the-badge&logo=codio&logoColor=%2367B438" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://discord.com/users/arcangel0">
-          <img src="https://img.shields.io/badge/discord-black.svg?&style=for-the-badge&logo=discord&logoColor=7289da" />
-        </a>
-      </td>
-    </tr>
-  </table>
+        </a> 
+        </br>
 
+
+
+
+
+ 
+ <a href="https://www.instagram.com/h.arcangelo/">
+          <img src="https://img.shields.io/badge/instagram-black.svg?&style=for-the-badge&logo=instagram&logoColor=red" />
+        </a> 
+        </br>
+
+
+
+
+ 
+ <a href="mailto:henry.arcangello@gmail.com?subject=Olá%20Henry">
+          <img src="https://img.shields.io/badge/gmail-black.svg?&style=for-the-badge&logo=gmail&logoColor=orange" />
+        </a> 
+        </br>
+
+
+
+
+ 
+ <a href="https://www.linkedin.com/in/henryarcangelo/">
+          <img src="https://img.shields.io/badge/linkedin-black.svg?&style=for-the-badge&logo=lospec&logoColor=cyan" />
+        </a> 
+        </br>
+
+
+
+</ul>
+ 
 </details>
 
 
@@ -546,7 +523,7 @@ I whip up code that *mostly* works, craft clean interfaces, and build apps that 
 <br>
 <br>
 
-<p align=center> <sub> Arcangelo ©2024 </sub> </p>
+<p align=center> <sub> Arcangelo ©2025 </sub> </p>
 
 
 <hr/>

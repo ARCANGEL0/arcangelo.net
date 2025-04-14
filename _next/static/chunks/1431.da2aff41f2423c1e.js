@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1431],{71431:(e,l,t)=>{t.r(l),t.d(l,{default:()=>a});var u=t(14232);let a=()=>((0,u.useEffect)(()=>{window.open("https://github.com/arcangel0/","_blank")},[]),null)}}]);

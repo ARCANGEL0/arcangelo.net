@@ -1,32 +1,24 @@
-┍━━━━━━━━━━━━━━━━━━━ \
-<a href="#"><img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1000&pause=50&color=1DF71F&background=00000024&multiline=true&repeat=false&width=750&height=150&lines=Hi+there!+%F0%9F%91%8B;I'm+Henry!+;I'm+just+a+chill+guy+who+loves+to+code%2C+drink+coffee+and+play+games.+.+.+;Welcome+to+my+OS!+;Feel+free+to+explore+my+portfolio+and+tweak+around+%3A)+;+++++++++++-+-+-+%F0%9F%92%BB+-+-+-+" alt="Typing SVG" /></a> \
-┕━━━━━━━━━━━━━━━━━━━
-
+<a href="https://github/ARCANGEL0"><img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/term.gif" alt="Typing SVG" /></a> 
+ 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="border: 1px solid #ccc; width: 80%; font-size: 80%; border-radius: 8px; padding: 2%;">
+    <td style="border: 1px solid #ccc; width: 80%; font-size: 10%; border-radius: 8px; padding: 2%;  width: 90%">
   <p>🎓 Diplômé en Développement Logiciel</p>
 <p>🚀 Actuellement à la recherche d'une nouvelle opportunité professionnelle.</p>
 <p>🧠 Passionné par le codage et la résolution de problèmes, la conception d'interfaces attrayantes, et un bon café pour stimuler ma créativité.</p>
 <p>🔍 Actuellement en apprentissage avec l'objectif de réaliser mon rêve dans la cybersécurité et l'audit de sécurité.</p>
 <p>💾 Je code depuis l'âge de 0b1111 ans.</p>
 <p>🌐 Mon localhost est fièrement installé à Porto, au Portugal.</p>
-<td style="width: 40%; text-align: center; vertical-align: top;">
-      <div style="text-align: center; ">
-        <a style="text-decoration:none; color: inherit" href="home/arcangelo/README_pt.md">
-          <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/br-flag.png" alt="Brazil Flag" style="width: 60%; height: 60%; display: block;">
-        </a>
-      </div>
-      <div style="text-align: center; ">
-        <a style="text-decoration:none; color: inherit" href="home/arcangelo/README_fr.md">
-          <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/fr-flag.png" alt="France Flag" style="width: 60%; height: 60%;  display: block;">
-        </a>
-      </div>
-      <div style="text-align: center; ">
-        <a style="text-decoration:none; color: inherit" href="home/arcangelo/README.md">
-          <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/us-flag.png" alt="USA Flag" style="width: 60%; height: 60%; display: block;">
-        </a>
-      </div>
+  <td style="width: 60px; text-align: center; vertical-align: top;">
+      <a href="README_pt.md">
+        <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/br-flag.png" width="50">
+      </a><br>
+      <a href="README_fr.md">
+        <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/fr-flag.png" width="50">
+      </a><br>
+      <a href="README.md">
+        <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/us-flag.png" width="50">
+      </a>
     </td>
   </tr>
 </table>
@@ -35,7 +27,7 @@
 
  
 <h2>
-  <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/techstack.gif" style=" height:65px; width;65px; padding-left: 5%; align:middle ">  <br>
+  <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/techstack.gif" style=" height:65px; width;135px; padding-left: 5%; align:middle ">  <br>
   <a style="color: inherit"> Ma Stack Technologique
 </a>
 </h2>
@@ -415,7 +407,7 @@
 <h2 align="left">
   <div style="display: flex; align-items: center;">
     <div>
-      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="auto" width="40%"></img>
+      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="40px" width="60px"></img>
     </div>
     <div style="margin-left: 10px; text-align: center;">
       $ whoami
@@ -425,9 +417,12 @@
 
 <br>
 
-<p align="center" style="font-size:16px; width: 40%; margin-bottom: -5px">
+<p align="left" style="font-size:16px; margin-bottom: -5px"><a  href="https://arcangel0.github.io/robco?run=fallout">
+          <img style="height: 240px" src="https://media.tenor.com/3v2pOuthO0UAAAAM/gaming.gif" />
+        </a> 
 <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/standard%20(2).gif"></img>
 </p>
+</br>
 
 > ❱❱❱  Bonjour! Je suis Henry - un développeur, un joueur et un créateur numérique qui cherche à repousser les limites de la technologie (et parfois de sa propre patience).  
 J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propres et je crée des applications qui visent à rendre le Web un peu plus excitant. Mes pronoms ? TCP/IP.
@@ -437,18 +432,14 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
 #### Ce que je fais :
 
 > 「Passionné de technologie」: J’ai un diplôme en Développement et Analyse Logicielle. Je travaille principalement sur le backend, mais je m’occupe aussi des tâches frontend. Mon objectif est de m’améliorer chaque jour !
-
 > 「Passionné par l’IA et la cybersécurité」: L’intelligence artificielle et la cybersécurité m’intéressent énormément. J’ai expérimenté la création de mes propres modèles d’IA et je me forme actuellement à la cybersécurité, car c’est un domaine fascinant. Mon but est de me spécialiser en red teaming et d’obtenir la certification OSCP.
-
 > 「Résolveur de problèmes」: J’adore relever des défis et trouver des solutions créatives. C’est comme un puzzle qui me garde engagé et enthousiaste.
 <br>
 
 #### Côté créatif :
 
 > 「Lecteur avide」: J’adore les livres qui font réfléchir, comme ceux de Dostoïevski, Orwell, Huxley, Tolstoï et Kafka. Je n’arrive pas à choisir un favori, mais *La Métamorphose* et *Les Nuits Blanches* figurent certainement parmi mes préférés.
-
 > 「Amoureux de la musique」: La musique, c’est ma passion ! Je joue de la guitare et j’adore composer. C’est un excellent moyen de m’exprimer et de me détendre.
-
 > 「Art et dessin」: J’aime dessiner et créer des illustrations. J’aime poser mes pensées et idées sur une toile numérique et voir où cela me mène.
 
 <br>
@@ -456,9 +447,7 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
 #### Un peu à propos de moi :
 
 > 「Langues」: Je parle portugais, français et anglais. C’est amusant de connecter avec des gens de différents horizons.
-
 > 「Amoureux des animaux」: Je suis un grand fan des animaux, surtout des chats. Ce sont les meilleurs compagnons.
-
 > 「Ambiance détendue」: J’adore le codage et la technologie, mais j’apprécie aussi de faire une pause loin de l’écran de temps en temps. Dans un monde de 1 et de 0, c’est agréable de se déconnecter et de simplement se détendre un moment.
 
 <br>
@@ -468,8 +457,8 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
 
 <div align="center">
   
-<a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=3145g5gttpioibosks65ckvvkm4i&redirect=true">
-<img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=3145g5gttpioibosks65ckvvkm4i&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color_cover=false&bar_color=858585"></img></a>
+<a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31qfy2o2zyx2ts2g4d6mmbp457be&redirect=true">
+<img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31qfy2o2zyx2ts2g4d6mmbp457be&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color_cover=false&bar_color=858585"></img></a>
 
 </div>
 
@@ -484,62 +473,50 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
   <summary> Contacte-moi ici </summary>
   <br>
 
+<a href="https://arcangelo.net">
+          <img src="https://img.shields.io/badge/ArcangelOS-black.svg?&style=for-the-badge&logo=uikit&logoColor=grey" />
+        </a> 
+        </br>
 
 
-  <table border="1" width="80%">
-    <tr>
-      <td align="center">
-        <a href="https://wa.me/351927285125">
+
+ <a href="https://wa.me/351927285125">
           <img src="https://img.shields.io/badge/whatsapp-black.svg?&style=for-the-badge&logo=whatsapp&logoColor=green" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="mailto:henry.arcangello@gmail.com?subject=Olá%20Henry">
-          <img src="https://img.shields.io/badge/gmail-black.svg?&style=for-the-badge&logo=gmail&logoColor=orange" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.linkedin.com/in/henryarcangelo/">
-          <img src="https://img.shields.io/badge/linkedin-black.svg?&style=for-the-badge&logo=linkedin&logoColor=cyan" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="https://www.facebook.com/profile.php?id=100089128511446">
-          <img src="https://img.shields.io/badge/facebook-black.svg?&style=for-the-badge&logo=facebook&logoColor=blue" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://app.hackthebox.com/profile/795113">
-          <img src="https://img.shields.io/badge/Hack%20the%20Box-black.svg?&style=for-the-badge&logo=hackthebox&logoColor=%2367B438" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.instagram.com/h.arcangelo/">
-          <img src="https://img.shields.io/badge/instagram-black.svg?&style=for-the-badge&logo=instagram&logoColor=red" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="https://arcangelo.net">
-          <img src="https://img.shields.io/badge/Arcangel.OS-black.svg?&style=for-the-badge&logo=accenture&logoColor=green" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://arcangel0.github.io/RobcoTERMINAL?tr=robco">
-          <img src="https://img.shields.io/badge/Fallout%20terminal-%23092e13.svg?&style=for-the-badge&logo=codio&logoColor=%2367B438" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://discord.com/users/arcangel0">
-          <img src="https://img.shields.io/badge/discord-black.svg?&style=for-the-badge&logo=discord&logoColor=7289da" />
-        </a>
-      </td>
-    </tr>
-  </table>
+        </a> 
+        </br>
 
+
+
+
+
+ 
+ <a href="https://www.instagram.com/h.arcangelo/">
+          <img src="https://img.shields.io/badge/instagram-black.svg?&style=for-the-badge&logo=instagram&logoColor=red" />
+        </a> 
+        </br>
+
+
+
+
+ 
+ <a href="mailto:henry.arcangello@gmail.com?subject=Olá%20Henry">
+          <img src="https://img.shields.io/badge/gmail-black.svg?&style=for-the-badge&logo=gmail&logoColor=orange" />
+        </a> 
+        </br>
+
+
+
+
+ 
+ <a href="https://www.linkedin.com/in/henryarcangelo/">
+          <img src="https://img.shields.io/badge/linkedin-black.svg?&style=for-the-badge&logo=lospec&logoColor=cyan" />
+        </a> 
+        </br>
+
+
+
+</ul>
+ 
 </details>
 
 
@@ -547,7 +524,7 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
 <br>
 <br>
 
-<p align=center> <sub> Arcangelo ©2024 </sub> </p>
+<p align=center> <sub> Arcangelo ©2025 </sub> </p>
 
 
 <hr/>

@@ -1,0 +1,150 @@
+<!-- prettier-ignore -->
+<template id="logo">
+	<style>
+		pre {
+			font-family: monospace;
+			font-size: 2rem;
+			line-height: 2rem;
+			width: fit-content;
+			transform: translate(100%, 0);
+			animation: marquee 6s linear infinite;
+		}
+		.enter {
+			text-align: center;
+			font-size: 2rem;
+			animation: cursor 1s infinite 2s step-end;
+		}
+	</style>
+<pre>
+	▒█▀▀█ █▀▀█ █▀▀▄ ▒█▀▀█ █░░█ █▀▀ █▀▀ ▀▀█▀▀ 
+	▒█▄▄▀ █▄▄█ █░░█ ▒█░▒█ █░░█ █▀▀ ▀▀█ ░░█░░ 
+	▒█░▒█ ▀░░▀ ▀▀▀░ ░▀▀█▄ ░▀▀▀ ▀▀▀ ▀▀▀ ░░▀░░
+</pre>
+
+	<div class="enter">--- PRESS ENTER ---</div>
+</template>
+
+<!-- prettier-ignore -->
+<template id="intro" data-type="true">
+    <div class="intro-text"></div>
+    <div class="controls-text"></div>
+</template>
+
+<script>
+    const introMessages = {
+    en: {
+        intro: ">>> Welcome, Vault Dweller! Initializing RobCo Rogue-Like Simulation...",
+        objective: ">>> Objective: Scavenge for Stimpaks and Radaway to survive. Locate the exit before Super Mutants or Raiders find you.",
+        warning: ">>> WARNING: Hostiles detected in the area. Proceed with extreme caution.",
+        controls: ">>> Controls:\n[SPACE] - Search area\n[ARROW KEYS] - Move\n>>> Stay alert, Vault Dweller."
+    },
+    pt: {
+        intro: ">>> Bem-vindo, Morador do Vault! Inicializando Simulação Rogue-Like da RobCo...",
+        objective: ">>> Objetivo: Vasculhe em busca de Stimpaks e Radaway para sobreviver. Encontre a saída antes que os Super Mutantes ou Saqueadores o encontrem.",
+        warning: ">>> AVISO: Hostis detectados na área. Prossiga com extrema cautela.",
+        controls: ">>> Controles:\n[ESPAÇO] - Vasculhar área\n[TECLAS DE SETA] - Mover\n>>> Fique alerta, Morador do Vault."
+    },
+    fr: {
+        intro: ">>> Bienvenue, Habitant de l’Abri ! Initialisation de la Simulation Rogue-Like de RobCo...",
+        objective: ">>> Objectif : Fouillez pour des Stimpaks et Radaway afin de survivre. Trouvez la sortie avant que les Super Mutants ou les Pillards ne vous trouvent.",
+        warning: ">>> AVERTISSEMENT : Présence d’hostiles détectée. Progressez avec une extrême prudence.",
+        controls: ">>> Contrôles:\n[ESPACE] - Fouiller la zone\n[FLÈCHES] - Se déplacer\n>>> Restez vigilant, Habitant de l’Abri."
+    },
+    es: {
+        intro: ">>> Bienvenido, Morador del Refugio! Inicializando Simulación Rogue-Like de RobCo...",
+        objective: ">>> Objetivo: Rebusca Stimpaks y Radaway para sobrevivir. Encuentra la salida antes de que los Super Mutantes o los Saqueadores te encuentren.",
+        warning: ">>> ADVERTENCIA: Hostiles detectados en la zona. Procede con extrema precaución.",
+        controls: ">>> Controles:\n[ESPACIO] - Buscar área\n[FLECHAS] - Moverse\n>>> Mantente alerta, Morador del Refugio."
+    }
+};
+
+    const selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+    const introMessage = introMessages[selectedLanguage];
+
+    document.querySelector('.intro-text').innerText = introMessage.intro + "\n\n" + introMessage.objective + "\n" + introMessage.warning;
+    document.querySelector('.controls-text').innerText = introMessage.controls;
+</script>
+
+<template id="layout">
+	<style>
+		.layout {
+			display: grid;
+
+			/* shrink left and right, make the middle fit the content */
+			grid-template-columns: 1fr auto 1fr;
+			grid-template-areas:
+				". up ."
+				"left mid right"
+				". down .";
+
+			justify-items: center;
+			align-items: center;
+		}
+		.layout button {
+			background: none;
+			border: none;
+			color: var(--color);
+			padding: 1rem;
+			font-size: 2rem;
+		}
+		.layout button:disabled {
+			color: var(--bg);
+		}
+		.layout button:enabled:hover {
+			background-color: var(--bg);
+		}
+		.layout button:active {
+			color: #fff;
+		}
+		.layout .up {
+			grid-area: up;
+		}
+		.layout .left {
+			grid-area: left;
+			justify-self: end;
+		}
+		.layout .mid {
+			grid-area: mid;
+		}
+		.layout .right {
+			grid-area: right;
+			justify-self: start;
+		}
+		.layout .down {
+			grid-area: down;
+		}
+
+		.rogue {
+			background: var(--off);
+			text-align: center;
+		}
+		.rogue .typer {
+			display: inline-block;
+		}
+		.rogue .output:before {
+			content: "- ";
+		}
+		.rogue .output:after {
+			content: " -";
+		}
+
+		.rogue .game {
+			padding: 1rem;
+			border: 1px solid var(--color);
+			border-radius: 2px;
+		}
+
+		.logo .intro {
+			overflow-y: auto;
+			padding: 1rem;
+			word-break: break-word;
+		}
+	</style>
+	<div class="layout">
+		<button class="up">▲</button>
+		<button class="left">◄</button>
+		<div class="mid"></div>
+		<button class="right">►</button>
+		<button class="down">▼</button>
+	</div>
+</template>

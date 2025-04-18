@@ -32,44 +32,44 @@ function addStylesheet(href) {
 /** Boot screen */
 export async function boot() {
 
-// Check for the "trigger" URL parameter
-const urlParams = new URLSearchParams(window.location.search);
-const triggerParam = urlParams.get("run");
+		// Check for the "trigger" URL parameter
+		const urlParams = new URLSearchParams(window.location.search);
+		const triggerParam = urlParams.get("run");
 
-if (triggerParam=='terminal') {
-  // start terminal
-await power()
-  console.log('TERMINAL')
-  login();
-  
-}
-else if(triggerParam=='debug') {
-  say("DEBUG MODE ACTIVATED");
-  alert('debug mode')
- 
-  return !0
-}
-else if(triggerParam=='exit') {
-	await power()
-	console.log('Inspired by Mr.Robot Season 4 FRIEND Game --Arcangelo')
-	await parse('friend');
-   
-	return !0
-  }
- else {
-	try {
-
-		if(triggerParam !== null ) { 
-        await parse(triggerParam);
-	} else { throw 'error'}
-      } catch (e) {
-        if (e.message) await type(e.message);
-		await power()	
-		intro();
+		if (triggerParam=='terminal') {
+		// start terminal
+		await power()
+		console.log('TERMINAL')
+		login();
 		
-	}
+		}
+		else if(triggerParam=='debug') {
+		say("DEBUG MODE ACTIVATED");
+		alert('debug mode')
+		
+		return !0
+		}
+		else if(triggerParam=='exit') {
+			await power()
+			console.log('Inspired by Mr.Robot Season 4 FRIEND Game --Arcangelo')
+			await parse('friend');
+		
+			return !0
+		}
+		else {
+			try {
 
-    }
+				if(triggerParam !== null ) { 
+				await parse(triggerParam);
+			} else { throw 'error'}
+			} catch (e) {
+				if (e.message) await type(e.message);
+				await power()	
+				intro();
+				
+			}
+
+			}
 }
 
 /** Login screen */

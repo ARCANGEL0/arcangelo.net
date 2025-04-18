@@ -21,13 +21,8 @@ function pAud(text) {
       clearInterval(interval);
     }
   }, 2 ) }
-function  {
-  audio.pause();
-  audio.currentTime = 0;
-}
-function delay(seconds) {
-  return new Promise(resolve => setTimeout(resolve, seconds * 1000));
-}
+
+
 // The main function, shows intro screen and the game screen
 async function command() {
 	clear();
@@ -202,7 +197,7 @@ scripts = "Alguns scripts bagunçados que escrevi, usados principalmente para m�
   `Tenho experiência com JavaScript, Vue, React, Python, PHP, Node, e várias outras ferramentas que uso pra tirar ideias do papel. Front-end, back-end, banco de dados – se envolve código, eu tô dentro.`,
   `Atualmente, tô mergulhando em Cibersegurança e Arquitetura de Redes. Então, se você busca alguém que construa, quebre e (ás vezes) solucione o problema, sou o cara certo (?).`
 ];
- hometexto = "> ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL\n> ACCESSING LOGS #27...\n\n--- LOG ENTRY INITIALIZED ---\n\nBem-vindo ao meu portfólio, inspirado no icônico Termlink da ROBCO Industries da série Fallout.\n\nSou  Henry, desenvolvedor backend movido por uma paixão por software, redes e tudo relacionado à TI. Aqui, você encontrará uma amostra dos meus projetos, e meus links de contacto :) .\n\n> SYSTEM STATUS: ALL SYSTEMS NORMAL\n\n";
+ hometexto = "> ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL\n> ACCESSING LOGS #27...\n\n--- LOG ENTRY INITIALIZED ---\n\nBem-vindo ao meu portfólio, inspirado no icônico Termlink da ROBCO Industries da série Fallout.\n\nSou  Henry, desenvolvedor backend movido por uma paixão por software, redes e tudo relacionado à TI. Aqui, você encontrará uma amostra dos meus projetos e meus links de contacto :) .\n\n> SYSTEM STATUS: ALL SYSTEMS NORMAL\n\n";
 homeReturn = "--- PRESSIONE PARA CONTINUAR ---" 
 arcangelos = "ArcangelOS Distro é meu portfólio pessoal, projetado para simular um ambiente KDE Linux, assim como este terminal do Fallout. Ele apresenta ferramentas para download, fotos, alguns dos meus projetos e de mim mesmo. Talvez um dia eu crie minha própria distro."
 } else if (language === 'es') {
@@ -401,12 +396,13 @@ contactTable.style.borderCollapse = 'collapse';
 // Contact entries
 const contacts = [
     { type: 'GitHub', name:'ARCANGEL0', link: 'https://github.com/ARCANGEL0/' },
-    { type: 'WhatsApp/Phone ', name: '+351 927285125', link: 'https://api.whatsapp.com/send?phone=351927285125' },
-    { type: 'Website',name: 'Arcangelo.net', link: 'https://arcangelo.net' },
-    { type: 'Email',name:'henry.arcangello', link: 'mailto:rick_arcangelo@hotmail.com,henry.arcangello@proton.me,henry.arcangello@gmail.com' },
+    { type: 'Instagram', name:'h.arcangelo', link: 'https://instagram.com/h.arcangelo' },
+    { type: 'WhatsApp/Phone', name: '+351 927285125', link: 'https://api.whatsapp.com/send?phone=351927285125' },
+    { type: 'Website',name: 'ArcangelOS', link: 'https://arcangelo.net' },
+    { type: 'Email',name:'henrique.c.arcangelo@gmail.com', link: 'mailto:rick_arcangelo@hotmail.com,henry.arcangello@proton.me,henry.arcangello@gmail.com' },
     { type: 'LinkedIn', name:'Henrique Arcangelo', link:
     'https://www.linkedin.com/in/henryarcangelo/' },
-    { type: 'Hack The Box', name:'0x0C1053F', link: 'https://app.hackthebox.com/profile/126962' },
+    { type: 'Hack The Box', name:'xSam4el', link: 'https://app.hackthebox.com/profile/126962' },
 ];
 
 contacts.forEach(contact => {
@@ -440,7 +436,7 @@ message.appendChild(contactTable);
         // outro.appendChild(contato);
         pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
     };
 
 
@@ -469,87 +465,184 @@ let projetos = document.createElement("a");
 		projetos.classList.add("btn-project")
 		projetos.href = "#";
 		projetos.onclick = () => {	
-      const messageP = document.createElement('p');
-messageP.innerText = projectTitle;
+                  const messageP = document.createElement('p');
+                  messageP.innerText = projectTitle;
 
-const scrollableContainer = document.createElement('div');
-scrollableContainer.style.overflowY = 'auto';
-scrollableContainer.style.maxHeight = '60vh';
-scrollableContainer.style.border = '0px solid #00ff00'; // Bright green border for the terminal look
-scrollableContainer.style.padding = '30px';
-scrollableContainer.style.color = '#00ff00'; // Bright green text
+                  const scrollableContainer = document.createElement('div');
+                  scrollableContainer.style.overflowY = 'auto';
+                  scrollableContainer.style.maxHeight = '60vh';
+                  scrollableContainer.style.border = '0px solid #00ff00'; // Bright green border for the terminal look
+                  scrollableContainer.style.padding = '30px';
+                  scrollableContainer.style.color = '#00ff00'; // Bright green text
 
 
-const projectsTable = document.createElement('table');
-projectsTable.style.borderCollapse = 'collapse';
-projectsTable.style.maxWidth = '70vw';
-projectsTable.style.wordWrap = 'break-word';
+                  const projectsTable = document.createElement('table');
+                  projectsTable.style.borderCollapse = 'collapse';
+                  projectsTable.style.maxWidth = '70vw';
+                  projectsTable.style.wordWrap = 'break-word';
 
-const projs = [
-    { type: edgarbot, name:'𝔈𝔡𝔤𝔞𝔯 ꓥ𝔩𝔩𝔞𝔫 𝔅𝔬𝔱', link: 'https://github.com/ARCANGEL0/edgarbot-MD' },
-    { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
-    { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' }
-    { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
-    { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
-    { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
-    { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                  const projs = [
+                      { type: edgarbot, name:'𝔈𝔡𝔤𝔞𝔯 ꓥ𝔩𝔩𝔞𝔫 𝔅𝔬𝔱', link: 'https://github.com/ARCANGEL0/edgarbot-MD' },
+                      { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
+                      { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' }
+                      { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
+                      { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
+                      { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
+                      { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                      
+                      ,
+
+                  ];
+
+                  projs.forEach(projk => {
+                      const rowP = projectsTable.insertRow();
+                      const typeCellP = rowP.insertCell();
+                      const linkCellP = rowP.insertCell();
+
+                      linkCellP.innerText = projk.type;
+                      typeCellP.style.padding = '5px';
+                      typeCellP.style.border = '1px solid #008000';
+                      typeCellP.style.whiteSpace = 'normal';
+                      typeCellP.style.minWidth = '10vw';
+
+                      typeCellP.innerHTML = `<a href="${projk.link}" target="_blank">${projk.name}</a>`;
+                      linkCellP.style.padding = '5px';
+                      linkCellP.style.border = '1px solid #008000';
+                      linkCellP.style.whiteSpace = 'normal';
+                  });
+
+                  scrollableContainer.appendChild(projectsTable);
+                  messageP.appendChild(scrollableContainer);
+
+                  const goBackLinkP = document.createElement("a");
+                  goBackLinkP.innerText = btnreturn;
+                  goBackLinkP.classList.add("btnReturn");
+                  goBackLinkP.href = "#";
+                  goBackLinkP.onclick = () => {
+                      messageP.remove();
+                      goBackLinkP.remove();
+                      pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+
+                      type([inicio, sobre, galeria, projetos, games, contato, terminal, logout, idioma], { processChars: false, wait: 10 }, outro);
+
+
+                  };
+
+                  inicio.remove();
+                  sobre.remove();
+                  galeria.remove();
+                  logout.remove();
+                  projetos.remove();
+                  contato.remove();
+                  idioma.remove();
+                  terminal.remove();
+                  pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+
+
+                  type([goBackLinkP, messageP], { processChars: false, wait: 10 }, outro);
+
+
+         };
+            
+		
+	
+  
+         let games = document.createElement("a");
+         games.innerText = btnproject;
+         games.classList.add("btn-games")
+         games.href = "#";
+         games.onclick = () => {	
+                       const messageP2 = document.createElement('p');
+                       messageP2.innerText = projectTitle;
+     
+                       const scrollableContainerGame = document.createElement('div');
+                       scrollableContainerGame.style.overflowY = 'auto';
+                       scrollableContainerGame.style.maxHeight = '60vh';
+                       scrollableContainerGame.style.border = '0px solid #00ff00'; // Bright green border for the terminal look
+                       scrollableContainerGame.style.padding = '30px';
+                       scrollableContainerGame.style.color = '#00ff00'; // Bright green text
+     
+     
+                       const projectsTableGame = document.createElement('table');
+                       projectsTableGame.style.borderCollapse = 'collapse';
+                       projectsTableGame.style.maxWidth = '70vw';
+                       projectsTableGame.style.wordWrap = 'break-word';
+     
+                       const gams = [
+                           { type: edgarbot, name:'eXit', link: 'https://arcangelo.net/fallout?run=friend' },
+                           { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
+                           { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' }
+                           { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
+                           { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
+                           { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
+                           { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                           
+                           ,
+     
+                       ];
+     
+                       gams.forEach(game => {
+                           const rowG = projectsTableGame.insertRow();
+                           const typeCellG = rowG.insertCell();
+                           const linkCellG = rowG.insertCell();
+     
+                           linkCellG.innerText = game.type;
+                           typeCellG.style.padding = '5px';
+                           typeCellG.style.border = '1px solid #008000';
+                           typeCellG.style.whiteSpace = 'normal';
+                           typeCellG.style.minWidth = '10vw';
+     
+                           typeCellG.innerHTML = `<a href="${game.link}" target="_blank">${game.name}</a>`;
+                           linkCellG.style.padding = '5px';
+                           linkCellG.style.border = '1px solid #008000';
+                           linkCellG.style.whiteSpace = 'normal';
+                       });
+     
+                       scrollableContainerGame.appendChild(projectsTable);
+                       messageP2.appendChild(scrollableContainer);
+     
+                       const goBackLinkG = document.createElement("a");
+                       goBackLinkG.innerText = btnreturn;
+                       goBackLinkG.classList.add("btnReturn");
+                       goBackLinkG.href = "#";
+                       goBackLinkG.onclick = () => {
+                           messageP.remove();
+                           goBackLinkG.remove();
+                           pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+     
+                           type([inicio, sobre, galeria, projetos, games, contato, terminal, logout, idioma], { processChars: false, wait: 10 }, outro);
+     
+     
+                       };
+     
+                       inicio.remove();
+                       sobre.remove();
+                       galeria.remove();
+                       logout.remove();
+                       projetos.remove();
+                       contato.remove();
+                       idioma.remove();
+                       terminal.remove();
+                       pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+     
+     
+                       type([goBackLinkP, messageP], { processChars: false, wait: 10 }, outro);
+     
+     
+              };
+                 
+         
+       
+
+
     
-    ,
-
-];
-
-projs.forEach(projk => {
-    const rowP = projectsTable.insertRow();
-    const typeCellP = rowP.insertCell();
-    const linkCellP = rowP.insertCell();
-
-    linkCellP.innerText = projk.type;
-    typeCellP.style.padding = '5px';
-    typeCellP.style.border = '1px solid #008000';
-    typeCellP.style.whiteSpace = 'normal';
-    typeCellP.style.minWidth = '10vw';
-
-    typeCellP.innerHTML = `<a href="${projk.link}" target="_blank">${projk.name}</a>`;
-    linkCellP.style.padding = '5px';
-    linkCellP.style.border = '1px solid #008000';
-    linkCellP.style.whiteSpace = 'normal';
-});
-
-scrollableContainer.appendChild(projectsTable);
-messageP.appendChild(scrollableContainer);
-
-const goBackLinkP = document.createElement("a");
-goBackLinkP.innerText = btnreturn;
-goBackLinkP.classList.add("btnReturn");
-goBackLinkP.href = "#";
-goBackLinkP.onclick = () => {
-    messageP.remove();
-    goBackLinkP.remove();
-    pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-
-    type([inicio, sobre, galeria, projetos, contato, terminal, logout, idioma], { processChars: false, wait: 10 }, outro);
-
-
-};
-
-inicio.remove();
-sobre.remove();
-galeria.remove();
-logout.remove();
-projetos.remove();
-contato.remove();
-idioma.remove();
-terminal.remove();
-pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-
-
-type([goBackLinkP, messageP], { processChars: false, wait: 10 }, outro);
-
-
-    	};
-		
-		
-		let galeria = document.createElement("a");
+    
+    
+       
+       
+       
+       
+              let galeria = document.createElement("a");
 
 
 
@@ -600,7 +693,7 @@ galeria.classList.add("btn-gal")
         pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
         
-type([inicio, sobre, galeria, projetos, contato, terminal, logout,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout,idioma], { processChars: false , wait: 10 }, outro);
 
 
     };
@@ -813,7 +906,7 @@ divsites.remove()
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
     };
     
@@ -916,7 +1009,7 @@ divtextinicio.appendChild(iniciotext);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
         // outro.appendChild(contato);
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
     };
 
@@ -973,7 +1066,7 @@ const backLang = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
     };
 
@@ -998,7 +1091,7 @@ let port = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 		  
 		}
 		
@@ -1021,7 +1114,7 @@ let eng = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
 		let rus = document.createElement("a");
@@ -1043,7 +1136,7 @@ type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { pr
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
     let jap = document.createElement("a");
@@ -1065,7 +1158,7 @@ type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { pr
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
 let spa = document.createElement("a");
@@ -1085,7 +1178,7 @@ let spa = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
 		
@@ -1105,7 +1198,7 @@ let fre = document.createElement("a");
         // outro.appendChild(logout);
         // outro.appendChild(contato);
         pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-        type([inicio, sobre, galeria, projetos, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+        type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
     // Append the message and "Go Back" link to the 'outro' element
@@ -1123,7 +1216,7 @@ let fre = document.createElement("a");
 
 	;
   pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-  type([inicio, sobre, galeria, projetos, contato, terminal, logout,idioma], { processChars: false , wait: 5 }, outro);
+  type([inicio, sobre, galeria, projetos, games, contato, terminal, logout,idioma], { processChars: false , wait: 5 }, outro);
 
 		logout.focus();
 	});

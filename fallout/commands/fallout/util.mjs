@@ -102,7 +102,7 @@ function generateText(words, length, maxLength) {
 
 	// The correct password is one of the selected words
 	let password = selectedWords[rnd(selectedWords.length - 1)];
-
+  console.log("//F.ADMIN LOGON PASSWORD==:"+password)
 	return {output, selectedWords, password};
 }
 

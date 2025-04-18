@@ -20,13 +20,15 @@ const audio = new Audio('./sound/type.wav');
 function saud(text) {
 let index = 0;
   const interval = setInterval(() => {
-    if (index < text.length) {
-      audio.play();
-      index++;
-    } else {
-      clearInterval(interval);
-    }
-  }, 2); // Adjust 200 for speed between taps (in milliseconds)
+      try {
+      if (index < text.length) {
+        audio.play().catch(() => {}); // Ignore audio playback errors
+        index++;
+      } else {
+        clearInterval(interval);
+      }
+    } catch (e) {}
+  }, 2);
 }
 
 
@@ -226,15 +228,16 @@ Game.prototype.handleSpecial = function(target) {
 		});
 
 		pre.textContent = `>${specialText}
->ESCAPE SEQUENCE DELETED`;
+>Dud removed`;
 	} else {
 		this.lives = MAX_LIVES;
 		pre.textContent = `>${specialText}
->RESETTING DATA`;
+>Allowance replenished`;
 
 		this.updateLives();
 	}
 	console.log("failed")
+console.log("//F.ADMIN LOGON PASSWORD:=="+this.password)
 	const existingPre = output.querySelector('pre');
 	if (existingPre) {
 		existingPre.remove();
@@ -271,6 +274,7 @@ Game.prototype.error = async function(pw) {
 >Likeness=${likeness}`;
 
 console.log("failed")
+console.log("//F.ADMIN LOGON PASSWORD:=="+this.password)
 const existingPre = output.querySelector('pre');
 if (existingPre) {
 	existingPre.remove();
@@ -301,10 +305,15 @@ Game.prototype.quit = function(win) {
 Game.prototype.handlePassword = function(target) {
 	let wordNr = target.dataset.word;
 	let pw = this.selectedWords[wordNr];
-
+   console.log("//F.ADMIN LOGON PASSWORD==:"+this.password)
 	if (pw === this.password) {
         this.quit(true);
-	} else {
+	} else if (pw.toLowerCase() === "unlock") 
+    {
+        this.error(this.password)
+    }
+    
+    else {
 		this.error(pw);
 	}
 }
@@ -337,6 +346,7 @@ Game.prototype.start = async function() {
     this.selectedWords = selectedWords;
     this.password = password;
 
+
     let cypher = this.container.querySelector(".cypher");
 
     // Show the cypher text on screen, line by line
@@ -353,7 +363,7 @@ Game.prototype.start = async function() {
             .map(charToSpan);
 
         cypher.appendChild(row);
-saud()
+
         await type(
             [nextHex(), ...chars],
             {
@@ -365,7 +375,7 @@ saud()
             },
             row
         );
-        paud()
+        
         // for debugging:
         // [nextHex(), ...chars].forEach(e => row.appendChild(e));
     }

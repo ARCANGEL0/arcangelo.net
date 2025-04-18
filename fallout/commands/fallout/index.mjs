@@ -268,9 +268,9 @@ termlink = "Robco.TERMLINK is a Python script that emulates the terminal authent
  bbnvid = "[GALLERY]"
     sobretexto = [
   `\n>// Hey there! I'm Henry – a developer, gamer, and digital creator with a love for tech that pushes boundaries (and sometimes my patience).`,
-  `I code things that *mostly* work, design clean interfaces, and build apps that aim to make the web a little cooler. My pronouns? TCP/IP.`,
-  `I'm fluent in JavaScript, Vue, React, Python, PHP, Node, and a handful of other tools that help me bring ideas to life. Front-end, back-end, databases – you name it, I probably mess with it.`,
-  `Right now, I’m diving into Cybersecurity and Data Science, learning to hack *ethically* and keep the digital world a little safer. So if you're looking for someone who can build, break, and (usually) fix things, I’m your guy.`
+  `I code things that *mostly* work, design some creative and totally UX/UI guided interfaces (totally not), and build apps that aim to make the web a little cooler. My pronouns? TCP/IP.`,
+  `I got experience in JavaScript, Vue, React, Python, PHP, Node, and a handful of other tools that help me bring ideas to life. Front-end, back-end, databases – you name it, I probably mess with it.`,
+  `Right now, I’m diving into Offensive Cybersecurity & Software Engineering, learning to hack (*ethically*, of course) and build some useful tools . So if you're looking for someone who can build, break, and (usually) fix things, I’m your guy.`
 ];
     //Update other text as needed
     hometexto = "> ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL\n> ACCESSING LOGS #27...\n\n--- LOG ENTRY INITIALIZED ---\n\nWelcome to my portfolio, inspired by the iconic ROBCO Industries Termlink from the Fallout series.\n\nI’m Henry, a backend developer driven by a deep passion for software, networks, and all things IT. Here, you’ll find a showcase of my work and my contacts.\n\n> SYSTEM STATUS: ALL SYSTEMS NORMAL\n\n";

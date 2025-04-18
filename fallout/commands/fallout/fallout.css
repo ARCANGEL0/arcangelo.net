@@ -126,13 +126,6 @@
     outline: none !important;
     row-gap: 5px !important; /* Space between rows */
     }
-    .output{         position: relative !important;
-      margin-left: -90vw !important;
-      justify-content: center !important;
-      margin-top: 70vh !important;
-
-      justify-content: center !important;
-    }
     
     .game {
 	display: flex;

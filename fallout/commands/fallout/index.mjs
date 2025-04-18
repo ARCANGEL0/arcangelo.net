@@ -498,8 +498,7 @@ const contacts = [
     { type: 'WhatsApp/Phone', name: '+351 927285125', link: 'https://api.whatsapp.com/send?phone=351927285125' },
     { type: 'Website',name: 'ArcangelOS', link: 'https://arcangelo.net' },
     { type: 'Email',name:'henrique.c.arcangelo@gmail.com', link: 'mailto:rick_arcangelo@hotmail.com,henry.arcangello@proton.me,henry.arcangello@gmail.com' },
-    { type: 'LinkedIn', name:'Henrique Arcangelo', link:
-    'https://www.linkedin.com/in/henryarcangelo/' },
+    { type: 'LinkedIn', name:'Henrique Arcangelo', link:'https://www.linkedin.com/in/henryarcangelo/' },
     { type: 'Hack The Box', name:'xSam4el', link: 'https://app.hackthebox.com/profile/126962' },
 ];
 
@@ -543,6 +542,7 @@ type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma
     sobre.remove();
     projetos.remove();
     galeria.remove();
+    games.remove();
     logout.remove();
     contato.remove();
     idioma.remove();
@@ -582,7 +582,7 @@ let projetos = document.createElement("a");
                   const projs = [
                       { type: edgarbot, name:'𝔈𝔡𝔤𝔞𝔯 ꓥ𝔩𝔩𝔞𝔫 𝔅𝔬𝔱', link: 'https://github.com/ARCANGEL0/edgarbot-MD' },
                       { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
-                      { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' }
+                      { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' },
                       { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
                       { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
                       { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
@@ -625,12 +625,12 @@ let projetos = document.createElement("a");
 
 
                   };
-
                   inicio.remove();
                   sobre.remove();
-                  galeria.remove();
-                  logout.remove();
                   projetos.remove();
+                  galeria.remove();
+                  games.remove();
+                  logout.remove();
                   contato.remove();
                   idioma.remove();
                   terminal.remove();
@@ -669,7 +669,7 @@ let projetos = document.createElement("a");
                        const gams = [
                            { type: edgarbot, name:'eXit', link: 'https://arcangelo.net/fallout?run=friend' },
                            { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
-                           { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' }
+                           { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' },
                            { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
                            { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
                            { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
@@ -718,6 +718,8 @@ let projetos = document.createElement("a");
                        galeria.remove();
                        logout.remove();
                        projetos.remove();
+                       games.remove();
+
                        contato.remove();
                        idioma.remove();
                        terminal.remove();
@@ -752,6 +754,7 @@ galeria.classList.add("btn-gal")
 		inicio.remove();
 
     sobre.remove();
+    games.remove();
 
     galeria.remove();
     logout.remove();
@@ -982,7 +985,8 @@ divsites.remove()
     idioma.remove();
     terminal.remove() 
     logout.remove()
-    
+    games.remove();
+
     var divsobre = document.getElementsByClassName("typer")[4];
     
 
@@ -1118,6 +1122,8 @@ type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma
     galeria.remove();
     projetos.remove();
     logout.remove();
+    games.remove();
+
     contato.remove();
     idioma.remove();
     terminal.remove();
@@ -1145,6 +1151,7 @@ inicio.remove();
     galeria.remove();
     projetos.remove();
     logout.remove();
+    games.remove();
     contato.remove();
     idioma.remove();
     terminal.remove();
@@ -1157,6 +1164,8 @@ const backLang = document.createElement("a");
         // Remove the message and "Go Back" link and restore the "Logout" and "Contact" buttons
         port.remove();
         spa.remove();
+        rus.remove()
+        jap.remove()
         eng.remove()
         fre.remove()
         backLang.remove();
@@ -1181,9 +1190,11 @@ let port = document.createElement("a");
 		  
 		  updateTexts()
 		  port.remove();
-        spa.remove();
-        eng.remove()
-        fre.remove()
+      spa.remove();
+      rus.remove()
+      jap.remove()
+      eng.remove()
+      fre.remove()
         backLang.remove();
         // outro.appendChild(logout);
         // outro.appendChild(contato);

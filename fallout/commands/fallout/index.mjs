@@ -490,7 +490,7 @@ let projetos = document.createElement("a");
                       { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
                       { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
                       
-                      ,
+                      
 
                   ];
 
@@ -577,7 +577,7 @@ let projetos = document.createElement("a");
                            { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
                            { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
                            
-                           ,
+                           
      
                        ];
      

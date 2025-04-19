@@ -163,6 +163,7 @@ function updateTexts() {
 		  galeria.innerText = btngal
 		  contato.innerText = btncontact
 		  idioma.innerText= btnlang
+		  games.innerText= btngames
 		  
 		}
     btnlang = '[LANGUAGE/LANGUE]';
@@ -533,7 +534,7 @@ message.appendChild(contactTable);
         // outro.appendChild(contato);
         pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
     };
 
 
@@ -543,7 +544,7 @@ type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma
     projetos.remove();
     galeria.remove();
     games.remove();
-    logout.remove();
+    
     contato.remove();
     idioma.remove();
     terminal.remove();
@@ -622,7 +623,7 @@ let projetos = document.createElement("a");
                       goBackLinkP.remove();
                       pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-                      type([inicio, sobre, galeria, projetos, games, contato, terminal, logout, idioma], { processChars: false, wait: 10 }, outro);
+                      type([inicio, sobre, galeria, projetos, games, contato, terminal, idioma], { processChars: false, wait: 10 }, outro);
 
 
                   };
@@ -631,7 +632,7 @@ let projetos = document.createElement("a");
                   projetos.remove();
                   galeria.remove();
                   games.remove();
-                  logout.remove();
+                  
                   contato.remove();
                   idioma.remove();
                   terminal.remove();
@@ -697,8 +698,8 @@ let projetos = document.createElement("a");
                            linkCellG.style.whiteSpace = 'normal';
                        });
      
-                       scrollableContainerGame.appendChild(projectsTable);
-                       messageP2.appendChild(scrollableContainer);
+                       scrollableContainerGame.appendChild(projectsTableGame);
+                       messageP2.appendChild(scrollableContainerGame);
      
                        const goBackLinkG = document.createElement("a");
                        goBackLinkG.innerText = btnreturn;
@@ -709,7 +710,7 @@ let projetos = document.createElement("a");
                            goBackLinkG.remove();
                            pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
      
-                           type([inicio, sobre, galeria, projetos, games, contato, terminal, logout, idioma], { processChars: false, wait: 10 }, outro);
+                           type([inicio, sobre, galeria, projetos, games, contato, terminal, idioma], { processChars: false, wait: 10 }, outro);
      
      
                        };
@@ -717,7 +718,7 @@ let projetos = document.createElement("a");
                        inicio.remove();
                        sobre.remove();
                        galeria.remove();
-                       logout.remove();
+                       
                        projetos.remove();
                        games.remove();
 
@@ -758,12 +759,12 @@ galeria.classList.add("btn-gal")
     games.remove();
 
     galeria.remove();
-    logout.remove();
+    
     contato.remove();
     projetos.remove();
     idioma.remove();
     terminal.remove() 
-    logout.remove()
+    
     
   
   
@@ -795,7 +796,7 @@ galeria.classList.add("btn-gal")
         pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
         
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal,idioma], { processChars: false , wait: 10 }, outro);
 
 
     };
@@ -980,12 +981,12 @@ divsites.remove()
     sobre.remove();
 
     galeria.remove();
-    logout.remove();
+    
     projetos.remove();
     contato.remove();
     idioma.remove();
     terminal.remove() 
-    logout.remove()
+    
     games.remove();
 
     var divsobre = document.getElementsByClassName("typer")[4];
@@ -1009,7 +1010,7 @@ divsites.remove()
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
     };
     
@@ -1112,7 +1113,7 @@ divtextinicio.appendChild(iniciotext);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
         // outro.appendChild(contato);
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
     };
 
@@ -1122,7 +1123,7 @@ type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma
     sobre.remove();
     galeria.remove();
     projetos.remove();
-    logout.remove();
+    
     games.remove();
 
     contato.remove();
@@ -1151,7 +1152,7 @@ inicio.remove();
     sobre.remove();
     galeria.remove();
     projetos.remove();
-    logout.remove();
+    
     games.remove();
     contato.remove();
     idioma.remove();
@@ -1174,7 +1175,7 @@ const backLang = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
     };
 
@@ -1201,7 +1202,7 @@ let port = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 		  
 		}
 		
@@ -1224,7 +1225,7 @@ let eng = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
 		let rus = document.createElement("a");
@@ -1246,7 +1247,7 @@ type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
     let jap = document.createElement("a");
@@ -1268,7 +1269,7 @@ type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
 let spa = document.createElement("a");
@@ -1288,7 +1289,7 @@ let spa = document.createElement("a");
         // outro.appendChild(contato);
 pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
 		
@@ -1308,7 +1309,7 @@ let fre = document.createElement("a");
         // outro.appendChild(logout);
         // outro.appendChild(contato);
         pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-        type([inicio, sobre, galeria, projetos, games, contato, terminal, logout ,idioma], { processChars: false , wait: 10 }, outro);
+        type([inicio, sobre, galeria, projetos, games, contato, terminal ,idioma], { processChars: false , wait: 10 }, outro);
 
 		}
     // Append the message and "Go Back" link to the 'outro' element
@@ -1316,19 +1317,12 @@ let fre = document.createElement("a");
     type([backLang,port, eng, spa, fre], { processChars: false , wait: 10 }, outro);
 		  
 		};
-		let logout = document.createElement("a");
-		logout.innerText = "[LOGOUT]";
-		logout.href = "#";
-		logout.onclick = () => {
-      outro.remove();
-			new Game({onQuit: resolve});
-		};
+
 
 	;
   pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-  type([inicio, sobre, galeria, projetos, games, contato, terminal, logout,idioma], { processChars: false , wait: 5 }, outro);
+  type([inicio, sobre, galeria, projetos, games, contato, terminal,idioma], { processChars: false , wait: 5 }, outro);
 
-		logout.focus();
 	});
 
 	outro.remove();

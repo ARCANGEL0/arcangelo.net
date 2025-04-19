@@ -156,7 +156,7 @@ pAud("ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM COPYRIGHT 2075 ARCANGELO   -SERV
 
 
 
-let homeReturn, projectTitle, btnproject,termlink,flowmvc, edgarbot, arcangelos,gamesTitle, btngames, pong, laravel, scripts, btnhome, btnsobre, btngal, btncontact, btnlang, btnreturn, sitext,sobretexto,hometexto,contactinfo, bbnsite, bbnvid
+let homeReturn, projectTitle, btnproject,termlink,flowmvc, edgarbot, arcangelos,gamesTitle, breach, dino, rogue, rick, btngames, pong, laravel, scripts,exitgame,pokemon, btnhome, btnsobre, btngal, btncontact, btnlang, btnreturn, sitext,sobretexto,hometexto,contactinfo, bbnsite, bbnvid
 function updateTexts() {
 		  inicio.innerText = btnhome
 		  sobre.innerText = btnsobre
@@ -581,12 +581,13 @@ let projetos = document.createElement("a");
 
                   const projs = [
                       { type: edgarbot, name:'𝔈𝔡𝔤𝔞𝔯 ꓥ𝔩𝔩𝔞𝔫 𝔅𝔬𝔱', link: 'https://github.com/ARCANGEL0/edgarbot-MD' },
-                      { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
-                      { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' },
-                      { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
-                      { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
-                      { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
-                      { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                      { type: flowmvc , name: '𝗙𝗹𝗼𝘄 ᮿ𝘔𝘢𝘯𝘢𝘨𝘦𝘳', link: 'https://github.com/ARCANGEL0/flowManager' },
+                      { type: termlink, name: '𝗥𝗼𝗯𝗖𝗼.𝖳𐄒𝖱𝖬𝖫𝖨𝖭𝖪', link: 'https://github.com/robco-termlink' },
+                      { type: arcangelos, name: '𝛌𝗿𝗰𝗮𝗻𝗴𝗲𝗹ꓳS Lɪɴᴜx', link: 'https://arcangelo.net' },
+                      { type: scripts, name: '𝚂𝚑𝚎𝚕𝚕 𝚂𝚌𝚛𝚒𝚙𝚝𝚜', link: 'https://github.com/ARCANGEL0/Scripts' },
+                      { type: pong, name: '𝘗𝘺𝘵𝘩𝘰𝘯 𝘗𝘐̆𝘯𝘨𝘗ø𝘯𝘨', link: 'https://github.com/ARCANGEL0/PythonPong' },
+                      { type: laravel, name: '𝗟𝗮𝗿𝗮𝘃𝗲𝗹 Dᴀsʜʙᴏᴀʀᴅ', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                      
                       
                       
 
@@ -667,13 +668,13 @@ let projetos = document.createElement("a");
                        projectsTableGame.style.wordWrap = 'break-word';
      
                        const gams = [
-                           { type: edgarbot, name:'eXit', link: 'https://arcangelo.net/fallout?run=friend' },
-                           { type: flowmvc , name: 'flowManager', link: 'https://github.com/ARCANGEL0/flowManager' },
-                           { type: termlink, name: 'Robco.TERMLINK', link: 'https://github.com/robco-termlink' },
-                           { type: arcangelos, name: 'ArcangelOS Linux', link: 'https://arcangelo.net' },
-                           { type: scripts, name: 'Shell Scripts', link: 'https://github.com/ARCANGEL0/Scripts' },
-                           { type: pong, name: 'Python PingPong', link: 'https://github.com/ARCANGEL0/PythonPong' },
-                           { type: laravel, name: 'Laravel Dashboard', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                           { type: exitgame, name:'ｅＸｉｔ  ᚤ', link: 'https://arcangelo.net/fallout?run=friend' },
+                           { type: breach , name: '𝗡𝗘𝝥𝗘𝗖𝗛 𝗕𝗥𝝣𝗔𝗖𝗛 𝗣𝗥⛶𝗧𝗢𝗖𝚹𝗟', link: 'https://arcangelo.net/fallout?run=friend' },
+                           { type: termlink, name: '𝗥𝗼𝗯𝗖𝗼.𝖳𐄒𝖱𝖬𝖫𝖨𝖭𝖪', link: 'https://github.com/robco-termlink' },
+                           { type: arcangelos, name: '𝛌𝗿𝗰𝗮𝗻𝗴𝗲𝗹ꓳS Lɪɴᴜx', link: 'https://arcangelo.net' },
+                           { type: scripts, name: '𝚂𝚑𝚎𝚕𝚕 𝚂𝚌𝚛𝚒𝚙𝚝𝚜', link: 'https://github.com/ARCANGEL0/Scripts' },
+                           { type: pong, name: '𝘗𝘺𝘵𝘩𝘰𝘯 𝘗𝘐̆𝘯𝘨𝘗ø𝘯𝘨', link: 'https://github.com/ARCANGEL0/PythonPong' },
+                           { type: laravel, name: '𝗟𝗮𝗿𝗮𝘃𝗲𝗹 Dᴀsʜʙᴏᴀʀᴅ', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
                            
                            
      

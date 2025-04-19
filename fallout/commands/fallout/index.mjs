@@ -706,7 +706,7 @@ let projetos = document.createElement("a");
                        goBackLinkG.classList.add("btnReturn");
                        goBackLinkG.href = "#";
                        goBackLinkG.onclick = () => {
-                           messageP.remove();
+                           messageP2.remove();
                            goBackLinkG.remove();
                            pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
      
@@ -728,7 +728,7 @@ let projetos = document.createElement("a");
                        pAud("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
      
      
-                       type([goBackLinkP, messageP], { processChars: false, wait: 10 }, outro);
+                       type([goBackLinkG, messageP2], { processChars: false, wait: 10 }, outro);
      
      
               };

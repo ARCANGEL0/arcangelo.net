@@ -670,11 +670,11 @@ let projetos = document.createElement("a");
                        const gams = [
                            { type: exitgame, name:'ｅＸｉｔ  ᚤ', link: 'https://arcangelo.net/fallout?run=friend' },
                            { type: breach , name: '𝗡𝗘𝝥𝗘𝗖𝗛 𝗕𝗥𝝣𝗔𝗖𝗛 𝗣𝗥⛶𝗧𝗢𝗖𝚹𝗟', link: 'https://arcangelo.net/fallout?run=friend' },
-                           { type: termlink, name: '𝗥𝗼𝗯𝗖𝗼.𝖳𐄒𝖱𝖬𝖫𝖨𝖭𝖪', link: 'https://github.com/robco-termlink' },
-                           { type: arcangelos, name: '𝛌𝗿𝗰𝗮𝗻𝗴𝗲𝗹ꓳS Lɪɴᴜx', link: 'https://arcangelo.net' },
-                           { type: scripts, name: '𝚂𝚑𝚎𝚕𝚕 𝚂𝚌𝚛𝚒𝚙𝚝𝚜', link: 'https://github.com/ARCANGEL0/Scripts' },
-                           { type: pong, name: '𝘗𝘺𝘵𝘩𝘰𝘯 𝘗𝘐̆𝘯𝘨𝘗ø𝘯𝘨', link: 'https://github.com/ARCANGEL0/PythonPong' },
-                           { type: laravel, name: '𝗟𝗮𝗿𝗮𝘃𝗲𝗹 Dᴀsʜʙᴏᴀʀᴅ', link: 'https://github.com/ARCANGEL0/LaravelDashboard' },
+                           { type: termlink, name: '𝖧λ𝖫𝖥 - 𝖫𝖨𝖥𝖤', link: 'https://arcangelo.net/valve' },
+                           { type: arcangelos, name: 'Dɪɴᴏ ࠅ', link: 'https://arcangelo.net/fallout?run=dino' },
+                           { type: scripts, name: '𝙿𝚘́𝚔𝚎𝚖𝚘𝚗 ⦺', link: 'https://arcangelo.net/fallout?run=pokemon' },
+                           { type: pong, name: '𝗥𝗼𝗴𝘂𝗲 ꗃ', link: 'https://arcangelo.net/fallout?run=rogue' },
+                           { type: laravel, name: '？？？？', link: 'https://arcangelo.net/fallout?run=rick' },
                            
                            
      

@@ -1,0 +1,182 @@
+layout viewoptions
+{
+    view subview(margin: [ 3,
+                           1,
+                           3,
+                           1 ],
+                 name: "View Options",
+                 spacing: 1,
+                 wants_focus: false)
+    {
+        column(margin: 0,
+               spacing: 1,
+               vertical: @align_fill)
+        {
+            button_view(action: @toggle_show_guides,
+                        bind: @enable_show_guides,
+                        child_horizontal: @align_center,
+                        horizontal: @align_fill,
+                        margin: [ 2,
+                                  2,
+                                  2,
+                                  10 ],
+                        show_border: false,
+                        show_highlight: true,
+                        spacing: 2,
+                        value_off: true,
+                        value_on: true,
+                        wants_focus: false,
+                        menu_item: true)
+            {
+                overlay(horizontal: @align_fill,
+                        vertical: @align_center,
+                        wants_focus: false)
+                {
+                    optional(bind: @show_guides,
+                             margin: 0,
+                             placement: @place_row,
+                             spacing: 0,
+                             value: true,
+                             wants_focus: false)
+                    {
+                        image(image: { normal: "P_ABCheckbox.png",
+                                       dark_normal: "P_ABCheckboxInverted.png" },
+                              margin: 0,
+                              wants_focus: false);
+
+                        static_text(name: localize("$$$/OWLAppBar/ShowGuides=Show Guides" ),
+                                    wants_focus: false);
+                    }
+
+                    optional(bind: @show_guides,
+                             margin: 0,
+                             placement: @place_row,
+                             spacing: 0,
+                             value: false,
+                             wants_focus: false)
+                    {
+                        image(image: "P_ABPlaceholder16_16.png",
+                              margin: 0,
+                              wants_focus: false);
+
+                        static_text(name: localize("$$$/OWLAppBar/ShowGuides=Show Guides" ),
+                                    wants_focus: false);
+                    }
+                }
+            }
+
+            button_view(action: @toggle_show_grid,
+                        bind: @enable_show_grids,
+                        child_vertical: @align_center,
+                        horizontal: @align_fill,
+                        margin: [ 2,
+                                  2,
+                                  2,
+                                  10 ],
+                        show_border: false,
+                        show_highlight: true,
+                        spacing: 2,
+                        value_off: true,
+                        value_on: true,
+                        wants_focus: false,
+                        menu_item: true)
+            {
+                overlay(horizontal: @align_fill,
+                        vertical: @align_center,
+                        wants_focus: false)
+                {
+                    optional(bind: @show_grid,
+                             margin: 0,
+                             placement: @place_row,
+                             spacing: 0,
+                             value: true,
+                             wants_focus: false)
+                    {
+                        image(image: { normal: "P_ABCheckbox.png",
+                                       dark_normal: "P_ABCheckboxInverted.png" },
+                              margin: 0,
+                              wants_focus: false);
+
+                        static_text(name: localize("$$$/OWLAppBar/ShowGrids=Show Grids" ),
+                                    wants_focus: false);
+                    }
+
+                    optional(bind: @show_grid,
+                             margin: 0,
+                             placement: @place_row,
+                             spacing: 0,
+                             value: false,
+                             wants_focus: false)
+                    {
+                        image(image: "P_ABPlaceholder16_16.png",
+                              margin: 0,
+                              wants_focus: false);
+
+                        static_text(name: localize("$$$/OWLAppBar/ShowGrids=Show Grids" ),
+                                    wants_focus: false);
+                    }
+                }
+            }
+
+            row(horizontal: @align_fill,
+                spacing: 0)
+            {
+                separator(orientation: @horizontal,
+                          vertical: @align_center);
+            }
+
+            button_view(action: @toggle_show_rulers,
+                        bind: @enable_show_rulers,
+                        child_vertical: @align_center,
+                        horizontal: @align_fill,
+                        margin: [ 2,
+                                  2,
+                                  2,
+                                  10 ],
+                        show_border: false,
+                        show_highlight: true,
+                        spacing: 2,
+                        value_off: true,
+                        value_on: true,
+                        wants_focus: false,
+                        menu_item: true)
+            {
+                overlay(horizontal: @align_fill,
+                        vertical: @align_center,
+                        wants_focus: false)
+                {
+                    optional(bind: @show_rulers,
+                             margin: 0,
+                             placement: @place_row,
+                             spacing: 0,
+                             value: true,
+                             wants_focus: false)
+                    {
+                        image(image: { normal: "P_ABCheckbox.png",
+                                       dark_normal: "P_ABCheckboxInverted.png" },
+                              margin: 0,
+                              wants_focus: false);
+
+                        static_text(name: localize("$$$/OWLAppBar/ShowRulers=Show Rulers" ),
+                                    wants_focus: false);
+                    }
+
+                    optional(bind: @show_rulers,
+                             margin: 0,
+                             placement: @place_row,
+                             spacing: 0,
+                             value: false,
+                             wants_focus: false)
+                    {
+                        image(image: "P_ABPlaceholder16_16.png",
+                              margin: 0,
+                              wants_focus: false);
+
+                        static_text(name: localize("$$$/OWLAppBar/ShowRulers=Show Rulers" ),
+                                    wants_focus: false);
+                    }
+                }
+            }
+        }
+    }
+}

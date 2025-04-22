@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[157],{10157:(e,l,p)=>{p.r(l),p.d(l,{default:()=>a});var t=p(96540);let a=()=>((0,t.useEffect)(()=>{window.open("https://app.hackthebox.com/profile/795113","_blank")},[]),null)}}]);

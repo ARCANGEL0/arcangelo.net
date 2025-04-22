@@ -1,0 +1,728 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DevToys.Tools/2.0.8-preview": {
+        "dependencies": {
+          "CronExpressionDescriptor": "2.32.0",
+          "Cronos": "0.8.3",
+          "DevToys.Api": "2.0.0-pre.2",
+          "Markdig": "0.34.0",
+          "Markdown.ColorCode": "2.1.0",
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "7.2.0",
+          "Newtonsoft.Json": "13.0.3",
+          "YamlDotNet": "13.7.1",
+          "ZXing.Net": "0.16.9",
+          "ZXing.Net.Bindings.ImageSharp.V3": "0.16.15"
+        },
+        "runtime": {
+          "DevToys.Tools.dll": {}
+        },
+        "resources": {
+          "af-ZA/DevToys.Tools.resources.dll": {
+            "locale": "af-ZA"
+          },
+          "ar-SA/DevToys.Tools.resources.dll": {
+            "locale": "ar-SA"
+          },
+          "be-BY/DevToys.Tools.resources.dll": {
+            "locale": "be-BY"
+          },
+          "bn-BD/DevToys.Tools.resources.dll": {
+            "locale": "bn-BD"
+          },
+          "ca-ES/DevToys.Tools.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "cs-CZ/DevToys.Tools.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "da-DK/DevToys.Tools.resources.dll": {
+            "locale": "da-DK"
+          },
+          "de-DE/DevToys.Tools.resources.dll": {
+            "locale": "de-DE"
+          },
+          "el-GR/DevToys.Tools.resources.dll": {
+            "locale": "el-GR"
+          },
+          "en-GB/DevToys.Tools.resources.dll": {
+            "locale": "en-GB"
+          },
+          "es-AR/DevToys.Tools.resources.dll": {
+            "locale": "es-AR"
+          },
+          "es-ES/DevToys.Tools.resources.dll": {
+            "locale": "es-ES"
+          },
+          "fa-IR/DevToys.Tools.resources.dll": {
+            "locale": "fa-IR"
+          },
+          "fi-FI/DevToys.Tools.resources.dll": {
+            "locale": "fi-FI"
+          },
+          "fr-FR/DevToys.Tools.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "he-IL/DevToys.Tools.resources.dll": {
+            "locale": "he-IL"
+          },
+          "hi-IN/DevToys.Tools.resources.dll": {
+            "locale": "hi-IN"
+          },
+          "hu-HU/DevToys.Tools.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "id-ID/DevToys.Tools.resources.dll": {
+            "locale": "id-ID"
+          },
+          "is-IS/DevToys.Tools.resources.dll": {
+            "locale": "is-IS"
+          },
+          "it-IT/DevToys.Tools.resources.dll": {
+            "locale": "it-IT"
+          },
+          "ja-JP/DevToys.Tools.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "ka-GE/DevToys.Tools.resources.dll": {
+            "locale": "ka-GE"
+          },
+          "kn-IN/DevToys.Tools.resources.dll": {
+            "locale": "kn-IN"
+          },
+          "ko-KR/DevToys.Tools.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "kw-GB/DevToys.Tools.resources.dll": {
+            "locale": "kw-GB"
+          },
+          "nb/DevToys.Tools.resources.dll": {
+            "locale": "nb"
+          },
+          "nl-NL/DevToys.Tools.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "pl-PL/DevToys.Tools.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "pt-BR/DevToys.Tools.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "pt-PT/DevToys.Tools.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "ro-RO/DevToys.Tools.resources.dll": {
+            "locale": "ro-RO"
+          },
+          "ru-RU/DevToys.Tools.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "sv-SE/DevToys.Tools.resources.dll": {
+            "locale": "sv-SE"
+          },
+          "ta-IN/DevToys.Tools.resources.dll": {
+            "locale": "ta-IN"
+          },
+          "te-IN/DevToys.Tools.resources.dll": {
+            "locale": "te-IN"
+          },
+          "tr-TR/DevToys.Tools.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "uk-UA/DevToys.Tools.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "vi-VN/DevToys.Tools.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "zh-Hans/DevToys.Tools.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/DevToys.Tools.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "ColorCode.Core/2.0.15": {
+        "runtime": {
+          "lib/netstandard2.0/ColorCode.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.15.59"
+          }
+        }
+      },
+      "ColorCode.HTML/2.0.15": {
+        "dependencies": {
+          "ColorCode.Core": "2.0.15"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ColorCode.HTML.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.15.59"
+          }
+        }
+      },
+      "CommunityToolkit.Common/8.2.1": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Common.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.1.1"
+          }
+        }
+      },
+      "CommunityToolkit.Diagnostics/8.2.1": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.1.1"
+          }
+        }
+      },
+      "CronExpressionDescriptor/2.32.0": {
+        "runtime": {
+          "lib/net6.0/CronExpressionDescriptor.dll": {
+            "assemblyVersion": "2.32.0.0",
+            "fileVersion": "2.32.0.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/da/CronExpressionDescriptor.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0/de/CronExpressionDescriptor.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0/es-MX/CronExpressionDescriptor.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0/es/CronExpressionDescriptor.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0/fa/CronExpressionDescriptor.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/net6.0/fi/CronExpressionDescriptor.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0/fr/CronExpressionDescriptor.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0/he-IL/CronExpressionDescriptor.resources.dll": {
+            "locale": "he-IL"
+          },
+          "lib/net6.0/hu/CronExpressionDescriptor.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net6.0/it/CronExpressionDescriptor.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0/ja/CronExpressionDescriptor.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0/ko/CronExpressionDescriptor.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0/nb/CronExpressionDescriptor.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/net6.0/nl/CronExpressionDescriptor.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0/pl/CronExpressionDescriptor.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0/pt/CronExpressionDescriptor.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0/ro/CronExpressionDescriptor.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0/ru/CronExpressionDescriptor.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0/sl/CronExpressionDescriptor.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/net6.0/sv/CronExpressionDescriptor.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0/tr/CronExpressionDescriptor.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0/uk/CronExpressionDescriptor.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/net6.0/vi/CronExpressionDescriptor.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/net6.0/zh-Hans/CronExpressionDescriptor.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0/zh-Hant/CronExpressionDescriptor.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Cronos/0.8.3": {
+        "runtime": {
+          "lib/netstandard2.0/Cronos.dll": {
+            "assemblyVersion": "0.8.3.0",
+            "fileVersion": "0.8.3.0"
+          }
+        }
+      },
+      "DevToys.Api/2.0.0-pre.2": {
+        "dependencies": {
+          "CommunityToolkit.Common": "8.2.1",
+          "CommunityToolkit.Diagnostics": "8.2.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "OneOf": "3.0.263",
+          "SixLabors.ImageSharp": "3.1.3",
+          "System.ComponentModel.Composition": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/DevToys.Api.dll": {
+            "assemblyVersion": "2.0.0.1",
+            "fileVersion": "2.0.0.1"
+          }
+        },
+        "resources": {
+          "lib/net8.0/af-ZA/DevToys.Api.resources.dll": {
+            "locale": "af-ZA"
+          },
+          "lib/net8.0/ar-SA/DevToys.Api.resources.dll": {
+            "locale": "ar-SA"
+          },
+          "lib/net8.0/bn-BD/DevToys.Api.resources.dll": {
+            "locale": "bn-BD"
+          },
+          "lib/net8.0/ca-ES/DevToys.Api.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net8.0/cs-CZ/DevToys.Api.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net8.0/da-DK/DevToys.Api.resources.dll": {
+            "locale": "da-DK"
+          },
+          "lib/net8.0/de-DE/DevToys.Api.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/net8.0/el-GR/DevToys.Api.resources.dll": {
+            "locale": "el-GR"
+          },
+          "lib/net8.0/en-GB/DevToys.Api.resources.dll": {
+            "locale": "en-GB"
+          },
+          "lib/net8.0/es-AR/DevToys.Api.resources.dll": {
+            "locale": "es-AR"
+          },
+          "lib/net8.0/es-ES/DevToys.Api.resources.dll": {
+            "locale": "es-ES"
+          },
+          "lib/net8.0/fi-FI/DevToys.Api.resources.dll": {
+            "locale": "fi-FI"
+          },
+          "lib/net8.0/fr-FR/DevToys.Api.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/net8.0/he-IL/DevToys.Api.resources.dll": {
+            "locale": "he-IL"
+          },
+          "lib/net8.0/hi-IN/DevToys.Api.resources.dll": {
+            "locale": "hi-IN"
+          },
+          "lib/net8.0/hu-HU/DevToys.Api.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "lib/net8.0/id-ID/DevToys.Api.resources.dll": {
+            "locale": "id-ID"
+          },
+          "lib/net8.0/it-IT/DevToys.Api.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/net8.0/ja-JP/DevToys.Api.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net8.0/kn-IN/DevToys.Api.resources.dll": {
+            "locale": "kn-IN"
+          },
+          "lib/net8.0/ko-KR/DevToys.Api.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net8.0/kw-GB/DevToys.Api.resources.dll": {
+            "locale": "kw-GB"
+          },
+          "lib/net8.0/nb/DevToys.Api.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/net8.0/nl-NL/DevToys.Api.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "lib/net8.0/pl-PL/DevToys.Api.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "lib/net8.0/pt-BR/DevToys.Api.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/pt-PT/DevToys.Api.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/net8.0/ro-RO/DevToys.Api.resources.dll": {
+            "locale": "ro-RO"
+          },
+          "lib/net8.0/ru-RU/DevToys.Api.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "lib/net8.0/sv-SE/DevToys.Api.resources.dll": {
+            "locale": "sv-SE"
+          },
+          "lib/net8.0/ta-IN/DevToys.Api.resources.dll": {
+            "locale": "ta-IN"
+          },
+          "lib/net8.0/te-IN/DevToys.Api.resources.dll": {
+            "locale": "te-IN"
+          },
+          "lib/net8.0/tr-TR/DevToys.Api.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/net8.0/uk-UA/DevToys.Api.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "lib/net8.0/vi-VN/DevToys.Api.resources.dll": {
+            "locale": "vi-VN"
+          },
+          "lib/net8.0/zh-Hans/DevToys.Api.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/DevToys.Api.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Markdig/0.34.0": {
+        "runtime": {
+          "lib/net8.0/Markdig.dll": {
+            "assemblyVersion": "0.34.0.0",
+            "fileVersion": "0.34.0.0"
+          }
+        }
+      },
+      "Markdown.ColorCode/2.1.0": {
+        "dependencies": {
+          "ColorCode.Core": "2.0.15",
+          "ColorCode.HTML": "2.0.15",
+          "Markdig": "0.34.0"
+        },
+        "runtime": {
+          "lib/net8.0/Markdown.ColorCode.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/7.2.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.50110"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/7.2.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "7.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.50110"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/7.2.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "7.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.50110"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/7.2.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "7.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.50110"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OneOf/3.0.263": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.3": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.3.0"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "YamlDotNet/13.7.1": {
+        "runtime": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.7.1.0"
+          }
+        }
+      },
+      "ZXing.Net/0.16.9": {
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "assemblyVersion": "0.16.9.0",
+            "fileVersion": "0.16.9.0"
+          }
+        }
+      },
+      "ZXing.Net.Bindings.ImageSharp.V3/0.16.15": {
+        "dependencies": {
+          "SixLabors.ImageSharp": "3.1.3",
+          "ZXing.Net": "0.16.9"
+        },
+        "runtime": {
+          "lib/net6.0/ZXing.ImageSharp.V3.dll": {
+            "assemblyVersion": "0.16.15.0",
+            "fileVersion": "0.16.15.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevToys.Tools/2.0.8-preview": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ColorCode.Core/2.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hHU8nzyapaQJUjeGp/T2SRDPLWbNCpCS67SDwSvF2pLMbq3Xe1PUGG8MUM63C3bG9tz9WrI7Rdd/VaTfHh/7qQ==",
+      "path": "colorcode.core/2.0.15",
+      "hashPath": "colorcode.core.2.0.15.nupkg.sha512"
+    },
+    "ColorCode.HTML/2.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8dZYz8q6nueMXUoDPvQqShz7mCjBa7vEBOiPKKEpZ7VhnCEb10GGFcy5eAnaI5UgXkGU06yXWJY/OJmxzbQuwQ==",
+      "path": "colorcode.html/2.0.15",
+      "hashPath": "colorcode.html.2.0.15.nupkg.sha512"
+    },
+    "CommunityToolkit.Common/8.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LWuhy8cQKJ/MYcy3XafJ916U3gPH/YDvYoNGWyQWN11aiEKCZszzPOTJAOvBjP9yG8vHmIcCyPUt4L82OK47Iw==",
+      "path": "communitytoolkit.common/8.2.1",
+      "hashPath": "communitytoolkit.common.8.2.1.nupkg.sha512"
+    },
+    "CommunityToolkit.Diagnostics/8.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s8URwNarXZZLDtVf9B1AvdKMYg4tNFEuikjrMJYlwgAdSoQT0Y7W8mCYA2o2H+dKiCRVLJUXBdxflk/+QS9QBg==",
+      "path": "communitytoolkit.diagnostics/8.2.1",
+      "hashPath": "communitytoolkit.diagnostics.8.2.1.nupkg.sha512"
+    },
+    "CronExpressionDescriptor/2.32.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9rKRmVQhZbCnJerjb5yPKcsL7P58BGaMHp94nhSXs7jNB/y83rJLeRMXYEruAUNliLLixeZr09bUOFg2o079Kg==",
+      "path": "cronexpressiondescriptor/2.32.0",
+      "hashPath": "cronexpressiondescriptor.2.32.0.nupkg.sha512"
+    },
+    "Cronos/0.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lep1gKd68dBEt7isLnnHadJHwUlhctMd+gYGMk3p8eOT9dIfw6fXJFkreYBQ8dIXm23S01ilHgpk2ttou5Wvtw==",
+      "path": "cronos/0.8.3",
+      "hashPath": "cronos.0.8.3.nupkg.sha512"
+    },
+    "DevToys.Api/2.0.0-pre.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sJaSVbqPi1P5LvCftLQSrBPbkV8OZG++5TMJIszREh7eU9B6GucqrDAzmcy2W/r8BEg0L8fFtFBIhJpHJZNPOA==",
+      "path": "devtoys.api/2.0.0-pre.2",
+      "hashPath": "devtoys.api.2.0.0-pre.2.nupkg.sha512"
+    },
+    "Markdig/0.34.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kUS8Y/oW2Cshwq3kv08Lz5hpMjt9MuAaDIGxv86d0RtEUUe4xKKXxdZYS7bV0ZXRfeAAOfjYIrt7zybcIOYvmg==",
+      "path": "markdig/0.34.0",
+      "hashPath": "markdig.0.34.0.nupkg.sha512"
+    },
+    "Markdown.ColorCode/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KNeSYI7jUU2aMEgOa/eMKr8dYvlZ+dkDRCEwuTEUrU4+YhUh7EiI4n7blR1uRtfoL8EuD4Kl2OhsFlwFUoLZ/w==",
+      "path": "markdown.colorcode/2.1.0",
+      "hashPath": "markdown.colorcode.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7YgmrhCORuOP8miZJLdQhSEzyHdD5PfRjaqINbqSzS9LKEfOoHq8S9o4FVmK9Mu7Gts8MfL46sshwCk4AgjNyw==",
+      "path": "microsoft.identitymodel.abstractions/7.2.0",
+      "hashPath": "microsoft.identitymodel.abstractions.7.2.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zLFA9IBxDWw6Y1nz2PPZyQvF+ZZ4aW1pwgtwusQB39lgxOc2xVqZ8gitsuT1rwyuIbchGOWbax4fsJ8OgGRxSQ==",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.2.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.7.2.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U15cZGq0JfkFXKDaDalq75WKGJniZnV0D6tCbaqc/NgLpIIO/Sq56PGr1v9fhPmXW2xb6ParGFfZkfryewmpWQ==",
+      "path": "microsoft.identitymodel.logging/7.2.0",
+      "hashPath": "microsoft.identitymodel.logging.7.2.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ycDxTRKNG2ad+y8166YuE0vqbzONEcgoZhMeOfqOoC4GDNOGEYlMoSS+Qm6n/GBHgW6FNmNxpXOUJLRMbJxcWQ==",
+      "path": "microsoft.identitymodel.tokens/7.2.0",
+      "hashPath": "microsoft.identitymodel.tokens.7.2.0.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-irv0HuqoH8Ig5i2fO+8dmDNdFdsrO+DoQcedwIlb810qpZHBNQHZLW7C/AHBQDgLLpw2T96vmMAy/aE4Yj55Sg==",
+      "path": "microsoft.io.recyclablememorystream/3.0.0",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OneOf/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "path": "oneof/3.0.263",
+      "hashPath": "oneof.3.0.263.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wybtaqZQ1ZRZ4ZeU+9h+PaSeV14nyiGKIy7qRbDfSHzHq4ybqyOcjoifeaYbiKLO1u+PVxLBuy7MF/DMmwwbfg==",
+      "path": "sixlabors.imagesharp/3.1.3",
+      "hashPath": "sixlabors.imagesharp.3.1.3.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bGhUX5BTivJ9Wax0qnJy7uGq7dn/TQkEpJ2Fpu1etg8dbPwyDkUzNPc1d3I2/jUr9y4wDI3a1dkSmi8X21Pzbw==",
+      "path": "system.componentmodel.composition/8.0.0",
+      "hashPath": "system.componentmodel.composition.8.0.0.nupkg.sha512"
+    },
+    "YamlDotNet/13.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4m1PnFcJwvAj1sCDMntg/eZcX96CJLrWMiYnq41KqhFVZPuw63ZTSxIGqgdCwHWHvCAyTxheELC/VDf1HsU2A==",
+      "path": "yamldotnet/13.7.1",
+      "hashPath": "yamldotnet.13.7.1.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "path": "zxing.net/0.16.9",
+      "hashPath": "zxing.net.0.16.9.nupkg.sha512"
+    },
+    "ZXing.Net.Bindings.ImageSharp.V3/0.16.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rj+QyQCPAtyNCT3m0uVLauJd8AnyXAMd8dvFKVnX9QyDeSXDzYJOOU3bn3uRGyEywTGxS1GG4XhlHBgj3vtuzA==",
+      "path": "zxing.net.bindings.imagesharp.v3/0.16.15",
+      "hashPath": "zxing.net.bindings.imagesharp.v3.0.16.15.nupkg.sha512"
+    }
+  }
+}

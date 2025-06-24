@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DevToys.Tools</id>
+    <version>2.0.8-preview</version>
+    <title>DevToys.Tools</title>
+    <authors>veler,btiteux</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://devtoys.app/</projectUrl>
+    <description>A set of offline tools installed by default with DevToys.</description>
+    <tags>devtoys-app</tags>
+    <repository type="git" url="https://github.com/DevToys-app/DevToys.Tools" commit="dd9ddcde226c98c1b6c1751426266ac90bab7a32" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="CronExpressionDescriptor" version="2.32.0" exclude="Build,Analyzers" />
+        <dependency id="Cronos" version="0.8.3" exclude="Build,Analyzers" />
+        <dependency id="DevToys.Api" version="2.0.0-pre.2" exclude="Build,Analyzers" />
+        <dependency id="Markdig" version="0.34.0" exclude="Build,Analyzers" />
+        <dependency id="Markdown.ColorCode" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IO.RecyclableMemoryStream" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.JsonWebTokens" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="YamlDotNet" version="13.7.1" exclude="Build,Analyzers" />
+        <dependency id="ZXing.Net" version="0.16.9" exclude="Build,Analyzers" />
+        <dependency id="ZXing.Net.Bindings.ImageSharp.V3" version="0.16.15" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

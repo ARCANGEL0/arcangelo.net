@@ -1,0 +1,23 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2494],{82494:(e,t,r)=>{r.r(t),r.d(t,{default:()=>d});var n=r(74848),i=r(16286),a=r(33540),o=r(96540),l=r(91745),s=r(48060);let f=a.default.textarea.attrs(()=>({enterKeyHint:"done",rows:1,...s.m8}))`
+  background-color: ${({$darkMode:e})=>e?"rgb(33, 33, 33)":"#fff"};
+  border: ${({$darkMode:e})=>`1px solid ${e?"#fff":"rgb(100, 100, 100)"}`};
+  border-radius: 0;
+  color: ${({$darkMode:e})=>e?"#fff":"#000"};
+  font-family: inherit;
+  font-size: 11.5px;
+  left: ${({$singleLineMode:e})=>e?"16px":void 0};
+  margin-bottom: 2px;
+  max-width: ${({$singleLineMode:e,theme:t})=>e?void 0:`${t.sizes.fileEntry.renameWidth}px`};
+  min-height: 19px;
+  min-width: 30px;
+  overflow: hidden;
+  padding: ${({theme:e})=>`1px ${e.sizes.fileEntry.renamePadding}px`};
+  position: ${({$singleLineMode:e})=>e?"absolute":"relative"};
+  resize: none;
+  text-align: ${({$singleLineMode:e})=>e?"left":"center"};
+  top: ${({$singleLineMode:e})=>e?"3px":"2px"};
+  user-select: text;
+  white-space: break-spaces;
+  word-wrap: ${({$singleLineMode:e})=>e?"normal":void 0};
+  z-index: 1;
+`;var u=r(37e3);let d=({isDesktop:e,name:t,path:r,renameFile:d,setRenaming:p,view:c})=>{let x=(0,o.useRef)(null),h=()=>d(r,x.current?.value),{formats:$,sizes:m}=(0,a.useTheme)(),g=(0,o.useMemo)(()=>"details"===c,[c]),y=(0,o.useCallback)(e=>{if(e instanceof HTMLTextAreaElement){let{width:t}=(0,l.AN)(e.value,m.fileEntry.fontSize,$.systemFont);g||e.setAttribute("style","height: 1px");let r=`width: ${t+22}px`,n=`height: ${e.scrollHeight+2}px`;e.setAttribute("style",g?r:`${n}; ${r}`)}},[$.systemFont,g,m.fileEntry.fontSize]);return(0,o.useLayoutEffect)(()=>{requestAnimationFrame(()=>y(x.current))},[y]),(0,o.useLayoutEffect)(()=>{y(x.current),x.current?.focus(s.VD),x.current?.setSelectionRange(0,t.length-i.extname(t).length)},[t,y]),(0,n.jsx)(f,{ref:x,$darkMode:!e,$singleLineMode:g,defaultValue:t,onBlurCapture:h,onClick:u.CH,onDragStart:u.CH,onKeyDown:({key:e})=>{"Enter"===e?h():"Escape"===e&&p("")},onKeyUp:e=>{y(e.target),(0,u.CH)(e)}})}}}]);

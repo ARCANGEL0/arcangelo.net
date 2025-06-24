@@ -1,0 +1,70 @@
+sheet app_bar
+{
+	interface:
+		viewoptions_image: {normal:"P_ABViewUIElements_Lg_N.png", rollover:"P_ABViewUIElements_Lg_R.png", dark_normal:"P_ABViewUIElements_Lg_N_D.png", dark_rollover:"P_ABViewUIElements_Lg_R_D.png"};
+		show_grid: true;
+		show_rulers: true;
+		show_guides: true;
+		selectedview_image: {normal:"P_ABChangeDocLayout_Lg_N.png", rollover:"P_ABChangeDocLayout_Lg_R.png", dark_normal:"P_ABChangeDocLayout_Lg_N_D.png", dark_rollover:"P_ABChangeDocLayout_Lg_R_D.png"};
+		selectedview: "1";
+		screenmode_image: {normal:"P_ABFullScreen_N.png", rollover:"P_ABFullScreen_R.png", dark_normal:"P_ABFullScreen_N_D.png", dark_rollover:"P_ABFullScreen_R_D.png"};
+		screenmode_normal: false;
+		screenmode_full: false;
+		screenmode_no_menus: false;
+		
+		/* switcher attributes */
+		unlink current_workspace: empty <== enable_switcher ? current_workspace : @__ignore_this_value__;
+		workspaces: [];
+		switcher_actions: [];
+		switcher_contextual_actions: [];
+	
+		force_disable_switcher: false;
+		enable_switcher <== enable_canvas && !force_disable_switcher;
+		
+		enable_univ_layout: true;
+		enable_1_up_layout: false;
+		enable_2_up_layout: false;
+		enable_3_up_layout: false;
+		enable_4_up_layout: false;
+		enable_5_up_layout: false;
+		enable_6_up_layout: false;
+		enable_image_doc: false;
+		
+		enable_canvas: true;
+		
+		layout_univ <== enable_univ_layout && enable_canvas;
+		layout_1_up <== enable_1_up_layout && enable_canvas;
+		layout_2_up <== enable_2_up_layout && enable_canvas;
+		layout_3_up <== enable_3_up_layout && enable_canvas;
+		layout_4_up <== enable_4_up_layout && enable_canvas;
+		layout_5_up <== enable_5_up_layout && enable_canvas;
+		layout_6_up <== enable_6_up_layout && enable_canvas;
+
+		has_image_doc <== enable_image_doc;
+		unlink zoom_level: "100" <== enable_image_doc && enable_canvas ? zoom_level : "100";	
+		enable_make_float <== enable_image_doc && enable_canvas;
+		enable_new_window <== enable_image_doc && enable_canvas;
+		enable_match_zoom <== enable_image_doc && enable_canvas;
+		enable_match_location <== enable_image_doc && enable_canvas;
+		enable_match_zoom_location <== enable_image_doc && enable_canvas;
+		enable_actual_pixels <== enable_image_doc && enable_canvas;
+		enable_fit_to_screen <== enable_image_doc && enable_canvas;
+
+		enable_screenmode_normal <== enable_canvas;
+		enable_screenmode_full <== enable_image_doc && enable_canvas;
+		enable_screenmode_no_menus <== enable_image_doc && enable_canvas;
+		enable_show_guides <== enable_image_doc && enable_canvas;
+		enable_show_grids <== enable_image_doc && enable_canvas;
+		enable_show_rulers <== enable_image_doc && enable_canvas;
+
+	invariant:
+		correct1 <== enable_1_up_layout == true;
+		correct2 <== enable_2_up_layout == true;
+		correct3 <== enable_3_up_layout == true;
+		correct4 <== enable_4_up_layout == true;
+		correct5 <== enable_5_up_layout == true;
+		correct6 <== enable_6_up_layout == true;
+		correct7 <== enable_image_doc == true;
+		correct8 <== enable_canvas == true;
+		correct9 <== enable_univ_layout == true;
+}

@@ -428,8 +428,7 @@ rick = "Le meilleur jeu de mon portfolio. Sérieusement, tu vas l’adorer."
       `n ce moment, je me plonge dans la cybersécurité offensive et l’ingénierie logicielle, apprenant à hacker (éthiquement, bien sûr) et à construire quelques outils utiles. Donc, si vous cherchez quelqu’un capable de construire, casser et (généralement) réparer des choses, je suis la personne qu'il vous faut.`
     ];
     arcangelos = "ArcangelOS Distro est mon portfolio personnel, conçu pour simuler un environnement KDE Linux, un peu comme ce terminal Fallout. Il propose des outils à télécharger, des photos et des présentations de mes projets et de moi-même. Peut-être qu'un jour je créerai ma propre distro."
-    hometexto = "> ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL\n> ACCESSING LOGS #27...\n\n--- LOG ENTRY INITIALIZED ---\n\nBienvenido a mi portafolio, inspirado en el icónico Termlink de ROBCO Industries de la serie Fallout.\n\nSoy Henry, un desarrollador backend impulsado por una gran pasión por el software, las redes y todo lo relacionado con la informática. Aquí encontrarás una muestra de mi trabajo, cada proyecto un paso en mi viaje para construir e innovar en el mundo de la tecnología.\n\n> SYSTEM STATUS: ALL SYSTEMS NORMAL\n\n";
-    homeReturn = "--- APPUYEZ POUR CONTINUER ---"
+hometexto = "> ROBCO INDUSTRIES (TM) PROTOCOLE TERMLINK\n> ACCÈS AUX JOURNAUX #27...\n\n--- ENTRÉE DE JOURNAL INITIÉE ---\n\nBienvenue dans mon portfolio, inspiré par le célèbre Termlink de ROBCO Industries de la série Fallout.\n\nJe suis Henry, un développeur backend animé par une grande passion pour le logiciel, les réseaux et tout ce qui touche à l'informatique. Tu trouveras ici un aperçu de mon travail, chaque projet représentant une étape dans mon parcours pour bâtir et innover dans le monde de la technologie.\n\n> ÉTAT DU SYSTÈME : TOUS LES SYSTÈMES FONCTIONNENT NORMALEMENT\n\n";    homeReturn = "--- APPUYEZ POUR CONTINUER ---"
 }
 else {
   halflife = "That's right, the classic λ𝖺𝗅𝖿 𝗅𝗂𝖿𝖾, the golden dawn of games, ported to web. Full credit goes to x8BitRain for making it playable online — I just made a few tweaks and dropped it in my portfolio because, honestly, this gem had to be here."
@@ -512,7 +511,7 @@ const contacts = [
     { type: 'Instagram', name:'h.arcangelo', link: 'https://instagram.com/h.arcangelo' },
     { type: 'WhatsApp/Phone', name: '+351 927285125', link: 'https://api.whatsapp.com/send?phone=351927285125' },
     { type: 'Website',name: 'ArcangelOS', link: 'https://arcangelo.net' },
-    { type: 'Email',name:'henrique.c.arcangelo@gmail.com', link: 'mailto:rick_arcangelo@hotmail.com,henry.arcangello@proton.me,henry.arcangello@gmail.com' },
+    { type: 'Email',name:'henrique.c.arcangelo@gmail.com', link: 'mailto:rick_arcangelo@hotmail.com,henry.arcangello@proton.me,henry.arcangello@gmail.com,henrique.c.arcangelo@gmail.com' },
     { type: 'LinkedIn', name:'Henrique Arcangelo', link:'https://www.linkedin.com/in/henryarcangelo/' },
     { type: 'Hack The Box', name:'xSam4el', link: 'https://app.hackthebox.com/profile/126962' },
 ];
@@ -685,7 +684,7 @@ let projetos = document.createElement("a");
      
                        const gams = [
                            { type: exitgame, name:'ｅＸｉｔ  ᚤ', link: 'https://arcangelo.net/fallout?run=friend' },
-                           { type: breach , name: '𝗡𝗘𝝥𝗘𝗖𝗛 𝗕𝗥𝝣𝗔𝗖𝗛 𝗣𝗥⛶𝗧𝗢𝗖𝚹𝗟', link: 'https://arcangelo.net/fallout?run=friend' },
+                           { type: breach , name: '𝗡𝗘𝝥𝗘𝗖𝗛 𝗕𝗥𝝣𝗔𝗖𝗛 𝗣𝗥⛶𝗧𝗢𝗖𝚹𝗟', link: 'https://arcangelo.net/fallout?run=hack' },
                            { type: halflife, name: '𝖧λ𝖫𝖥 - 𝖫𝖨𝖥𝖤', link: 'https://arcangelo.net/valve' },
                            { type: dino, name: 'Dɪɴᴏ ࠅ', link: 'https://arcangelo.net/fallout?run=dino' },
                            { type: pokemon, name: '𝙿𝚘́𝚔𝚎𝚖𝚘𝚗 ⦺', link: 'https://arcangelo.net/fallout?run=pokemon' },
@@ -1308,7 +1307,7 @@ divsimages.style.flexWrap = "wrap"; // Allow elements to wrap to the next line
 let escoteiro = document.createElement("img");
 escoteiro.src = "images/Escoteiros.png";
 escoteiro.onclick = () => {
-  window.open("https://arcangel0.github.io/77GEMAR", "_blank");
+  window.open("https://arcangelo.net/77GEMAR", "_blank");
 };
 
 let arc = document.createElement("img");

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>DevToys</title>
+    <base href="/" />
+
+    <script src="_content/DevToys.Blazor/wwwroot/js/require.js"></script>
+    <script src="_content/DevToys.Blazor/wwwroot/js/devtoys.js" type="text/javascript"></script>
+    <script src="_content/DevToys.Blazor/wwwroot/js/devtoys.g.js" type="text/javascript"></script>
+    <script src="_content/DevToys.Blazor/wwwroot/js/simplebar-modified.js" type="text/javascript"></script>
+
+    <link href="_content/DevToys.Blazor/wwwroot/css/app.css" rel="stylesheet" />
+    <link href="_content/DevToys.Blazor/wwwroot/css/devtoys.g.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="status-bar-safe-area"></div>
+
+    <div id="app">
+        <div id="splash-screen-container">
+            <img id="splash-screen-image"
+                 src="_content/DevToys.Blazor/wwwroot/img/splash-screen.svg"
+                 width="256"
+                 height="256"
+                 alt="Loading..." />
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_content/DevToys.Blazor/wwwroot/lib/monaco-editor/min/vs/loader.js"></script>
+    <script src="_content/DevToys.Blazor/wwwroot/lib/monaco-editor/min/vs/editor/editor.main.js"></script>
+    <script src="_framework/blazor.webview.js"></script>
+
+</body>
+
+</html>

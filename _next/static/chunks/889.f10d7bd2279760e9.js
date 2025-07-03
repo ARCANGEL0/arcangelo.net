@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[889],{40889:(e,l,n)=>{n.r(l),n.d(l,{default:()=>a});var t=n(96540);let a=()=>((0,t.useEffect)(()=>{window.open("https://arcangelo.net/LNA","_blank")},[]),null)}}]);

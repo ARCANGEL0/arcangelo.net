@@ -1,0 +1,20 @@
+layout search_bar
+{
+    view subview(name:'PSSearchBar', wants_focus: false, margin: 0, spacing: 0, vertical: @align_center)
+    {
+    /* Setting non-standard top/bottom margins gives us a canvas that fits in less vertical space */
+	  button_view(show_highlight: false, placement: @place_row, child_vertical: @align_center,action: @csxs_connections_home_cmd, margin: [4, 5, 2, 5], spacing: 2)
+				{
+					image(bind_view:@csxs_login_state_image);
+					
+					
+					/* this row is just for setting margins so we can get pleasing vertical centering of the display text */
+					row(margin: [2, 0, 4, 0])
+					{
+						display_text(bind: @csxs_login_state_text, vertical: @align_center);
+					}
+					image(image:"arrow.png");
+				}
+
+    }
+}

@@ -1,0 +1,47 @@
+layout app_bar
+{
+	interface:
+	
+		switcher_user_width: 500;
+		switcher_width_shortage: 0;
+    	switcher_is_collapsed: false;
+    	switcher_use_uppercase: true;
+    
+    view subview(name:'PSAppBar', wants_focus: false, margin: 0, spacing: 0, vertical: @align_center)
+    {
+		row(spacing: 6, margin: [0,0,0,0], vertical: @align_fill, horizontal: @align_fill)
+		{
+			button(name: "Bridge", image: {normal:"P_ABOpenBridge_Lg_N.png", rollover:"P_ABOpenBridge_Lg_R.png", dark_normal:"P_ABOpenBridge_Lg_N_D.png", dark_rollover:"P_ABOpenBridge_Lg_R_D.png"}, bind: @enable_canvas, action: @launch_bridge, alt: localize("$$$/OWLAppBar/LaunchBridge=Launch Bridge"), wants_focus: false, vertical: @align_fill);
+			button(name: "Mini Bridge", image: {normal:"SP_ABOpenMBPanel_Lg_N.png", rollover:"SP_ABOpenMBPanel_Lg_R.png", dark_normal:"SP_ABOpenMBPanel_Lg_N_D.png", dark_rollover:"SP_ABOpenMBPanel_Lg_R_D.png"}, bind: @enable_canvas, action: @launch_mini_bridge, alt: localize("$$$/OWLAppBar/LaunchMiniBridge=Launch Mini Bridge"), wants_focus: false, vertical: @align_fill);
+			popup_window(identifier: "ViewOptions", eve_source: "viewoptions.eve" , alt: localize("$$$/OWLAppBar/ViewExtras=View Extras"), bind: @viewoptions_image, wants_focus: false, vertical: @align_fill);
+			combobox(bind: @zoom_level, custom_item_name: "Default", alt: localize("$$$/OWLAppBar/ZoomLevel=Zoom Level"), show_border: false, wants_focus: false, text_alignment: @right, text_truncation: @end, vertical: @align_fill,
+			  items: [
+					{ name: "25%", value: "25" },
+					{ name: "50%", value: "50" },
+					{ name: "100%", value: "100" },
+					{ name: "200%", value: "200" }
+				 ]);
+			popup_window(identifier: "LayoutWidget", eve_source: "grid.eve" , alt: localize("$$$/OWLAppBar/ArrangeDocuments=Arrange Documents"), bind: @selectedview_image, wants_focus: false, vertical: @align_fill);
+			popup_window(identifier: "ScreenMode", eve_source: "screenmode.eve" , alt: localize("$$$/OWLAppBar/ScreenMode=Screen Mode"), bind: @screenmode_image, wants_focus: false, vertical: @align_fill);
+			
+			row(vertical: @align_fill, horizontal: @align_fill)
+			{
+				mode_switcher(	  alt: localize("$$$/OWLAppBar/Switcher/Alt=Select a workspace"),
+                                  alt_resize: localize("$$$/OWLAppBar/Switcher/AltResize=Drag to resize"),
+                                  alt_flyout: localize("$$$/OWLAppBar/Switcher/AltFlyout=Show more workspaces and options"),
+                                  bind: @current_workspace,
+                                  items: @workspaces,
+                                  actions: @switcher_actions,
+                                  contextual_actions: @switcher_contextual_actions,
+                                  user_preferred_width: @switcher_user_width,
+                                  bind_user_preferred_width_shortage: @switcher_width_shortage,
+                                  collapsed: @switcher_is_collapsed,
+                                  contextual_insert_header_name: localize("$$$/OWLAppBar/Switcher/InsertWorkspace=Insert Workspace"),
+                                  use_uppercase: @switcher_use_uppercase,
+                                  horizontal: @align_fill,
+                                  vertical: @align_center);
+			}
+			
+		}
+    }
+}

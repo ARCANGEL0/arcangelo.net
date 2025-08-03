@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4433],{74433:(e,t,l)=>{l.r(t),l.d(t,{default:()=>n});var u=l(14232);let n=()=>((0,u.useEffect)(()=>{window.open("https://github.com/ARCANGEL0/robco-termlink","_blank")},[]),null)}}]);

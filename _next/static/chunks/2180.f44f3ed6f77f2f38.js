@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2180],{32180:(e,l,t)=>{t.r(l),t.d(l,{default:()=>n});var a=t(14232);let n=()=>((0,a.useEffect)(()=>{window.open("https://arcangelo.net/fallout","_blank")},[]),null)}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3195],{3195:(e,a,l)=>{l.r(a),l.d(a,{default:()=>s});var n=l(14232);let s=()=>((0,n.useEffect)(()=>{window.open("https://www.instagram.com/h.arcangelo/","_blank")},[]),null)}}]);

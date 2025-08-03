@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5369],{85369:(e,l,s)=>{s.r(l),s.d(l,{default:()=>u});var t=s(14232);let u=()=>((0,t.useEffect)(()=>{window.open("https://wa.me/639127796163","_blank")},[]),null)}}]);

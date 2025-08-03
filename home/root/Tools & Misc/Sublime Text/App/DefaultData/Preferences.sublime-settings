@@ -1,0 +1,16 @@
+{
+	// The attribute helps to fill the 
+	// form fields with the text that 
+	// was entered in them earlier
+	"auto_complete": true,
+	// Font size
+	"font_size": 10,
+	// Theme Default
+	"theme": "Default.sublime-theme",
+	// Title bar burger custom
+	"themed_title_bar": true,
+	// GPU rendering UI
+	"hardware_acceleration": true,
+	// Disable Popup Update Available
+	"update_check": false,
+}

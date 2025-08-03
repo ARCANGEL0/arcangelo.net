@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[240],{240:e=>{e.exports=JSON.parse('["/System/Icons/new_folder.webp"]')}}]);

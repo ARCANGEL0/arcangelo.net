@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8494],{38494:(e,l,n)=>{n.r(l),n.d(l,{default:()=>a});var t=n(14232);let a=()=>((0,t.useEffect)(()=>{window.open("http://arcangelo.net/77GEMAR","_blank")},[]),null)}}]);

@@ -404,7 +404,7 @@
 <h2 align="left">
   <div style="display: flex; align-items: center;">
     <div>
-      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="40px" width="60px"></img>
+      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="10px" width="30px"></img>
     </div>
     <div style="margin-left: 10px; text-align: center;">
       $ whoami
@@ -414,9 +414,7 @@
 
 <br>
 
-<p align="left" style="font-size:16px; margin-bottom: -5px"><a  href="https://arcangel0.github.io/robco?run=fallout">
-          <img style="height: 240px" src="https://media.tenor.com/3v2pOuthO0UAAAAM/gaming.gif" />
-        </a> 
+<p align="left" style="font-size:16px; margin-bottom: -5px">
 <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/standard%20(2).gif"></img>
 </p>
 </br>
@@ -548,8 +546,3 @@ sempre buscando melhorar e sempre aprender mais.
  </a>
 </p>
 
-<p align="right">
-<a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=arcangel0&label=Profile%20Views&color=12&icon=5&pretty=true" />
-</a>
-</p>

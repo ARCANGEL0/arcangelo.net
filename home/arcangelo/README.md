@@ -405,7 +405,7 @@
 <h2 align="left">
   <div style="display: flex; align-items: center;">
     <div>
-      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="40px" width="60px"></img>
+      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="10px" width="30px"></img>
     </div>
     <div style="margin-left: 10px; text-align: center;">
       $ whoami
@@ -415,9 +415,10 @@
 
 <br>
 
-<p align="left" style="font-size:16px; margin-bottom: -5px"><a  href="https://arcangel0.github.io/robco?run=fallout">
-          <img style="height: 240px" src="https://media.tenor.com/3v2pOuthO0UAAAAM/gaming.gif" />
-        </a> 
+<p align="left" style="font-size:16px; margin-bottom: -5px">
+
+
+        
 <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/standard%20(2).gif"></img>
 </p>
 </br>
@@ -531,10 +532,4 @@ I whip up code that *mostly* works, craft clean interfaces, and build apps that 
  <a href="https://ko-fi.com/henryarcangelo">
    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee at ko-fi.com" data-canonical-src="https://ko-fi.com/img/githubbutton_sm.svg" style="max-width: 100%;">
  </a>
-</p>
-
-<p align="right">
-<a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=arcangel0&label=Profile%20Views&color=12&icon=5&pretty=true" />
-</a>
 </p>

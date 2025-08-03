@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4815],{44815:(e,t,l)=>{l.r(t),l.d(t,{default:()=>u});var s=l(14232);let u=()=>((0,s.useEffect)(()=>{window.open("https://steamcommunity.com/id/arcxlo","_blank")},[]),null)}}]);

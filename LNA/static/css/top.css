@@ -1,0 +1,91 @@
+#about {
+    padding: 35vh 0px 15%  !important ;
+}
+
+.rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 111vw  !important ;
+    margin-left: -25vw ;
+    margin-top: -31%;
+    height: 15vh  !important ; 
+    margin-bottom: 33%;
+}
+
+ 
+
+#services > h6 { 
+    margin-top: 20% !important;
+    margin-left: 50% !important ;
+}
+
+.kGeZQw {
+    /* padding: 0.75rem 0px !important ; */
+    width: 100vw !important ;
+    margin-left: -75% !important ;
+}
+.ant-card-head::before, .ant-card-head::after {
+    content: "" !important ;
+    border-width: 11px !important ;
+    border-style: solid !important ;
+    border-image: initial !important ;
+    border-color: transparent !important ;
+    position: absolute !important ;
+    left: -22px !important ;
+    bottom: 47.2vh !important ;
+}
+
+.kGeZQw {
+    margin-left: -21vw !important ; 
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+  .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    height: 15vh  !important ; 
+}
+     #services {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+     .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    height: 15vh  !important ; 
+}
+      #services {
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    height: 15vh  !important ; 
+}
+       #services {
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 890px) {
+  .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    height: 15vh  !important ; 
+}    #services {
+        margin-left: 10%;
+    }
+}

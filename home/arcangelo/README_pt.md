@@ -4,7 +4,7 @@
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid #ccc; width: 80%; font-size: 10%; border-radius: 8px; padding: 2%;  width: 90%">
-<p>🎓 Graduado em Desenvolvimento de Software</p>
+<p>🎓 Graduado em Desenvolvimento de Software e estudando Engenharia da Computação</p>
 <p>🚀 Atualmente em busca de uma nova oportunidade de emprego.</p>
 <p>🧠 Sou apaixonado por programação e resolução de problemas, criando interfaces envolventes e apreciando uma boa xícara de café para impulsionar minha criatividade.</p>
 <p>🔍 Atualmente estudando com o objetivo de alcançar meu sonho em cibersegurança e auditoria de segurança.</p>
@@ -12,13 +12,13 @@
 <p>🌐 Meu localhost está orgulhosamente configurado em Porto, Portugal.</p>
     </td>
    <td style="width: 20%x; text-align: center; vertical-align: top;">
-      <a href="README_pt.md">
+      <a href="https://arcangelo.net/home/arcangelo/README_pt.md/README_pt.md">
         <img style="width: 50%; padding-left: 25%;" src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/br-flag.png">
       </a><br>
-      <a href="README_fr.md">
+      <a href="https://arcangelo.net/home/arcangelo/README_pt.md/README_fr.md">
         <img style="width: 50%; padding-left: 25%;" src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/fr-flag.png">
       </a><br>
-      <a href="README.md">
+      <a href="https://arcangelo.net/home/arcangelo/README_pt.md/README.md">
         <img style="width: 50%; padding-left: 25%;" src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/us-flag.png">
       </a>
     </td>
@@ -30,7 +30,7 @@
  
 <h2>
   <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/techstack.gif" style=" height:65px; width;135px; padding-left: 5%; align:middle ">  <br>
-  <a style="color: inherit"> Minhas tecnologias
+  <a style="color: inherit"> Minha tech stack
 </a>
 </h2>
 
@@ -404,7 +404,7 @@
 <h2 align="left">
   <div style="display: flex; align-items: center;">
     <div>
-      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="10px" width="30px"></img>
+      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="5px" width="20px"></img>
     </div>
     <div style="margin-left: 10px; text-align: center;">
       $ whoami
@@ -465,12 +465,10 @@ sempre buscando melhorar e sempre aprender mais.
 
 <div align="center">
   
-<a href="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31qfy2o2zyx2ts2g4d6mmbp457be&redirect=true">
-<img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31qfy2o2zyx2ts2g4d6mmbp457be&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true&bar_color_cover=false&bar_color=858585"></img></a>
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31jditvlpdtkmavupdm35nnxxdx4&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=bababa&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31jditvlpdtkmavupdm35nnxxdx4&redirect=true)
 
 </div>
 
-<br>
 
 <br/>
 
@@ -518,6 +516,11 @@ sempre buscando melhorar e sempre aprender mais.
  
  <a href="https://www.linkedin.com/in/henryarcangelo/">
           <img src="https://img.shields.io/badge/linkedin-black.svg?&style=for-the-badge&logo=lospec&logoColor=cyan" />
+        </a> 
+        </br>
+
+ <a href="https://soundcloud.com/arcxlo">
+          <img src="https://img.shields.io/badge/SoundCloud-black.svg?&style=for-the-badge&logo=soundcloud&logoColor=orange" />
         </a> 
         </br>
 

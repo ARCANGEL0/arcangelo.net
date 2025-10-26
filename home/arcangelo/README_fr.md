@@ -3,20 +3,20 @@
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid #ccc; width: 80%; font-size: 10%; border-radius: 8px; padding: 2%;  width: 90%">
-  <p>🎓 Diplômé en Développement Logiciel</p>
+  <p>🎓 Diplômé en Développement Logiciel et Étudier l'ingénierie informatique</p>
 <p>🚀 Actuellement à la recherche d'une nouvelle opportunité professionnelle.</p>
 <p>🧠 Passionné par le codage et la résolution de problèmes, la conception d'interfaces attrayantes, et un bon café pour stimuler ma créativité.</p>
 <p>🔍 Actuellement en apprentissage avec l'objectif de réaliser mon rêve dans la cybersécurité et l'audit de sécurité.</p>
 <p>💾 Je code depuis l'âge de 0b1111 ans.</p>
 <p>🌐 Mon localhost est fièrement installé à Porto, au Portugal.</p>
      <td style="width: 20%x; text-align: center; vertical-align: top;">
-      <a href="README_pt.md">
+      <a href="https://arcangelo.net/home/arcangelo/README_pt.md/README_pt.md">
         <img style="width: 50%; padding-left: 25%;" src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/br-flag.png">
       </a><br>
-      <a href="README_fr.md">
+      <a href="https://arcangelo.net/home/arcangelo/README_pt.md/README_fr.md">
         <img style="width: 50%; padding-left: 25%;" src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/fr-flag.png">
       </a><br>
-      <a href="README.md">
+      <a href="https://arcangelo.net/home/arcangelo/README_pt.md/README.md">
         <img style="width: 50%; padding-left: 25%;" src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/master/img/us-flag.png">
       </a>
     </td>
@@ -407,7 +407,7 @@
 <h2 align="left">
   <div style="display: flex; align-items: center;">
     <div>
-      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="10px" width="30px"></img>
+      <img src="https://raw.githubusercontent.com/ARCANGEL0/ARCANGEL0/refs/heads/master/img/hackerman.gif" height="5px" width="20px"></img>
     </div>
     <div style="margin-left: 10px; text-align: center;">
       $ whoami
@@ -456,9 +456,10 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
 
 <div align="center">
   
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31xcn7bswzqkxegpi2j2ovwpawr4&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=true&bar_color=53b14f&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31xcn7bswzqkxegpi2j2ovwpawr4&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31jditvlpdtkmavupdm35nnxxdx4&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=bababa&bar_color_cover=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=31jditvlpdtkmavupdm35nnxxdx4&redirect=true)
 
 </div>
+
 
 <br>
 
@@ -511,6 +512,11 @@ J'élabore du code qui fonctionne pratiquement, je conçois des interfaces propr
         </a> 
         </br>
 
+
+ <a href="https://soundcloud.com/arcxlo">
+          <img src="https://img.shields.io/badge/SoundCloud-black.svg?&style=for-the-badge&logo=soundcloud&logoColor=orange" />
+        </a> 
+        </br>
 
 
 </ul>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6556],{36556:(e,l,t)=>{t.r(l),t.d(l,{default:()=>n});var u=t(96540);let n=()=>((0,u.useEffect)(()=>{window.open("https://github.com/ARCANGEL0/NyvenAI-cli","_blank")},[]),null)}}]);

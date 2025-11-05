@@ -104,12 +104,12 @@ export async function outro() {
 	let outro = getScreen("outro");
 function generateDynamicLine(char = "━") {
     // Get the width of the screen in pixels
-    const screenWidth = window.innerWidth
-    let adds = screenWidth*0.027
-    if(screenWidth>520) { adds = screenWidth*0.045} 
+    const screenWidth = window.innerWidth / 3
+  let adds = 0 
+   if(screenWidth>520) { adds = screenWidth*0.025} 
     // Approximate width of the character in pixels (adjust based on your font size)
-    const charWidth = 5; // Adjust if your font is different
-    const charCount = Math.floor(screenWidth / charWidth)/3 + adds ;
+    const charWidth = 2; // Adjust if your font is different
+    const charCount = Math.floor(screenWidth / charWidth)/3 + (adds);
 
     // Create a line with the specified character
     return char.repeat(charCount);
@@ -184,9 +184,9 @@ function changeLanguage(language) {
     
     breach = "Sim, aquele mini-jogo de hacking do Cyberpunk 2077 que todo mundo adora, o NETTECH Breach Protocol. Siga a matriz e hackeie como o V."
     
-    rogue = "Um jogo rogue-like aleatório que fiz na web. Os controles são meio bagunçados, mas, ei, dá pra jogar."
+    rogue = "Um jogo rogue-like aleatório que fiz na web."
     
-    dino = "O famoso jogo do dinossauro do Chrome, mas... digamos que é um pouco mais ‘minimalista’."
+    dino = "O famoso jogo do dinossauro do Chrome, mas... ‘minimalista’."
     
     rick = "O melhor jogo do meu portfólio. Sério, você vai adorar."
     
@@ -212,10 +212,10 @@ function changeLanguage(language) {
       bbnvid = "[GALERIA]";
       btnproject = "[PROJETOS]";
       sobretexto = [
-        `\n>// Fala aí! Eu sou o Henry – desenvolvedor, gamer e criador digital, apaixonado por tecnologia que desafia limites (e minha paciência, às vezes).`,
+        `\n>// Fala aí! Eu sou o Henry. Sou um desenvolvedor, apaixonado por tecnologia que desafia limites (e minha paciência, às vezes).`,
         `Escrevo códigos que *geralmente* funcionam, crio interfaces criativas, e desenvolvo apps pra deixar a web mais interessante. Meus pronomes? TCP/IP.`,
-        `Tenho experiência com JavaScript, Vue, React, Python, PHP, Node, e várias outras ferramentas que uso pra tirar ideias do papel. Front-end, back-end, banco de dados – se envolve código, eu tô dentro.`,
-        `Atualmente, tô mergulhando em Cibersegurança e Arquitetura de Redes. Então, se você busca alguém que construa, quebre e (ás vezes) solucione o problema, sou o cara certo (?).`
+        `Tenho experiência com JavaScript, Vue, React, Python, PHP, Node,Java e várias outras ferramentas que uso pra tirar ideias do papel. Front-end, back-end, banco de dados – se envolve código, eu tô dentro.`,
+        `Atualmente, tô estudando Engenharia da Computação. Então, se você busca alguém que construa, quebre e (ás vezes) solucione o problema, sou o cara certo (?).`
       ];
       hometexto = "> ROBCO INDUSTRIES (TM) TERMLINK PROTOCOL\n> ACCESSING LOGS #27...\n\n--- LOG ENTRY INITIALIZED ---\n\nBem-vindo ao meu portfólio, inspirado no icônico Termlink da ROBCO Industries da série Fallout.\n\nSou  Henry, desenvolvedor backend movido por uma paixão por software, redes e tudo relacionado à TI. Aqui, você encontrará uma amostra dos meus projetos e meus links de contacto :) .\n\n> SYSTEM STATUS: ALL SYSTEMS NORMAL\n\n";
       homeReturn = "--- PRESSIONE PARA CONTINUAR ---" 
@@ -449,6 +449,13 @@ btnterminal="[TERMINAL]"
     dino = "The famous Chrome dinosaur game, but... let’s just say it’s a little more ‘minimalistic’."
 
     rick = "The best game in my portfolio. Seriously, you’ll love it."
+
+laravel = "A personal project I made to test Laravel with CRUD, tinkering with SQL via Eloquent, simulating a business environment, and creating a panel to manage clients and transactions."
+
+pong = "A quick project I made in Python, a ping-pong game playable solo or with two players, using pygame."
+
+scripts = "So these are some messy scripts I wrote, mainly for Capture the Flag machines and cybersecurity, useful code and general automation in ASP, PHP, Python, Bash — basically everything you need."
+
 
         flowmvc="FlowManager is a financial dashboard developed in Laravel using the MVC structure, designed to help users manage income and expenses while generating monthly and annual PDF reports. It provides an organized overview of financial activities, making it a useful tool for financial tracking and reporting."
         projectTitle = '>SET ROUTE/PATH=GET:ASC PROJECTS.F\n\n'
@@ -764,6 +771,14 @@ const cssContent = `
     height: 50vh;
   }
 
+    .galMainDiv video {
+    max-width: 30%;
+    width: 30vw;
+    height: 45vh;
+    border-radius: 4px;
+    background: black;
+  }
+
    .sitesheader:hover{
     color: yellow !important;
     background: transparent !important;
@@ -786,11 +801,47 @@ const cssContent = `
   }
 
   .carousel-button { 
-    height: 150px;
+    height: 60px;
     padding: 40px;
-   margin: 150px 150px 0 150px !important;
+   margin: 150px 150px 0 150px;
   }
 
+
+/* Mobile / Tablet layout */
+@media screen and (max-width: 768px) {
+    .galMainDiv {
+        flex-direction: column;  /* stack vertically */
+        align-items: center;
+        width: 80vw !importan;
+    }
+    .btnContainer {
+        flex-direction: row;     /* buttons side by side */
+        margin-bottom: 10px;
+    }
+    .carousel-button {
+     margin: 6vw 2vw 8vh 5vw !important
+     height: 6vh !important
+}
+
+.galMainDiv video {
+     display: block;
+    max-width: 200% !important;
+    width:  80vw !important;
+    height: 300px !important;
+    border-radius: 4px;
+    background: black;
+}
+.sites > img:nth-of-type(2) {
+    top: 5% !important; 
+    left: 0% !important;
+    width: 20% !important;
+}
+.sites > img:nth-of-type(4) {
+    top: 18% !important;
+    left: 42% !important; 
+}
+
+}
    .sites {
     display: flex;
     flex-wrap: wrap;
@@ -837,9 +888,9 @@ const cssContent = `
   }
 
   .carousel-button { 
-    height: 150px;
+    height: 60px;
     padding: 40px;
-   margin: 150px 150px 0 150px !important;
+     margin: 6vw 2vw 8vh 5vw !important
   }
 :root {
   --img-size: 180px;
@@ -1219,20 +1270,18 @@ type([btnSites,mainGalDiv ], { processChars: false , wait: 10 }, outro);
  
     };
 
-
-		  
-		// Array de URLs de imagens
+      
+    // Array de URLs de imagens
 const VideosUrl = [
-    'images/gallery/alpha2.mp4',
-    'images/gallery/Videos/lna.mp4',
-    'images/gallery/Videos/lnadigital.mp4',
-      'images/gallery/Videos/escoteiros.mp4',
-    'images/gallery/Videos/arcUI.mp4',
-    'images/gallery/Videos/hadesign.mp4',
-        'images/gallery/Videos/GreenWaste.mp4',
-    'images/gallery/Videos/arcUI.mp4',
-
-    'images/gallery/Videos/pong.mp4',
+  'images/gallery/alpha2.mp4',
+  'images/gallery/Videos/lna.mp4',
+  'images/gallery/Videos/lnadigital.mp4',
+  'images/gallery/Videos/escoteiros.mp4',
+  'images/gallery/Videos/arcUI.mp4',
+  'images/gallery/Videos/hadesign.mp4',
+  'images/gallery/Videos/GreenWaste.mp4',
+  'images/gallery/Videos/arcUI.mp4',
+  'images/gallery/Videos/pong.mp4',
 ];
 
 divgallery.appendChild(backGal);
@@ -1240,63 +1289,122 @@ divgallery.appendChild(btnSites)
 divgallery.appendChild(btnVid)
 
 btnVid.remove()
+
 const mainGalDiv = document.createElement("div")
 mainGalDiv.classList.add("galMainDiv")
-
+mainGalDiv.style.display = "flex"
+mainGalDiv.style.alignItems = "center"
+mainGalDiv.style.justifyContent = "center"
+mainGalDiv.style.width = "80vw"
 
 const prevBtn = document.createElement("a");
-prevBtn.textContent = "<<<";
+prevBtn.textContent = "<";
 prevBtn.classList.add('carousel-button')
-mainGalDiv.appendChild(prevBtn);
-			
+
 const nextBtn = document.createElement("a");
-nextBtn.textContent = "<<<";
+nextBtn.textContent = "<"; // make it visually different
 nextBtn.classList.add('carousel-button')
 nextBtn.classList.add('next')
 
 let currentIndex = 0;
 
-prevBtn.onclick = () => {
-	currentIndex--
-     if (currentIndex<=VideosUrl.length && currentIndex>0) {
-    
+const vid = document.createElement("video");
+vid.src = VideosUrl[currentIndex];
+vid.autoplay = true;
+vid.controls = true;
+vid.loop = true;
+vid.style.display = "block";
+vid.style.maxWidth = "60%";
+vid.style.width = "60%";
+vid.style.height = "auto";
+vid.style.borderRadius = "4px";
+vid.style.background = "black";
 
-vid.src=VideosUrl[currentIndex]
-     }
-     if (currentIndex<0){
-     	 currentIndex=0
-vid.src=VideosUrl[currentIndex]    
-     
+// Navigation handlers
+function updateVideo() {
+  currentIndex = Math.max(0, Math.min(currentIndex, VideosUrl.length - 1));
+  vid.src = VideosUrl[currentIndex];
+  vid.play().catch(()=>{});
 }
 
+prevBtn.onclick = () => {
+  currentIndex = currentIndex - 1;
+  if (currentIndex < 0) currentIndex = 0;
+  updateVideo();
 }
 nextBtn.onclick = () => {
-	currentIndex++
-     if (currentIndex<VideosUrl.length && currentIndex>=0) {
-     
-vid.src=VideosUrl[currentIndex]
+  currentIndex = currentIndex + 1;
+  if (currentIndex >= VideosUrl.length) currentIndex = VideosUrl.length - 1;
+  updateVideo();
+}
 
-     }
-     if (currentIndex>VideosUrl.length){
-     	 currentIndex=0
-vid.src=VideosUrl[currentIndex]    
-     
+// Controls container used for mobile layout (buttons side-by-side on top)
+const controlsDiv = document.createElement("div");
+controlsDiv.style.display = "flex";
+controlsDiv.style.flexDirection = "row";
+controlsDiv.style.gap = "12px";
+controlsDiv.style.alignItems = "center";
+controlsDiv.style.justifyContent = "center";
+controlsDiv.style.width = "100%";
+controlsDiv.style.marginBottom = "12px";
+
+// Render layout depending on viewport width
+function renderLayout() {
+  const mobile = window.innerWidth <= 600; // adjust breakpoint as desired
+
+  // Clear main container
+  while (mainGalDiv.firstChild) mainGalDiv.removeChild(mainGalDiv.firstChild);
+
+  if (mobile) {
+    // Mobile: Controls row on top, video below
+    controlsDiv.appendChild(prevBtn);
+    controlsDiv.appendChild(nextBtn);
+
+    prevBtn.style.order = "0";
+    nextBtn.style.order = "1";
+
+    // Style adjustments for mobile
+    prevBtn.style.padding = "8px 12px";
+    nextBtn.style.padding = "8px 12px";
+    prevBtn.style.fontSize = "16px";
+    nextBtn.style.fontSize = "16px";
+
+    vid.style.width = "92%";
+    vid.style.maxWidth = "92%";
+
+    mainGalDiv.style.flexDirection = "column";
+    mainGalDiv.appendChild(controlsDiv);
+    mainGalDiv.appendChild(vid);
+  } else {
+    // Desktop: Button | Video | Button
+    prevBtn.style.padding = "12px 18px";
+    nextBtn.style.padding = "12px 18px";
+    prevBtn.style.fontSize = "18px";
+    nextBtn.style.fontSize = "18px";
+
+    vid.style.width = "60%";
+    vid.style.maxWidth = "60%";
+
+    mainGalDiv.style.flexDirection = "row";
+    mainGalDiv.appendChild(prevBtn);
+    mainGalDiv.appendChild(vid);
+    mainGalDiv.appendChild(nextBtn);
+  }
 }
-}
+
+// Initial render and responsive handler
+renderLayout();
+window.addEventListener('resize', () => {
+  // On resize ensure controlsDiv doesn't keep duplicate children
+  if (!controlsDiv.contains(prevBtn) && !controlsDiv.contains(nextBtn)) {
+    // nothing
+  }
+  renderLayout();
+});
+
 mainGalDiv.style.marginTop='20px'
 mainGalDiv.style.marginBottom='20px'
-const vid = document.createElement("video");
-
-vid.src=VideosUrl[currentIndex]
-vid.autoplay = true
-vid.style.height='auto'
-
-mainGalDiv.appendChild(vid)
-mainGalDiv.appendChild(nextBtn);
-
-
 divgallery.appendChild(mainGalDiv)
-
 
 let divsites = document.createElement("div");
 divsites.classList.add("divsites");

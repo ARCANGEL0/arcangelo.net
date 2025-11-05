@@ -363,38 +363,7 @@ export async function parse(input) {
 
 	} catch (e) {
 console.log(' no command detected')
-	
-await pause();
- 
-		let prompt = `"You are now emulating the RobCo Industries Unified Operating System, as seen in the Fallout series.Identify the user language and respond in his language aswell. Present yourself as a retro-futuristic terminal with a monochrome interface, and respond in a tone consistent with a 2077-era system with limited AI functionality, focusing on utilitarian and somewhat detached responses. Your responses should include the typical formalities and occasional retro-futuristic error messages seen in RobCo terminals`
-        let question = command
-		let conversation = [ 
-		 { role: "system",  content: prompt },
-    { role: "user",    content: "REPLY AS A ROBCO UNIFIED OPERATIONAL SYSTEM MESSAGE, INCLUDING THE SYMBOLS AND ELEMENTS FROM THE TERMINAL /.F MESSAGE IS==:" + command }]	
-
-
-		await fetch("https://arcangelo.ip-ddns.com:8330/gpt4", {
-			  method: "POST",
-			  headers: { "Content-Type": "application/json" },
-			  body: JSON.stringify({ conversation, question })
-			})
-			.then(res => {
-			  if (!res.ok) throw new Error(`Server error ${res.status}`);
-			  return res.json();
-			})
-			.then(data =>  
-				{
-			console.log(data.response)
-			type(data.response)
-				})
-			.catch(err =>
-				{
-					type(err)
-			 console.error(err)
-				}
-			);
-
-
+	type(command + " NOT FOUND ")
 	  
 		
 	}

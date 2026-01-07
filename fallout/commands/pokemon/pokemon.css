@@ -1,0 +1,373 @@
+@font-face {
+	font-family: 'pokemon-font';
+	src: url(assets/fonts/pokemon-font.woff2) format('woff2');
+}
+
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+button:focus {
+	outline: none;
+}
+
+.click:hover::before {
+	position: absolute;
+	content: url(assets/img/pkmncursor.png);
+	left: -1.5vw;
+	top: 1.5vh;
+}
+
+.hover:hover {
+	cursor: pointer;
+}
+
+#gameboy {
+	position: absolute;
+	left: 160px;
+	top: -4px;
+}
+
+#game-window {
+	position: absolute;
+	width: 100vw;
+}
+
+#battle {
+	position: absolute;
+	visibility: hidden;
+}
+
+#pkmn-name {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(2vw + 2vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	left: 12vw;
+	top: 0.1vh;
+}
+
+#pkmnback-name {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(2vw + 2vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	left: 48vw;
+	top: 31vh;
+	right: 23vw;
+}
+
+#pkmn-level {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(1rem + 1vw + 1vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	left: 25vw;
+	top: 4.4vh;
+}
+
+#pkmnback-level {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(1rem + 1vw + 1vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	left: 75vw;
+	top: 35.4vh;
+}
+
+#pkmnback-hp {
+	right: 20vw;
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(1.5vw + 1.5vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	left: 53vw;
+	top: 44vh;
+}
+
+#pkmnback-maxhp {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(1.5vw + 1.5vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	left: 77vw;
+	top: 44vh;
+}
+
+#enemy-hp {
+	position: absolute;
+	padding-top: 7px;
+	top: 6.8vh;
+	left: 16.8vw;
+	border-radius: 1px;
+	width: 42vw;
+	line-height: 7px;
+}
+
+#enemy-hp-bar {
+	position: absolute;
+	padding-top: 1.2vh;
+	top: 4.1vh;
+	height: 1.4vh;
+	/* width: 20vw; */
+	/* left: -0.8vw; */
+	border-radius: 1px;
+	width: vw;
+	background-color: #383e00;
+	transform-origin: left;
+	transform: scaleX(1);
+	transition: width 1s;
+	margin-left: 3.2vw;
+}
+
+#player-hp {position: absolute;padding-top: 7px;top: 31.6vh;left: 41.8vw;border-radius: 1px;width: 46vw;line-height: 7px;}
+
+#player-hp-bar {
+	left: 18vw;
+	position: absolute;
+	padding-top: 1.5vh;
+	top: 10.4vh;
+	border-radius: 1px;
+	width: 100%;
+	line-height: 1.5vh;
+	background-color: #383e00;
+	transform-origin: left;
+	transform: scaleX(1);
+	transition: width 1s;
+}
+
+#pkmnback {
+	width: 26vw;
+	height: 20vh;
+	position: absolute;
+	left: 8vw;
+	top: 34vh;
+}
+
+#pkmn {
+	position: absolute;
+	width: 27vw;
+	height: 22vh;
+	left: 65vw;
+	top: 1vh;
+}
+
+#opening {
+	width: 100vw;
+	height: 80vh;
+	position: absolute;
+
+}
+
+#startbutton {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: 0.5cm;
+	width: 80vw;
+	color:green;
+	top: 20vh;
+	left: 12vw;
+	background: transparent;
+	border: none !important;
+	z-index: 1;
+	visibility: visible;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+#black {
+	position: absolute;
+	width: 100vw;
+	height: 80vh;
+}
+
+#ending {
+	height: 80vh;
+
+	width: 100vw;
+	position: absolute;
+	z-index:-1
+}
+
+#endingtext {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(1vw + 1vh);
+	color: #282d00;
+	background: transparent;
+	border: none !important;
+	width: 85vw;
+	top: 59vh;
+	left: 10vw;
+	text-align: left;
+	line-height: 5vh;
+	z-index: -1;
+}
+
+#b1 {
+	position: absolute;
+	width: 100vw;
+	height: 80vh;
+}
+
+#b2 {
+	left: 1vw;
+	height: 80vh;
+	position: absolute;
+	width: 100vw;
+	top: 1vh;
+	z-index: -1;
+}
+
+#fight {
+	position: absolute;
+	left: 41vw;
+	top: 55vh;
+	width: 21vw;
+	height: 6vh;
+	background: transparent; 
+	border: none !important;
+	color: rgba(0,0,0,0);
+	top: 55vh;
+	width: 21vw;
+	height: 6vh;
+	background: ￼transparent;
+	position: absolute;
+	left: 49vw;
+	/* top: 54vh; */
+	width: 21vw;
+	height: 6vh;
+	background: ￼transparent;
+	/* border: none !important; */
+	color: ￼rgba(0,0,0,0);
+	top: 61vh;
+	width: 27vw;
+	height: 7vh;
+	background: ￼•￼transparent;
+	/* border: none !important; */
+	color: ￼•￼rgba(0,0,0,0);
+	/* border: none !important; */
+	color: ￼rgba(0,0,0,0);
+}
+
+#items {position: absolute;left: 50vw;top: 70vh;width: 22vw;height: 6vh;background: transparent;border: none !important;color: rgba(0,0,0,0);}
+
+#pkmnbtn {
+	position: absolute;
+	left: 79vw;
+	top: 60.7vh;
+	width: 12vw;
+	height: 6vh;
+	background: transparent;
+	border: none !important;
+	color: rgba(0,0,0,0);
+}
+
+#run {
+	position: absolute;
+	left: 80vw;
+	top: 69.7vh;
+	width: 15vw;
+	height: 6vh;
+	background: transparent;
+	border: none !important;
+	color: rgba(0,0,0,0);
+}
+#attack1 {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(0.36em + 1vw + 1vh);
+	left: 28vw;
+	top: 59.5vh;
+	width: 33vw;
+	height: 6vh;
+	background: transparent;
+	border: none !important;
+	color: #282d00;
+	z-index: -1;
+	text-align: left;
+}
+
+#potion {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(0.36em + 1vw + 1vh);
+	left: 28vw;
+	top: 59.5vh;
+	width: 33vw;
+	height: 6vh;
+	background: transparent;
+	border: none !important;
+	color: #282d00;
+	z-index: -1;
+	text-align: left;
+}
+
+#attack2 {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(0.36em + 1vw + 1vh);
+	left: 67vw;
+	top: 59.5vh;
+	width: 30vw;
+	height: 6vh;
+	background: transparent;
+	border: none !important;
+	color: #282d00;
+	z-index: -1;
+	text-align: left;
+	}
+
+	#attackcancel {
+		position: absolute;
+		font-family: 'pokemon-font', monospace;
+		font-size: calc(0.3rem + 1vw + 1vh);
+		left: 67vw;
+		top: 69.5vh;
+		width: 12.5vw;
+		height: 7vh;
+		background: transparent;
+		border: none !important;
+		color: #282d00;
+		z-index: -1;
+		text-align: left;
+	}
+
+	
+#itemscancel {
+	position: absolute;
+	font-family: 'pokemon-font', monospace;
+	font-size: calc(0.3rem + 1vw + 1vh);
+	left: 67vw;
+	top: 69.5vh;
+	width: 12.5vw;
+	height: 7vh;
+	background: transparent;
+	border: none !important;
+	color: #282d00;
+	z-index: -1;
+	text-align: left;
+}
+
+img { /* Fallout effect: green overlay */filter: hue-rotate(388deg) saturate(0.7) brightness(1.2); /* Adjust values as needed */}

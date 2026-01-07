@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[72],{72:(e,p,t)=>{t.r(p),t.d(p,{default:()=>s});var n=t(96540);let s=()=>((0,n.useEffect)(()=>{window.open("https://api.whatsapp.com/send/?phone=351927285125&text&type=phone_number","_blank")},[]),null)}}]);

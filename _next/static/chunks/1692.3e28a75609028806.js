@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1692],{81692:(e,n,l)=>{l.r(n),l.d(n,{default:()=>s});var a=l(96540);let s=()=>((0,a.useEffect)(()=>{window.open("https://www.linkedin.com/in/henryarcangelo/","_blank")},[]),null)}}]);

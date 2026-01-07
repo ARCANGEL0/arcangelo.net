@@ -1,0 +1,641 @@
+<65;51;38M/* Samsung Galaxy S5 */
+@media screen and (max-width: 360px) {
+  /* Your CSS rules for Galaxy S5 go here */
+ .divsob {
+   padding: 10px;
+   width: 80%;
+   overflow: hidden;
+   margin: 0;
+   overflow-wrap: break-word;
+ }
+  .typer{ 
+    font-size: 1rem !important;
+  } 
+ .terminal .typer {
+  max-width: 75vw !important;
+}
+  .cypher,
+    .intro,
+    .intro .typer,
+    .fallout,
+    .outro,
+    .outro typer,
+.outro a:active,
+.outro a:focus,
+.outro a:hover,
+.outro a
+    
+    
+    {
+        font-size: 16px !important; 
+      
+        /* Smaller font size for mobile */
+    }
+    .cypher {
+   height: 60vh !important;
+   width: auto !important ;
+   flex: 0 0 auto;
+	column-count: 2;
+	column-gap: 1ch;
+	column-fill: auto;
+	word-break: break-all;
+	outline: none;
+    }
+  .output{    
+       position: relative !important;
+       justify-content: center !important;
+       top: 60vh !important;
+       right: 70vw !important;
+       justify-content: center !important;
+     }
+    .game {
+	display: flex;
+	width:120vw;
+	height:90vh;
+}
+  
+}
+
+/* Samsung Galaxy S6, S6 Edge, S7, S7 Edge */
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  /* Your CSS rules for Galaxy S6, S7, etc. go here */
+  
+    /* Your CSS rules for Galaxy S5 go here */
+  .typer{ 
+    font-size: 1rem !important;
+  }
+ .divsob {
+
+   padding: 10px;
+   width: 80vw;
+   overflow: hidden;
+   margin: 0;
+   overflow-wrap: break-word;
+}
+.inicioheader
+{
+  width: 60vw !important;
+}
+.galMainDiv video {
+  height: 75vw !important
+}
+.locked { 
+  width: 80vw !important
+}
+ 
+.sites > img:nth-of-type(2) {
+    top: 5% !important; 
+    left: 0% !important;
+    width: 20% !important;
+}
+.sites > img:nth-of-type(4) {
+    top: 18% !important;
+    left: 42% !important; 
+}
+ .cypher {
+  flex: 0 0 auto !important;
+    width: auto !important; /* 90% of viewport width */
+    height: 60vh !important; /* Let the height adjust based on content */
+    column-count: 2 !important; /* 1 column for mobile */
+    column-gap: 1ch !important; /* Gap between columns (no columns on mobile, but keeps consistency) */
+    column-fill: balance !important; /* Balance (though only 1 column here) */
+    word-break: break-all !important; /* Word break to avoid overflow */
+    outline: none !important;
+    row-gap: 5px !important; /* Space between rows */
+    }
+   .output{    
+      position: relative !important;
+      justify-content: center !important;
+      top: 60vh !important;
+      right: 70vw !important;
+      justify-content: center !important;
+    }
+    .game {
+	display: flex;
+	width:120vw;
+}
+
+ 
+ .terminal .typer {
+  max-width: 75vw !important;
+}
+.cypher,
+    .intro,
+    .intro .typer,
+    .fallout,
+    .outro,
+    .outro typer,
+.outro a:active,
+.outro a:focus,
+.outro a:hover,
+.outro a
+    
+    
+    {
+        font-size: 16px !important; /* Smaller font size for mobile */
+    }
+    
+ .cypher {
+ flex: 0 0 auto !important;
+    width: auto !important; /* 90% of viewport width */
+    height: 60vh !important; /* Let the height adjust based on content */
+    column-count: 2 !important; /* 1 column for mobile */
+    column-gap: 1ch !important; /* Gap between columns (no columns on mobile, but keeps consistency) */
+    column-fill: balance !important; /* Balance (though only 1 column here) */
+    word-break: break-all !important; /* Word break to avoid overflow */
+    outline: none !important;
+    row-gap: 5px !important; /* Space between rows */
+    }
+    
+    .game {
+	display: flex;
+	width:120vw;
+	height:90vh;
+}
+}
+
+/* Samsung Galaxy S8, S8+, S9, S9+, S10, S10e */
+@media screen and (min-width: 480px) and (max-width: 640px) {
+  /* Your CSS rules for Galaxy S8, S9, S10, etc. go here */
+   
+ .terminal .typer {
+  max-width: 75vw !important;
+}
+    /* Your CSS rules for Galaxy S5 go here */
+ .divsob {
+   padding: 10px;
+   width: 80%;
+   overflow: hidden;
+   margin: 0;
+   overflow-wrap: break-word;
+  
+ }
+  .cypher,
+    .intro,
+    .intro .typer,
+    .fallout,
+    .outro,
+    .outro typer,
+.outro a:active,
+.outro a:focus,
+.outro a:hover,
+.outro a
+    
+    
+    {
+        font-size: 16px !important; /* Smaller font size for mobile */
+    };}
+    .intro,
+    .intro .typer,
+    .fallout,
+    .outro,
+    .outro typer,
+.outro a:active,
+.outro a:focus,
+.outro a:hover,
+.outro a
+    
+    
+    {
+        font-size: 16px !important; /* Smaller font size for mobile */
+    }
+    .game {
+	display: flex;
+	width:120vw;
+	height: 90vh;
+}
+
+::-webkit-scrollbar {
+  width: 1.5px; /* Width of the scrollbar */
+  background: rgba(1, 30, 2, 0.1); /* Dark background for the scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, rgba(44, 44, 44, 0.5), rgba(30, 30, 30, 0.5)); /* Gradient for the track */
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 255, 0, 0.45), rgba(0, 0, 0, 0));
+  box-shadow: 0 0 10px rgba(0, 255, 0, 1), 0 0 20px rgba(0, 255, 0, 0.8); 
+  
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 60, 0.6); /* Brighter green on hover */
+  box-shadow: 0 0 20px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 0.7); /* Stronger glowing effect on hover */
+  transform: scale(1.1); /* Slightly enlarge the thumb on hover */
+}
+.fallout,
+.intro,
+.outro {
+	text-transform: none;
+	padding: 2rem;
+	--lh: calc(1ch * 2.55);
+	--column: calc(17 * var(--lh));
+}
+
+.outro .typer,
+.intro .typer {
+	margin-bottom: 1rem;
+}
+
+.outro a {
+	display: block;
+	text-shadow: 0 0 8x var(--color);
+	color: var(--color);
+	text-decoration: none;
+}
+
+.outro a:active,
+.outro a:focus,
+.outro a:hover {
+	background: var(--color);
+	color: var(--bg);
+	text-shadow: 0 0 8x var(--color);
+}
+
+.outro .end {
+	position: absolute;
+	bottom: 0;
+}
+
+.game {
+	display: flex;
+	position: relative;
+	max-height: var(--column);
+	line-height: var(--lh);
+}
+.galMainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 10px;
+}
+
+/* Mobile / Tablet layout */
+@media screen and (max-width: 768px) {
+    .galMainDiv {
+        flex-direction: column;  /* stack vertically */
+        align-items: center;
+        width: 80vw !importan;
+    }
+    .btnContainer {
+        flex-direction: row;     /* buttons side by side */
+        margin-bottom: 10px;
+    }
+    .carousel-button {
+     margin: 10vw -30vw 5vh 50vw !important;
+     height: 6vh !important
+}
+
+.galMainDiv video {
+     display: block;
+    max-width: 200% !important;
+    width:  80vw !important;
+    height: 300px !important;
+    border-radius: 4px;
+    background: black;
+}
+.sites > img:nth-of-type(2) {
+    top: 5% !important; 
+    left: 0% !important;
+    width: 20% !important;
+}
+.sites > img:nth-of-type(4) {
+    top: 18% !important;
+    left: 42% !important; 
+}
+
+}
+
+
+
+.carousel-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    user-select: none;
+}
+.next{ 
+--slice-0:inset(50% 50% 50% 50%);
+--slice-1:inset(80% 0 0 0);
+--slice-2:inset(50% 0 30% 0);
+--slice-3:inset(10% 0 85% 0);
+--slice-4:inset(40% 0 43% 0);
+--slice-5:inset(80% 0 5% 0);
+
+content: "LGN";
+left: 0;
+right: 0;
+bottom: 0;
+text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #1C2E007C;
+transform: scaleX(-1); /* Flip horizontally */
+
+}
+.carousel-button{ 
+height: 100px;
+  padding: 50px;
+ 
+}
+
+.cypher {
+flex: 0 0 auto;
+width: 25vw;
+height: 60vh;
+column-count: 2;
+column-gap: 1ch;
+column-fill: balance; /* Ensures equal height columns */
+word-break: break-all;
+outline: none;
+row-gap: 5px;
+}
+.divsob .typer:nth-child(4) {
+  font-size: 75%;
+  
+}
+.hide {
+	visibility: hidden;
+}
+.cypher span.active,
+.cypher span:hover {
+	background-color: var(--color);
+	color: var(--bg);
+	text-shadow: 0 0 8x var(--color);
+}
+
+.cypher span[data-word],
+.cypher span[data-special] {
+	cursor: pointer;
+}
+.active-word:before {
+	content: "> ";
+	display: inline-block;
+	color: var(--color); 
+}
+.output {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 30vw;
+}
+.lives,
+.output pre {
+	margin: 0;
+	margin-bottom: 2.5ch;
+}
+.divsites {
+  
+  padding-right: 5%;
+    /* display: grid; */
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-left: 5;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: -20px;
+}
+
+.divsites img {
+  height: auto;
+  width: 13%;
+  margin: 3.5vw;
+}
+.locked {
+	text-align: center;
+  width: 80vw !important
+}
+.active-word .typer {
+	display: inline;
+}
+.locked .typer {
+	margin-top: 5rem;
+}
+
+
+.galMainDiv {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  height: 50vh; 
+}
+
+
+input[type="submit"] {
+  background:linear-gradient(45deg,transparent 5%,#1C2E007C 5%);
+margin-top:10px;
+margin-bottom: 7px;
+  border:0;
+
+  color:#5bf870;
+  letter-spacing:3px;
+  line-height:24px;
+  box-shadow:6px 0px 0px #5bf870;
+
+  outline:transparent;
+  position:relative;
+    --slice-0:inset(50% 50% 50% 50%);
+
+  --slice-1:inset(80% -6px 0 0);
+
+  --slice-2:inset(50% -6px 30% 0);
+  --slice-3:inset(10% -6px 85% 0);
+  --slice-4:inset(40% -6px 43% 0);
+  --slice-5:inset(80% -6px 5% 0);
+}
+
+.carousel-button{
+ width: 2.5vw;
+  padding-top: 350px;
+  padding: 50px;
+  margin: 150px;
+    height: 40%;
+
+}
+.carousel-button , .carousel-button::after,
+#btnhack ,#btnhack::after{
+  width:2.5vw;
+  height:102;
+  
+  /* 左下角切角，前一半透明*/
+  background:linear-gradient(45deg,transparent 5%,#1C2E007C 5%);
+  border:0;
+  color:#5bf870;
+  letter-spacing:3px;
+  line-height:24px;
+  box-shadow:6px 0px 0px #5bf870;
+
+  outline:transparent;
+  position:relative;
+}
+.carousel-button::after,
+#btnhack::after{
+  --slice-0:inset(50% 50% 50% 50%);
+  --slice-1:inset(80% -6px 0 0);
+  --slice-2:inset(50% -6px 30% 0);
+  --slice-3:inset(10% -6px 85% 0);
+  --slice-4:inset(40% -6px 43% 0);
+  --slice-5:inset(80% -6px 5% 0);
+  content:"LGN";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+ background:linear-gradient(45deg,transparent 3%,#00E6F6 3%, #0E6F60 5%,#FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005,3px 3px 0px #1C2E007C;
+  clip-path:var(--slice-0);
+  
+}
+button:focus::after, 
+input[type="submit"]:hover, 
+button:hover::after{
+  animation:3s glitch;
+  /* 卡顿效果*/
+  animation-timing-function:steps(2,end);
+}
+
+@keyframes glitch{
+  0%{
+    clip-path:var(--slice-1);
+    transform:translate(-20px,-10px);
+  }
+  10%{
+    clip-path:var(--slice-3);
+    transform:translate(10px,10px);
+  }
+  20%{
+      clip-path:var(--slice-1);
+    transform:translate(-10px,10px);
+  }
+  30%{
+      clip-path:var(--slice-3);
+    transform:translate(0px,5px);
+  }
+  40%{
+      clip-path:var(--slice-2);
+    transform:translate(-5px,0px);
+  }
+  50%{
+      clip-path:var(--slice-3);
+    transform:translate(5px,0px);
+  }
+  60%{
+      clip-path:var(--slice-4);
+    transform:translate(5px,10px);
+  }
+  70%{
+      clip-path:var(--slice-2);
+    transform:translate(-10px,10px);
+  }
+  80%{
+      clip-path:var(--slice-5);
+    transform:translate(20px,-10px);
+  }
+  90%{
+      clip-path:var(--slice-1);
+    transform:translate(-10px,0px);
+  }
+  100%{
+      clip-path:var(--slice-1);
+    transform:translate(-20px,-10px);
+  }
+}
+
+
+
+.terminal .typer {
+  max-width: 85vw !important;
+}
+
+
+.contact-form {
+  margin-top: 10px;
+}
+
+/* Styling for the form elements */
+.form-input {
+  /* Green border */
+  border: 1px solid #008000;
+  background:linear-gradient(45deg,transparent 5%,#1C2E007C 5%);
+
+  
+
+  color:#5bf870;
+  
+  box-shadow:6px 0px 0px #5bf870;
+  
+  margin-top: 7.5px;
+  Margin-left: 5px;
+  overflow: hidden; 
+  
+  background:none;
+ 
+  
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 100%, 0% 25%);
+clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0% 25%);
+/* Cyberpunk-style clipped shape input for small screens */
+} 
+
+.txtarea{
+  height: auto !important;
+}
+
+.video {
+  width: 45%;
+  height: 45%;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+}
+.next {
+  
+    --slice-0:inset(50% 50% 50% 50%);
+  --slice-1:inset(80% 0 0 0);
+  --slice-2:inset(50% 0 30% 0);
+  --slice-3:inset(10% 0 85% 0);
+  --slice-4:inset(40% 0 43% 0);
+  --slice-5:inset(80% 0 5% 0);
+  
+  content: "LGN";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #1C2E007C;
+  
+  transform: scaleX(-1); /* Flip horizontally */
+}
+.form-input::after{
+  
+  --slice-0:inset(50% 50% 50% 50%);
+
+  --slice-1:inset(80% -6px 0 0);
+
+  --slice-2:inset(50% -6px 30% 0);
+  --slice-3:inset(10% -6px 85% 0);
+  --slice-4:inset(40% -6px 43% 0);
+  --slice-5:inset(80% -6px 5% 0
+  );
+  
+  background:linear-gradient(45deg,transparent 3%,#00E6F6 3%, #0E6F60 5%,#FF013C 5%);
+
+  text-shadow:-3px -3px 0px #F8F005,3px 3px 0px #1C2E007C;
+  clip-path:var(--slice-0);
+  
+}
+input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus,.txtarea:focus {
+  background-color: #005000; /*Neon pink color on focus */
+  color: #fff;
+  outline: none;
+}

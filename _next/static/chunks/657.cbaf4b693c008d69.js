@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[657],{50657:(e,t,l)=>{l.r(t),l.d(t,{default:()=>u});var s=l(96540);let u=()=>((0,s.useEffect)(()=>{window.open("https://dotfic.com/zDyk","_blank")},[]),null)}}]);

@@ -1,0 +1,66 @@
+{
+    "aiEnabled": true,
+    "clockSource": "local",
+    "cursor": "",
+    "iconPositions": {},
+    "recentFiles": [
+  ["/session.json", "MonacoEditor", null]
+  
+  ],
+    "runHistory": ["Webamp"],
+    "sortOrders": {
+      "/home/root/Desktop": [
+        [
+          "Arcangelo.url",
+          "My computer.url",
+          "Browser.url",
+               "Terminal.url",
+               "Photoshop.url",
+               "Hello.url",
+          "Doom.url",
+          "eXit.url",
+          "Fallout.url",
+          "Netrunner.url",
+          "Quake III Arena.url"
+  
+        ],
+        null,
+        true
+      ],
+      "/home/arcangelo/": [
+        [
+          "resumee.pdf",
+          "Gallery.url",
+          "My certifications.url",
+          "My projects.url",
+          "README_fr.md",
+          "README_pt.md",
+          "README.md"
+        ],
+        null,
+        true
+      ],
+      "/": [
+        [
+          "Apps",
+          "home",
+          "img",
+          "LNA",
+          "webXash",
+          "System",
+          "favicon.ico",
+          "index.txt",
+          "robots.txt",
+          "rss.xml",
+          "session.json",
+          "sitemap.xml"
+        ],
+        null,
+        true
+      ]
+    },
+    "themeName": "defaultTheme",
+    "views": {},
+    "wallpaperFit": "fill",
+    "wallpaperImage": "/home/root/Pictures/Wallpapers/wall3.png"
+  }

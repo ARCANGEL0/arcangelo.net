@@ -1,0 +1,8 @@
+sheet search_bar
+{
+	interface:
+		csxs_login_state_text: "CS Live"; 
+		csxs_login_state_image: "image.connectionsHome";
+				
+		enable_canvas: true;
+}

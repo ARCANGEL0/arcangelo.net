@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9300],{19300:(e,t,n)=>{n.r(t),n.d(t,{default:()=>d});var r=n(86572),c=n(37e3);let d=(e,t,n)=>{let{VANTA:{current:d}={}}=window;try{d?.destroy()}catch{}e&&"undefined"!=typeof WebGLRenderingContext&&(0,c.aY)(r.nh,!0).then(()=>{let{VANTA:{WAVES:c}={}}=window;if(c)try{c({el:e,...r.rv,...t})}catch{n?.()}})}}}]);

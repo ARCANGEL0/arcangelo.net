@@ -1,0 +1,44 @@
+<!-- prettier-ignore -->
+<template id="logo">
+	<style>
+		pre {
+    font-family: monospace;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: fit-content;
+    transform: translate(100vw, 0); /* Start off-screen to the right */
+    animation: whiterose 6s linear infinite;
+}
+
+@keyframes whiterose {
+    0% { transform: translate(100vw, 0); } /* Start off-screen right */
+    100% { transform: translate(-100vw, 0); } /* End off-screen left */
+}
+		.enter {
+			text-align: center;
+			font-size: 2rem;
+			animation: cursor 1s infinite 2s step-end;
+		}
+	</style>
+<pre>
+▄███▄      ▄  ▄█    ▄▄▄▄▀
+█▀   ▀ ▀▄   █ ██ ▀▀▀ █   
+██▄▄     █ ▀  ██     █   
+█▄   ▄▀ ▄ █   ▐█    █    
+▀███▀  █   ▀▄  ▐   ▀     
+        ▀                
+</pre>
+
+	<div class="enter">--- PRESS ANY KEY TO PLAY ---</div>
+</template>
+
+<!-- prettier-ignore -->
+<template id="intro" data-type="true">
+    <div class="intro-text"></div>
+    <div class="controls-text"></div>
+</template>
+
+<template id="console">
+
+ 
+</template>

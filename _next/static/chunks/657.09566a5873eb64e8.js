@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[657],{50657:(e,l,n)=>{n.r(l),n.d(l,{default:()=>u});var t=n(96540);let u=()=>((0,t.useEffect)(()=>{window.open("https://arcangelo.net/fallout?run=rick","_blank")},[]),null)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9148],{29148:(e,t,s)=>{s.r(t),s.d(t,{default:()=>a});var p=s(96540);let a=()=>((0,p.useEffect)(()=>{window.open("https://open.spotify.com/artist/1mrVVaQFpF4SrdeqrqQdY8","_blank")},[]),null)}}]);

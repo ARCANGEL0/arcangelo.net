@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8992],{78992:(e,l,a)=>{a.r(l),a.d(l,{default:()=>u});var n=a(96540);let u=()=>((0,n.useEffect)(()=>{window.open("mailto:henry.arcangello@gmail.com","_blank")},[]),null)}}]);

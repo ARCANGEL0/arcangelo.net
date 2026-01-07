@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <VariableForExMan> 
+
+        <Data key="EmStorePath">$SharedRibsDataFolder/Adobe/Extension Manager</Data>
+        <Data key="$photoshopappfolder">$installfolder</Data>
+        <Data key="$pluginsfolder">$photoshopappfolder/Plug-Ins</Data>
+        <Data key="$presetsfolder">$photoshopappfolder/Presets</Data>
+
+        <Data key="$platform">Win</Data>
+        
+        <Data key="$actions">$presetsfolder/Actions</Data>
+        <Data key="$blackandwhite">$presetsfolder/Black and White</Data>
+        <Data key="$brushes">$presetsfolder/Brushes</Data>
+        <Data key="$channelmixer">$presetsfolder/Channel Mixer</Data>
+        <Data key="$colorbooks">$presetsfolder/Color Books</Data>
+        <Data key="$colorrange">$presetsfolder/Color Range</Data>
+        <Data key="$colorswatches">$presetsfolder/Color Swatches</Data>
+        <Data key="$contours">$presetsfolder/Contours</Data>
+        <Data key="$curves">$presetsfolder/Curves</Data>
+        <Data key="$customshapes">$presetsfolder/Custom Shapes</Data>
+        <Data key="$duotones">$presetsfolder/Duotones</Data>
+        <Data key="$exposure">$presetsfolder/Exposure</Data>
+        <Data key="$gradients">$presetsfolder/Gradients</Data>
+        <Data key="$huesat">$presetsfolder/Hue Sat</Data>
+        <Data key="$imagestatistics">$presetsfolder/Image Statistics</Data>
+        <Data key="$keyboardshortcuts">$presetsfolder/Keyboard Shortcuts</Data>
+        <Data key="$layouts">$presetsfolder/Layouts</Data>
+        <Data key="$lenscorrection">$presetsfolder/Lens Correction</Data>
+        <Data key="$levels">$presetsfolder/Levels</Data>
+        <Data key="$liquifymeshes">$presetsfolder/Liquify Meshes</Data>
+        <Data key="$menucustomization">$presetsfolder/Menu Customization</Data>
+        <Data key="$optimizedcolors">$presetsfolder/Optimized Colors</Data>
+        <Data key="$optimizedoutputSettings">$presetsfolder/Optimized Output Settings</Data>
+        <Data key="$optimizedsettings">$presetsfolder/Optimized Settings</Data>
+        <Data key="$patterns">$presetsfolder/Patterns</Data>
+        <Data key="$reducenoise">$presetsfolder/Reduce Noise</Data>
+        <Data key="$replacecolor">$presetsfolder/Replace Color</Data>
+        <Data key="$scripts">$presetsfolder/Scripts</Data>
+        <Data key="$selectivecolor">$presetsfolder/Selective Color</Data>
+        <Data key="$shadowhighlight">$presetsfolder/Shadow Highlight</Data>
+        <Data key="$smartsharpen">$presetsfolder/Smart Sharpen</Data>
+        <Data key="$styles">$presetsfolder/Styles</Data>
+        <Data key="$textures">$presetsfolder/Textures</Data>
+        <Data key="$tools">$presetsfolder/Tools</Data>
+        <Data key="$variations">$presetsfolder/Variations</Data>
+        <Data key="$webphotogallery">$presetsfolder/Web Photo Gallery</Data>
+        <Data key="$workspaces">$presetsfolder/Workspaces</Data>
+        <Data key="$zoomify">$presetsfolder/Zoomify</Data>
+		    <Data key="$hueandsaturation">$presetsfolder/Hue and Saturation</Data> 
+		    <Data key="$lights">$presetsfolder/Lights</Data> 
+		    <Data key="$materials">$presetsfolder/Materials</Data> 
+		    <Data key="$meshes">$presetsfolder/Meshes</Data> 
+		    <Data key="$rendersettings">$presetsfolder/Render Settings</Data> 
+		    <Data key="$volumes">$presetsfolder/Volumes</Data> 
+		    <Data key="$widgets">$presetsfolder/Widgets</Data> 
+
+        <Data key="$localesfolder">$photoshopappfolder/Locales</Data>
+        <Data key="$additionalplugins">$localesfolder/$LOCALE/Additional Plug-ins</Data>
+        <Data key="$additionalpresets">$localesfolder/$LOCALE/Additional Presets</Data>
+
+        <Data key="$localeskeyboardshortcuts">$localesfolder/$LOCALE/Additional Presets/$platform/Keyboard Shortcuts</Data>
+        <Data key="$localesmenucustomization">$localesfolder/$LOCALE/Additional Presets/$platform/Menu Customization</Data>
+        <Data key="$localesworkspaces">$localesfolder/$LOCALE/Additional Presets/$platform/Workspaces</Data>
+
+
+        <Data key="$automate">$pluginsfolder/Automate</Data>
+        <Data key="$digimarc">$pluginsfolder/Digimarc</Data>
+        <Data key="$displacementmaps">$pluginsfolder/Displacement Maps</Data>
+        <Data key="$effects">$pluginsfolder/Effects</Data>
+        <Data key="$extensions">$pluginsfolder/Extensions</Data>
+        <Data key="$fileformats">$pluginsfolder/File Formats</Data>
+        <Data key="$filters">$pluginsfolder/Filters</Data>
+        <Data key="$imagestacks">$pluginsfolder/Image Stacks</Data>
+        <Data key="$importexport">$pluginsfolder/Import-Export</Data>
+        <Data key="$measurements">$pluginsfolder/Measurements</Data>
+        <Data key="$panels">$pluginsfolder/Panels</Data>
+        <Data key="$parser">$pluginsfolder/Parser</Data>
+		    <Data key="$3dengines">$pluginsfolder/3D Engines</Data> 
+
+        <Data key="$lightingstyles">$pluginsfolder/Filters/Lighting Styles</Data>
+        
+        <Data key="$matlab">$photoshopappfolder/MATLAB</Data>
+        
+        
+        <Data key="UserExtensionFolder">$photoshopappfolder</Data>
+        <Data key="$photoshop">$UserDataFolder/Adobe/Adobe Photoshop CS6/Configuration</Data>
+        <Data key="DisplayName">Photoshop CS6 32</Data>
+        <Data key="ProductName">Photoshop32</Data>
+        <Data key="FamilyName">Photoshop</Data>
+        <Data key="ProductVersion">13.0</Data>
+        <Data key="IconPath">Configuration/PS_exman_24px.png</Data>
+        <Data key="SupportedInSuite">CS6</Data>
+        <Data key="HostNameForCSXS">PHSP</Data>
+        <Data key="Bit">32</Data>
+    </VariableForExMan>  
+</Configuration>
+

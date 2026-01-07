@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2159],{72159:(e,t,u)=>{u.r(t),u.d(t,{default:()=>s});var l=u(96540);let s=()=>((0,l.useEffect)(()=>{window.open("https://github.com/ARCANGEL0/NekoCLI","_blank")},[]),null)}}]);

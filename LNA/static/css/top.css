@@ -1,0 +1,114 @@
+.serviceRow, .ant-col {margin-left: 0.3% !important;margin-right: 0% !important;}
+
+#about {
+    padding: 35vh 0px 15%  !important ;
+}
+
+.rowLine { 
+background: rgb(0, 49, 64) !important;
+    width: 200vw !important;
+    margin-left: -25vw !important;
+    margin-top: -54vh !important;
+    height: 12vh !important;
+    position: inherit !important;
+}
+
+
+
+#codeimg { 
+    margin-bottom: 15vh !important;
+    margin-left: 24vw !important;
+    margin-top: 60vh !important;
+}
+ 
+
+#services > h6 { 
+    margin-top: 20% !important;
+    margin-left: 50% !important ;
+}
+
+.kGeZQw {
+    /* padding: 0.75rem 0px !important ; */
+    width: 100vw !important ;
+    margin-left: -75% !important ;
+}
+.ant-card-head::before, .ant-card-head::after {
+    content: "" !important ;
+    border-width: 11px !important ;
+    border-style: solid !important ;
+    border-image: initial !important ;
+    border-color: transparent !important ;
+    position: absolute !important ;
+    left: -22px !important ;
+    bottom: 47.2vh !important ;
+}
+
+.kGeZQw {
+    margin-left: -21vw !important ; 
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+  .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    height: 15vh  !important ; 
+}
+     #services {
+        margin-left: 10%;
+    }
+    #codeimg {
+            margin-left: -5vw !important;
+    width: 125vw !important;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+     #codeimg {
+            margin-left: -5vw !important;
+    width: 125vw !important;
+    }
+     .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    height: 15vh  !important ; 
+}
+      #services {
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 414px) {
+     #codeimg {
+            margin-left: -5vw !important;
+    width: 125vw !important;
+    }
+    .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    display:none !important;
+    height: 15vh  !important ; 
+}
+       #services {
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 890px) {
+  .rowLine { 
+        background: rgb(0, 49, 64)  !important ;
+    width: 100%  !important ;
+    margin-left: -0 !important;
+    margin-top: -0% !important;
+    display:none !important;
+    height: 15vh  !important ; 
+}    #services {
+        margin-left: 10%;
+    }
+}

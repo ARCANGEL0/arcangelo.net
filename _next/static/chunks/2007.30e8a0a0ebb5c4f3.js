@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2007],{62007:(n,e,t)=>{t.r(e),t.d(e,{default:()=>l});var u=t(14232);let l=function(){return(0,u.useEffect)(function(){window.open("https://www.linkedin.com/in/henryarcangelo/","_blank")},[]),null}}}]);

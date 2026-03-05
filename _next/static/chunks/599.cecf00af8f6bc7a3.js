@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[599],{90599:(e,n,l)=>{l.r(n),l.d(n,{default:()=>a});var u=l(14232);let a=function(){return(0,u.useEffect)(function(){window.open("mailto:henry.arcangello@gmail.com","_blank")},[]),null}}}]);

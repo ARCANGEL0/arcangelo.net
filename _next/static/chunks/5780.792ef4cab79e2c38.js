@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5780],{35780:(e,n,t)=>{t.r(n),t.d(n,{default:()=>l});var u=t(14232);let l=function(){return(0,u.useEffect)(function(){window.open("https://neko.arcangelo.net","_blank")},[]),null}}}]);

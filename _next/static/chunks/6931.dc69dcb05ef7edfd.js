@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6931],{96931:(e,n,t)=>{t.r(n),t.d(n,{default:()=>f});var u=t(14232);let f=function(){return(0,u.useEffect)(function(){window.open("https://wa.me/447391692659","_blank")},[]),null}}}]);

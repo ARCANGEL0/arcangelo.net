@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3582],{43582:(n,e,t)=>{t.r(e),t.d(e,{default:()=>c});var u=t(14232);let c=function(){return(0,u.useEffect)(function(){window.open("https://fallout.arcangelo.net?run=hack","_blank")},[]),null}}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1401],{41401:(n,e,t)=>{t.r(e),t.d(e,{default:()=>r});var u=t(14232);let r=function(){return(0,u.useEffect)(function(){window.open("https://fallout.arcangelo.net?run=friend","_blank")},[]),null}}}]);

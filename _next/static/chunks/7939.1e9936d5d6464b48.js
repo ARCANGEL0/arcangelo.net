@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7939],{57939:(e,t,n)=>{n.r(t),n.d(t,{default:()=>r});var u=n(14232);let r=function(){return(0,u.useEffect)(function(){window.open("https://open.spotify.com/artist/1mrVVaQFpF4SrdeqrqQdY8","_blank")},[]),null}}}]);

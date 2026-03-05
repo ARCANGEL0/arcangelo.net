@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[361],{361:(n,e,t)=>{t.r(e),t.d(e,{default:()=>a});var u=t(14232);let a=function(){return(0,u.useEffect)(function(){window.open("https://www.instagram.com/h.arcangelo/","_blank")},[]),null}}}]);

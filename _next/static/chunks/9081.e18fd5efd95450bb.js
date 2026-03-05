@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9081],{39081:(n,u,e)=>{e.r(u),e.d(u,{default:()=>c});var t=e(14232);let c=function(){return(0,t.useEffect)(function(){window.open("https://soundcloud.com/arcxlo","_blank")},[]),null}}}]);

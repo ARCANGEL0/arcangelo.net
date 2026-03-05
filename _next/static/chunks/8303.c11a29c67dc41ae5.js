@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8303],{88303:(e,n,t)=>{t.r(n),t.d(n,{default:()=>u});var p=t(14232);let u=function(){return(0,p.useEffect)(function(){window.open("https://api.whatsapp.com/send/?phone=351927285125&text&type=phone_number","_blank")},[]),null}}}]);

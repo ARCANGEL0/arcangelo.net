@@ -1,0 +1,460 @@
+layout grid
+{
+    view subview(horizontal: @align_fill,
+                 margin: [ 3,
+                           1,
+                           3,
+                           1 ],
+                 name: "Layout Widget",
+                 spacing: 1,
+                 wants_focus: false)
+    {
+        column(horizontal: @align_fill,
+               spacing: 5,
+               vertical: @align_fill)
+        {
+            row(horizontal: @align_fill,
+                margin: [ 1,
+                          7,
+                          1,
+                          10 ],
+                spacing: 6)
+            {
+                button(action: @do_layout_4,
+                       alt: localize("$$$/OWLAppBar/Layout/ConsolidateAll=Consolidate All" ),
+                       bind: @layout_1_up,
+                       image: { normal: "P_AB1Up_Lg_N.png",
+                                rollover: "P_AB1Up_Lg_R.png",
+                                dark_normal: "P_AB1Up_Lg_N_D.png",
+                                dark_rollover: "P_AB1Up_Lg_R_D.png" },
+                       name: "4",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_1,
+                       alt: localize("$$$/OWLAppBar/Layout/AllInGrid=Tile All in Grid" ),
+                       bind: @layout_1_up,
+                       image: { normal: "P_ABAllInGrid_Lg_N.png",
+                                rollover: "P_ABAllInGrid_Lg_R.png",
+                                dark_normal: "P_ABAllInGrid_Lg_N_D.png",
+                                dark_rollover: "P_ABAllInGrid_Lg_R_D.png" },
+                       name: "1",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_2,
+                       alt: localize("$$$/OWLAppBar/Layout/AllVertical=Tile All Vertically" ),
+                       bind: @layout_1_up,
+                       image: { normal: "P_ABAllVertically_Lg_N.png",
+                                rollover: "P_ABAllVertically_Lg_R.png",
+                                dark_normal: "P_ABAllVertically_Lg_N_D.png",
+                                dark_rollover: "P_ABAllVertically_Lg_R_D.png" },
+                       name: "2",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_3,
+                       alt: localize("$$$/OWLAppBar/Layout/AllHorizontal=Tile All Horizontally" ),
+                       bind: @layout_1_up,
+                       image: { normal: "P_ABAllHorizontally_Lg_N.png",
+                                rollover: "P_ABAllHorizontally_Lg_R.png",
+                                dark_normal: "P_ABAllHorizontally_Lg_N_D.png",
+                                dark_rollover: "P_ABAllHorizontally_Lg_R_D.png" },
+                       name: "3",
+                       wants_focus: false,
+                       menu_item: true);
+            }
+
+            row(horizontal: @align_fill,
+                spacing: 0)
+            {
+                separator(orientation: @horizontal,
+                          vertical: @align_center);
+            }
+
+            row(horizontal: @align_fill,
+                margin: [ 1,
+                          7,
+                          1,
+                          10 ],
+                spacing: 6)
+            {
+                button(action: @do_layout_5,
+                       alt: localize("$$$/OWLAppBar/Layout/2Up=2 Up" ),
+                       bind: @layout_2_up,
+                       image: { normal: "P_AB2UpColumns_Lg_N.png",
+                                rollover: "P_AB2UpColumns_Lg_R.png",
+                                dark_normal: "P_AB2UpColumns_Lg_N_D.png",
+                                dark_rollover: "P_AB2UpColumns_Lg_R_D.png" },
+                       name: "5",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_6,
+                       alt: localize("$$$/OWLAppBar/Layout/2Up=2 Up" ),
+                       bind: @layout_2_up,
+                       image: { normal: "P_AB2UpRows_Lg_N.png",
+                                rollover: "P_AB2UpRows_Lg_R.png",
+                                dark_normal: "P_AB2UpRows_Lg_N_D.png",
+                                dark_rollover: "P_AB2UpRows_Lg_R_D.png" },
+                       name: "6",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_7,
+                       alt: localize("$$$/OWLAppBar/Layout/3Up=3 Up" ),
+                       bind: @layout_3_up,
+                       image: { normal: "P_AB3Up2RowsR_Lg_N.png",
+                                rollover: "P_AB3Up2RowsR_Lg_R.png",
+                                dark_normal: "P_AB3Up2RowsR_Lg_N_D.png",
+                                dark_rollover: "P_AB3Up2RowsR_Lg_R_D.png" },
+                       name: "7",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_8,
+                       alt: localize("$$$/OWLAppBar/Layout/3Up=3 Up" ),
+                       bind: @layout_3_up,
+                       image: { normal: "P_AB3Up2RowsL_Lg_N.png",
+                                rollover: "P_AB3Up2RowsL_Lg_R.png",
+                                dark_normal: "P_AB3Up2RowsL_Lg_N_D.png",
+                                dark_rollover: "P_AB3Up2RowsL_Lg_R_D.png" },
+                       name: "8",
+                       wants_focus: false,
+                       menu_item: true);
+            }
+
+            row(horizontal: @align_fill,
+                margin: [ 1,
+                          7,
+                          1,
+                          10 ],
+                spacing: 6)
+            {
+                button(action: @do_layout_10,
+                       alt: localize("$$$/OWLAppBar/Layout/3Up=3 Up" ),
+                       bind: @layout_3_up,
+                       image: { normal: "P_AB3UpColumns_Lg_N.png",
+                                rollover: "P_AB3UpColumns_Lg_R.png",
+                                dark_normal: "P_AB3UpColumns_Lg_N_D.png",
+                                dark_rollover: "P_AB3UpColumns_Lg_R_D.png" },
+                       name: "10",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_9,
+                       alt: localize("$$$/OWLAppBar/Layout/3Up=3 Up" ),
+                       bind: @layout_3_up,
+                       image: { normal: "P_AB3UpRows_Lg_N.png",
+                                rollover: "P_AB3UpRows_Lg_R.png",
+                                dark_normal: "P_AB3UpRows_Lg_N_D.png",
+                                dark_rollover: "P_AB3UpRows_Lg_R_D.png" },
+                       name: "9",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_11,
+                       alt: localize("$$$/OWLAppBar/Layout/4Up=4 Up" ),
+                       bind: @layout_4_up,
+                       image: { normal: "P_AB4UpGrid_Lg_N.png",
+                                rollover: "P_AB4UpGrid_Lg_R.png",
+                                dark_normal: "P_AB4UpGrid_Lg_N_D.png",
+                                dark_rollover: "P_AB4UpGrid_Lg_R_D.png" },
+                       name: "11",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_12,
+                       alt: localize("$$$/OWLAppBar/Layout/4Up=4 Up" ),
+                       bind: @layout_4_up,
+                       image: { normal: "P_AB4Up2CollSplitR_Lg_N.png",
+                                rollover: "P_AB4Up2CollSplitR_Lg_R.png",
+                                dark_normal: "P_AB4Up2CollSplitR_Lg_N_D.png",
+                                dark_rollover: "P_AB4Up2CollSplitR_Lg_R_D.png" },
+                       name: "12",
+                       wants_focus: false,
+                       menu_item: true);
+            }
+
+            row(horizontal: @align_fill,
+                margin: [ 1,
+                          7,
+                          1,
+                          10 ],
+                spacing: 6)
+            {
+                button(action: @do_layout_13,
+                       alt: localize("$$$/OWLAppBar/Layout/4Up=4 Up" ),
+                       bind: @layout_4_up,
+                       image: { normal: "P_AB4Up3CollSplitFarR_Lg_N.png",
+                                rollover: "P_AB4Up3CollSplitFarR_Lg_R.png",
+                                dark_normal: "P_AB4Up3CollSplitFarR_Lg_N_D.png",
+                                dark_rollover: "P_AB4Up3CollSplitFarR_Lg_R_D.png" },
+                       name: "13",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_14,
+                       alt: localize("$$$/OWLAppBar/Layout/4Up=4 Up" ),
+                       bind: @layout_4_up,
+                       image: { normal: "P_AB4UpColumns_Lg_N.png",
+                                rollover: "P_AB4UpColumns_Lg_R.png",
+                                dark_normal: "P_AB4UpColumns_Lg_N_D.png",
+                                dark_rollover: "P_AB4UpColumns_Lg_R_D.png" },
+                       name: "14",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_15,
+                       alt: localize("$$$/OWLAppBar/Layout/4Up=4 Up" ),
+                       bind: @layout_4_up,
+                       image: { normal: "P_AB4UpRows_Lg_N.png",
+                                rollover: "P_AB4UpRows_Lg_R.png",
+                                dark_normal: "P_AB4UpRows_Lg_N_D.png",
+                                dark_rollover: "P_AB4UpRows_Lg_R_D.png" },
+                       name: "15",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_16,
+                       alt: localize("$$$/OWLAppBar/Layout/5Up=5 Up" ),
+                       bind: @layout_5_up,
+                       image: { normal: "P_AB5Up2CollSplitR_Lg_N.png",
+                                rollover: "P_AB5Up2CollSplitR_Lg_R.png",
+                                dark_normal: "P_AB5Up2CollSplitR_Lg_N_D.png",
+                                dark_rollover: "P_AB5Up2CollSplitR_Lg_R_D.png" },
+                       name: "16",
+                       wants_focus: false,
+                       menu_item: true);
+            }
+
+            row(horizontal: @align_fill,
+                margin: [ 1,
+                          7,
+                          1,
+                          10 ],
+                spacing: 6)
+            {
+                button(action: @do_layout_17,
+                       alt: localize("$$$/OWLAppBar/Layout/5Up=5 Up" ),
+                       bind: @layout_5_up,
+                       image: { normal: "P_AB5Up3ColSplitFarR_Lg_N.png",
+                                rollover: "P_AB5Up3ColSplitFarR_Lg_R.png",
+                                dark_normal: "P_AB5Up3ColSplitFarR_Lg_N_D.png",
+                                dark_rollover: "P_AB5Up3ColSplitFarR_Lg_R_D.png" },
+                       name: "17",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_18,
+                       alt: localize("$$$/OWLAppBar/Layout/5Up=5 Up" ),
+                       bind: @layout_5_up,
+                       image: { normal: "P_AB5Up3ColSplitLast2_Lg_N.png",
+                                rollover: "P_AB5Up3ColSplitLast2_Lg_R.png",
+                                dark_normal: "P_AB5Up3ColSplitLast2_Lg_N_D.png",
+                                dark_rollover: "P_AB5Up3ColSplitLast2_Lg_R_D.png" },
+                       name: "18",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_19,
+                       alt: localize("$$$/OWLAppBar/Layout/6Up=6 Up" ),
+                       bind: @layout_6_up,
+                       image: { normal: "P_AB6UpGrid_Lg_N.png",
+                                rollover: "P_AB6UpGrid_Lg_R.png",
+                                dark_normal: "P_AB6UpGrid_Lg_N_D.png",
+                                dark_rollover: "P_AB6UpGrid_Lg_R_D.png" },
+                       name: "19",
+                       wants_focus: false,
+                       menu_item: true);
+
+                button(action: @do_layout_20,
+                       alt: localize("$$$/OWLAppBar/Layout/6Up=6 Up" ),
+                       bind: @layout_6_up,
+                       image: { normal: "P_AB6Up123_Lg_N.png",
+                                rollover: "P_AB6Up123_Lg_R.png",
+                                dark_normal: "P_AB6Up123_Lg_N_D.png",
+                                dark_rollover: "P_AB6Up123_Lg_R_D.png" },
+                       name: "20",
+                       wants_focus: false,
+                       menu_item: true);
+            }
+
+            column(horizontal: @align_fill,
+                   margin: 0,
+                   spacing: 0)
+            {
+                row(horizontal: @align_fill,
+                    spacing: 0)
+                {
+                    separator(orientation: @horizontal,
+                              vertical: @align_center);
+                }
+
+                column(horizontal: @align_fill,
+                       margin: 0,
+                       spacing: 0)
+                {
+                    button_view(action: @make_docs_float,
+                                bind: @enable_make_float,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Menu/Window/FloatAllWindows=Float All in Windows" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+
+                    button_view(action: @new_window,
+                                bind: @enable_new_window,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Actions/Enum/NewView=New Window" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+                }
+
+                row(horizontal: @align_fill,
+                    margin: 1,
+                    spacing: 0)
+                {
+                    separator(orientation: @horizontal,
+                              vertical: @align_center);
+                }
+
+                column(horizontal: @align_fill,
+                       margin: 0,
+                       spacing: 0)
+                {
+                    button_view(action: @actual_pixels,
+                                bind: @enable_actual_pixels,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Actions/Enum/ActualPixels=Actual Pixels" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+
+                    button_view(action: @fit_to_screen,
+                                bind: @enable_fit_to_screen,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Actions/Enum/FitOnScreen=Fit on Screen" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+                }
+
+                row(horizontal: @align_fill,
+                    margin: 1,
+                    spacing: 0)
+                {
+                    separator(orientation: @horizontal,
+                              vertical: @align_center);
+                }
+
+                column(horizontal: @align_fill,
+                       margin: 0,
+                       spacing: 0)
+                {
+                    button_view(action: @match_zoom,
+                                bind: @enable_match_zoom,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Actions/Enum/MatchZoom=Match Zoom" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+
+                    button_view(action: @match_location,
+                                bind: @enable_match_location,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Actions/Enum/MatchLocation=Match Location" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+
+                    button_view(action: @match_zoom_location,
+                                bind: @enable_match_zoom_location,
+                                child_vertical: @align_center,
+                                horizontal: @align_fill,
+                                margin: [ 2,
+                                          10,
+                                          2,
+                                          10 ],
+                                show_border: false,
+                                show_highlight: true,
+                                spacing: 2,
+                                wants_focus: false,
+                      			menu_item: true)
+                    {
+                        static_text(name: localize("$$$/Actions/Enum/MatchZoomAndLocation=Match Zoom and Location" ),
+                                    show_border: false,
+                                    wants_focus: false);
+                    }
+                }
+            }
+        }
+    }
+}

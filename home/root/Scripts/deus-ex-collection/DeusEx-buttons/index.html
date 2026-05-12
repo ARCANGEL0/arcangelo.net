@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deus Ex: Human Revolution - Augmented Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="hex-bg"></div>
+    <div class="vignette"></div>
+
+    <div class="container">
+        <header class="main-header">
+            <div class="header-accent"></div>
+            <div class="logo-area">
+                <div class="logo-hex">SI</div>
+                <div class="logo-text">
+                    <span class="logo-title">SARIF INDUSTRIES</span>
+                    <span class="logo-sub">AUGMENTED INTERFACE CONTROLS</span>
+                </div>
+            </div>
+            <div class="header-date">2027.08.23</div>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Buttons</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="buttons-showcase">
+                <div class="btn-group">
+                    <label class="btn-label">PRIMARY</label>
+                    <button class="btn btn-sarif" data-type="primary">
+                        <span class="btn-icon">◆</span>
+                        <span class="btn-text">Primary</span>
+                        <span class="btn-shine"></span>
+                    </button>
+                </div>
+
+                <div class="btn-group">
+                    <label class="btn-label">SECONDARY</label>
+                    <button class="btn btn-sarif-outline" data-type="secondary">
+                        <span class="btn-icon">◇</span>
+                        <span class="btn-text">Secondary</span>
+                    </button>
+                </div>
+
+                <div class="btn-group">
+                    <label class="btn-label">HOLOGRAPHIC</label>
+                    <button class="btn btn-holo" data-type="holo">
+                        <span class="holo-lines"></span>
+                        <span class="btn-text">Holo</span>
+                    </button>
+                </div>
+
+                <div class="btn-group">
+                    <label class="btn-label">AUGMENT</label>
+                    <button class="btn btn-augment" data-type="augment">
+                        <span class="aug-hex">⚡</span>
+                        <span class="btn-text">Augment</span>
+                    </button>
+                </div>
+
+                <div class="btn-group">
+                    <label class="btn-label">DANGER</label>
+                    <button class="btn btn-typhoon" data-type="danger">
+                        <span class="typhoon-icon">☠</span>
+                        <span class="btn-text">Danger</span>
+                        <span class="danger-pulse"></span>
+                    </button>
+                </div>
+
+                <div class="btn-group">
+                    <label class="btn-label">UTILITY</label>
+                    <button class="btn btn-utility" data-type="utility">
+                        <span class="btn-icon">▲</span>
+                        <span class="btn-text">Utility</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Toggles</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="toggles-showcase">
+                <div class="toggle-group">
+                    <div class="toggle-info">
+                        <span class="toggle-name">Toggle 1</span>
+                        <span class="toggle-status">OFFLINE</span>
+                    </div>
+                    <label class="toggle">
+                        <input type="checkbox" class="toggle-input">
+                        <span class="toggle-track">
+                            <span class="toggle-thumb"></span>
+                            <span class="toggle-glow"></span>
+                        </span>
+                    </label>
+                </div>
+
+                <div class="toggle-group">
+                    <div class="toggle-info">
+                        <span class="toggle-name">Toggle 2</span>
+                        <span class="toggle-status">ARMED</span>
+                    </div>
+                    <label class="toggle toggle-danger">
+                        <input type="checkbox" class="toggle-input" checked>
+                        <span class="toggle-track">
+                            <span class="toggle-thumb"></span>
+                            <span class="toggle-glow"></span>
+                        </span>
+                    </label>
+                </div>
+
+                <div class="toggle-group">
+                    <div class="toggle-info">
+                        <span class="toggle-name">Toggle 3</span>
+                        <span class="toggle-status">STANDBY</span>
+                    </div>
+                    <label class="toggle toggle-stealth">
+                        <input type="checkbox" class="toggle-input">
+                        <span class="toggle-track">
+                            <span class="toggle-thumb"></span>
+                            <span class="toggle-glow"></span>
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Selects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="selects-showcase">
+                <div class="select-group">
+                    <label class="select-label">SELECT OPTION</label>
+                    <div class="deus-select">
+                        <select class="select-input">
+                            <option value="" disabled selected>-- SELECT --</option>
+                            <option value="option-1">Option 1</option>
+                            <option value="option-2">Option 2</option>
+                            <option value="option-3">Option 3</option>
+                            <option value="option-4">Option 4</option>
+                            <option value="option-5">Option 5</option>
+                        </select>
+                        <span class="select-arrow">▼</span>
+                        <span class="select-line"></span>
+                    </div>
+                </div>
+
+                <div class="select-group">
+                    <label class="select-label">SELECT GROUP</label>
+                    <div class="deus-select">
+                        <select class="select-input">
+                            <option value="" disabled selected>-- SELECT --</option>
+                            <optgroup label="GROUP A">
+                                <option value="a-1">Option A1</option>
+                                <option value="a-2">Option A2</option>
+                                <option value="a-3">Option A3</option>
+                            </optgroup>
+                            <optgroup label="GROUP B">
+                                <option value="b-1">Option B1</option>
+                                <option value="b-2">Option B2</option>
+                            </optgroup>
+                            <optgroup label="GROUP C">
+                                <option value="c-1">Option C1</option>
+                                <option value="c-2">Option C2</option>
+                            </optgroup>
+                        </select>
+                        <span class="select-arrow">▼</span>
+                        <span class="select-line"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Radios</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="radios-showcase">
+                <div class="radio-group">
+                    <label class="deus-radio">
+                        <input type="radio" name="option" value="option-1" checked>
+                        <span class="radio-track"></span>
+                        <span class="radio-label">Option 1</span>
+                    </label>
+
+                    <label class="deus-radio">
+                        <input type="radio" name="option" value="option-2">
+                        <span class="radio-track"></span>
+                        <span class="radio-label">Option 2</span>
+                    </label>
+
+                    <label class="deus-radio">
+                        <input type="radio" name="option" value="option-3">
+                        <span class="radio-track"></span>
+                        <span class="radio-label">Option 3</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <footer class="status-bar">
+            <div class="status-left">
+                <span class="status-dot"></span>
+                <span class="status-text" id="status-text">SYSTEM READY</span>
+            </div>
+            <div class="status-right">
+                <span class="energy-label">ENERGY:</span>
+                <div class="energy-bar">
+                    <div class="energy-fill"></div>
+                </div>
+                <span class="energy-value">100%</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

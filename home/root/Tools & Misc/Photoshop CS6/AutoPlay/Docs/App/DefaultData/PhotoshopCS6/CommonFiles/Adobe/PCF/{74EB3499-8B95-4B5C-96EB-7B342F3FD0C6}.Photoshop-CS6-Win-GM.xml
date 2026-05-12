@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{74EB3499-8B95-4B5C-96EB-7B342F3FD0C6}">
+		<Data key="defaultAdobeCode">Photoshop-Installer-AdobeCode</Data>
+		<Data key="LicensingCode">Photoshop-CS6-Win-GM</Data>
+		<Data key="AMTConfigPath"></Data><Data key="DefaultDriverPayload">{74EB3499-8B95-4B5C-96EB-7B342F3FD0C6}</Data><Data key="InstallDate">1335534245</Data><Data key="driverAMTConfigPath"></Data><Data key="driverLEID">Photoshop-CS6-Win-GM</Data><Data key="installedLanguages">en_US</Data></Payload>
+	<Other adobeCode="Photoshop-CS6-Win-GM">
+		<Data key="EPIC_APP">Adobe Photoshop CS6</Data>
+		<Data key="EPIC_APP_45">Adobe Photoshop CS6</Data>
+		<Data key="EPIC_APP_330">Adobe Photoshop CS6 Extended</Data>
+		<Data key="TrialSerialNumber">926287011921234454671866</Data>
+		<Data key="ExpirationDate"/>
+		<Data key="NTL_WO_SN"/>
+		<Data key="PayloadCode">{74EB3499-8B95-4B5C-96EB-7B342F3FD0C6}</Data></Other>
+</Configuration>

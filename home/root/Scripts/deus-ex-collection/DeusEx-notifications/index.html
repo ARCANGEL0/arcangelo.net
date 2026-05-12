@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deus Ex: Human Revolution - Notification Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="hex-bg"></div>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+
+    <div class="hud-corner hud-tl">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">NTF-01</span>
+    </div>
+    <div class="hud-corner hud-tr">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">SYS.OK</span>
+    </div>
+
+    <div class="container">
+        <header class="main-header">
+            <div class="header-accent"></div>
+            <div class="logo-area">
+                <div class="logo-hex">SI</div>
+                <div class="logo-text">
+                    <span class="logo-title">SARIF INDUSTRIES</span>
+                    <span class="logo-sub">NOTIFICATION SYSTEMS</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">TOAST NOTIFICATIONS</h2>
+                <div class="section-line"></div>
+                <span class="section-status">ACTIVE</span>
+            </div>
+            <div class="demo-grid">
+                <button class="hud-btn" onclick="showToast('success')">
+                    <span class="btn-icon">✓</span>
+                    <span>SUCCESS</span>
+                </button>
+                <button class="hud-btn" onclick="showToast('warning')">
+                    <span class="btn-icon">⚠</span>
+                    <span>WARNING</span>
+                </button>
+                <button class="hud-btn" onclick="showToast('danger')">
+                    <span class="btn-icon">✖</span>
+                    <span>DANGER</span>
+                </button>
+                <button class="hud-btn" onclick="showToast('info')">
+                    <span class="btn-icon">ℹ</span>
+                    <span>INFO</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">POPUP ALERTS</h2>
+                <div class="section-line"></div>
+                <span class="section-status">READY</span>
+            </div>
+            <div class="demo-grid">
+                <button class="hud-btn" onclick="showPopup('confirm')">
+                    <span>CONFIRM</span>
+                </button>
+                <button class="hud-btn" onclick="showPopup('alert')">
+                    <span>ALERT</span>
+                </button>
+                <button class="hud-btn" onclick="showPopup('system')">
+                    <span>SYSTEM</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">AUTO-DISMISS</h2>
+                <div class="section-line"></div>
+                <span class="section-status">TIMER</span>
+            </div>
+            <div class="demo-grid">
+                <button class="hud-btn" onclick="showAutoDismiss(3)">
+                    <span>3s</span>
+                </button>
+                <button class="hud-btn" onclick="showAutoDismiss(5)">
+                    <span>5s</span>
+                </button>
+                <button class="hud-btn" onclick="showAutoDismiss(10)">
+                    <span>10s</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">TOOLTIPS</h2>
+                <div class="section-line"></div>
+                <span class="section-status">HOVER</span>
+            </div>
+            <div class="tooltip-demo">
+                <div class="tooltip-trigger" data-tooltip="Top notification">
+                    <button class="hud-btn">TOP</button>
+                </div>
+                <div class="tooltip-trigger" data-tooltip="Right notification" data-position="right">
+                    <button class="hud-btn">RIGHT</button>
+                </div>
+                <div class="tooltip-trigger" data-tooltip="Bottom notification" data-position="bottom">
+                    <button class="hud-btn">BOTTOM</button>
+                </div>
+                <div class="tooltip-trigger" data-tooltip="Left notification" data-position="left">
+                    <button class="hud-btn">LEFT</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="toast-container" id="toastContainer"></div>
+    <div class="popup-overlay" id="popupOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

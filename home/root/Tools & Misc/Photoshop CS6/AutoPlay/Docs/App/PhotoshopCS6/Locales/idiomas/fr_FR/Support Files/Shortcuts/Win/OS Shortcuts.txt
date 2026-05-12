@@ -1,0 +1,6 @@
+Ctrl+F4
+Maj+Ctrl+F4
+Alt+F4
+Alt+Maj+F4
+Ctrl+F6
+Maj+Ctrl+F6

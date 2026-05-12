@@ -1,0 +1,6 @@
+Strg+F4
+Umschalt+Strg+F4
+Alt+F4
+Alt+Umschalt+F4
+Strg+F6
+Umschalt+Strg+F6

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[599],{90599:(e,t,u)=>{u.r(t),u.d(t,{default:()=>c});var n=u(14232),r=u(8247);let c=function(){var e=(0,n.useRef)(!1);return(0,n.useEffect)(function(){e.current||(e.current=!0,window.location.href="mailto:".concat(r.sx.author.email))},[]),null}}}]);

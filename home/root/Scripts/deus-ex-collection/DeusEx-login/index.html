@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarif Industries - Neural Authentication</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="boot-sequence">
+        <div class="boot-line">SARIF INDUSTRIES SECURITY SYSTEM v4.2.7</div>
+        <div class="boot-line">INITIALIZING NEURAL INTERFACE...</div>
+        <div class="boot-line">CALIBRATING OPTICS...</div>
+        <div class="boot-line">CONNECTING... <span class="boot-ok">CONNECTED</span></div>
+        <div class="boot-line">AUTHENTICATING... <span class="boot-ok">ACCESS GRANTED</span></div>
+    </div>
+    <div class="bg-grid"></div>
+    <div class="hex-bg"></div>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+    <div class="hud-corner hud-tl">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">SYS-01</span>
+    </div>
+    <div class="hud-corner hud-tr">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">ONLINE</span>
+    </div>
+    <div class="hud-corner hud-bl">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">ENC.AES</span>
+    </div>
+    <div class="hud-corner hud-br">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">VER.427</span>
+    </div>
+    <div class="hud-container" id="hudContainer">
+        <div class="login-hud">
+            <div class="data-strip">
+                <div class="data-item">
+                    <span class="data-label">STATUS</span>
+                    <span class="data-value">ONLINE</span>
+                </div>
+                <div class="data-item">
+                    <span class="data-label">PROTOCOL</span>
+                    <span class="data-value">TLS 1.3</span>
+                </div>
+                <div class="data-item">
+                    <span class="data-label">NODE</span>
+                    <span class="data-value">DET-09</span>
+                </div>
+            </div>
+            <div class="hud-title">
+                <div class="title-line-left"></div>
+                <div class="title-content">
+                    <span class="title-icon">◈</span>
+                    <div class="title-text">
+                        <span class="title-main">SARIF INDUSTRIES</span>
+                        <span class="title-sub">NEURAL AUTHENTICATION</span>
+                    </div>
+                </div>
+                <div class="title-line-right"></div>
+            </div>
+            <form class="hud-form" id="loginForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <div class="input-hud">
+                            <div class="input-corners">
+                                <span></span><span></span>
+                                <span></span><span></span>
+                            </div>
+                            <input type="text" id="username" placeholder="OPERATIVE ID" required>
+                            <label>IDENTITY</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <div class="input-hud">
+                            <div class="input-corners">
+                                <span></span><span></span>
+                                <span></span><span></span>
+                            </div>
+                            <input type="password" id="password" placeholder="ACCESS CODE" required>
+                            <button type="button" class="toggle-pass" id="togglePass">👁</button>
+                            <label>SECURITY</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-options">
+                    <label class="hud-check">
+                        <input type="checkbox">
+                        <span class="check-box"></span>
+                        <span>REMEMBER</span>
+                    </label>
+                    <a href="#" class="hud-link">RESET?</a>
+                </div>
+                <button type="submit" class="btn-augment">
+                    <div class="btn-glow"></div>
+                    <span class="btn-text">AUTHENTICATE</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+            </form>
+            <div class="system-footer">
+                <div class="footer-line"></div>
+                <div class="footer-info">
+                    <span>© 2027 SARIF INDUSTRIES</span>
+                    <span class="sep">◈</span>
+                    <span>DETROIT, MI</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

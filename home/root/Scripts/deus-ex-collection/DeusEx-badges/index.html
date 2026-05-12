@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deus Ex: Badges & Frames</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="hex-bg"></div>
+    <div class="vignette"></div>
+
+    <div class="container">
+        <header class="main-header">
+            <div class="header-accent"></div>
+            <div class="logo-area">
+                <div class="logo-hex">SI</div>
+                <div class="logo-text">
+                    <span class="logo-title">SARIF INDUSTRIES</span>
+                    <span class="logo-sub">BADGES & FRAMES</span>
+                </div>
+            </div>
+            <div class="header-date">2027.08.23</div>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Badges</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="badges-showcase">
+                <div class="badge-group">
+                    <label class="badge-label">DEFAULT</label>
+                    <span class="badge">Default</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">PRIMARY</label>
+                    <span class="badge badge-primary">Primary</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">SUCCESS</label>
+                    <span class="badge badge-success">Success</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">WARNING</label>
+                    <span class="badge badge-warning">Warning</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">DANGER</label>
+                    <span class="badge badge-danger">Danger</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">INFO</label>
+                    <span class="badge badge-info">Info</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">AUGMENTED</label>
+                    <span class="badge badge-augment">Augment</span>
+                </div>
+
+                <div class="badge-group">
+                    <label class="badge-label">STEALTH</label>
+                    <span class="badge badge-stealth">Stealth</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Frames</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="frames-showcase">
+                <div class="frame-group">
+                    <label class="frame-label">DEFAULT FRAME</label>
+                    <div class="frame">
+                        <div class="frame-content">
+                            <h3 class="frame-title">Frame Title</h3>
+                            <p class="frame-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="frame-group">
+                    <label class="frame-label">HOLO FRAME</label>
+                    <div class="frame frame-holo">
+                        <div class="frame-lines"></div>
+                        <div class="frame-content">
+                            <h3 class="frame-title">Holo Frame</h3>
+                            <p class="frame-text">Holographic display content here.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="frame-group">
+                    <label class="frame-label">AUGMENTED FRAME</label>
+                    <div class="frame frame-augment">
+                        <div class="frame-hex"></div>
+                        <div class="frame-content">
+                            <h3 class="frame-title">Augmented</h3>
+                            <p class="frame-text">Augmentation data display.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="frame-group">
+                    <label class="frame-label">DANGER FRAME</label>
+                    <div class="frame frame-danger">
+                        <div class="frame-pulse"></div>
+                        <div class="frame-content">
+                            <h3 class="frame-title">Warning</h3>
+                            <p class="frame-text">Danger zone alert.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">Modal Triggers</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="modal-triggers">
+                <button class="btn btn-sarif" data-modal="modal-default">
+                    <span class="btn-icon">◆</span>
+                    <span class="btn-text">Open Default</span>
+                    <span class="btn-shine"></span>
+                </button>
+
+                <button class="btn btn-holo" data-modal="modal-holo">
+                    <span class="holo-lines"></span>
+                    <span class="btn-text">Open Holo</span>
+                </button>
+
+                <button class="btn btn-typhoon" data-modal="modal-danger">
+                    <span class="typhoon-icon">☠</span>
+                    <span class="btn-text">Open Danger</span>
+                    <span class="danger-pulse"></span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal-overlay" id="modal-default">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Default Modal</h3>
+                <button class="modal-close">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Modal content goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-sarif-outline modal-btn-close">Close</button>
+                <button class="btn btn-sarif">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-holo">
+        <div class="modal modal-holo">
+            <div class="modal-lines"></div>
+            <div class="modal-header">
+                <h3 class="modal-title">Holographic Modal</h3>
+                <button class="modal-close">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Holographic interface content.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-holo modal-btn-close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-danger">
+        <div class="modal modal-danger">
+            <div class="modal-pulse"></div>
+            <div class="modal-header">
+                <h3 class="modal-title">Warning</h3>
+                <button class="modal-close">×</button>
+            </div>
+            <div class="modal-body">
+                <p>Dangerous action confirmation.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-sarif-outline modal-btn-close">Cancel</button>
+                <button class="btn btn-typhoon">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="status-bar">
+        <div class="status-left">
+            <span class="status-dot"></span>
+            <span class="status-text">SYSTEM READY</span>
+        </div>
+        <div class="status-right">
+            <span class="energy-label">ENERGY:</span>
+            <div class="energy-bar">
+                <div class="energy-fill"></div>
+            </div>
+            <span class="energy-value">100%</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop\60.0]
+"FreeBeforeSlopAdjust"=dword:00380000
+"FreeSpace"=dword:001e84cc
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop\60.0\ApplicationPath]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Adobe\Photoshop\60.0\PluginPath]
+
+[HKEY_CURRENT_USER\Software\Adobe]
+
+[HKEY_CURRENT_USER\Software\Adobe\050C83F3C11E]
+@="676ADCA049B9AAF45E5A30905C36B7DBF7CDC87D"
+
+[HKEY_CURRENT_USER\Software\Adobe\52CE11B40CE7]
+@="472BE708B4F80D68E93C334F446261A6EC959983"
+
+[HKEY_CURRENT_USER\Software\Adobe\72C141CF7285]
+@="D28DBD5037BCA5807634A0CAC404DED3D541E67C"
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles]
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage]
+"GUID"="8f553bb4-73e6-4661-b61f-8083d39648a8"
+"Agent"="C:\\Users\\frederico\\Downloads\\Photoshop CS6 Portable Completo,Crackeado e Ativado\\AutoPlay\\Docs\\App\\PhotoshopCS6\\"
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6]
+"Date"="2013-03-03T05:26:21Z"
+"OptIn"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6\Demographic]
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6Headlights]
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6Headlights\Adobe Photoshop CS6]
+"Prerelease"=dword:00000000
+"Build"="13.0 20120315.r.428 2012/03/15:21:00:00"
+"LaunchCounter"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\Adobe\CommonFiles\Usage\CS6_CS6_Adobe Photoshop CS6_13.0]
+"OptIn"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Adobe\CSXS.3]
+"LogLevel"="1"
+
+[HKEY_CURRENT_USER\Software\Adobe\IAC]
+"UserID"="57BABBD1C14EC22C389339B91E507C8"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList]
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-16T06:32:06.4040Z]
+@="C:\\Users\\jefferson\\Pictures\\ATgAAAAtLOWN4LS8p6Lw_V_x-UcpwJ24FKnu4xRJIqW-4voer9ewkQ8JcZwSnH4X3sEthW7UAhrHrAUw9IrzXcuXTL3AAJtU9.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-16T06:45:08.7481Z]
+@="C:\\Users\\jefferson\\Pictures\\bb.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T02:18:55.1860Z]
+@="C:\\Users\\jefferson\\Pictures\\molduras para fotos\\ATgAAAA7LbrzHPW7bLBC-ZK7cHJqL1GqVWZ25QpIkH6KxNvTOSHPjfJlstQ9m5wTLE-d7zyCtJU-lWsNGX50X8zgV28GAJtU9.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T02:39:36.4172Z]
+@="C:\\Users\\jefferson\\Desktop\\1.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:00:50.8716Z]
+@="C:\\Users\\jefferson\\Desktop\\ben-10-02.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:17:49.7007Z]
+@="C:\\Users\\jefferson\\Desktop\\AF5109MS.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:23:11.583Z]
+@="C:\\Users\\jefferson\\Desktop\\madagascar3Nmold1.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:25:44.5348Z]
+@="C:\\Users\\jefferson\\Desktop\\m.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:38:37.6509Z]
+@="C:\\Users\\jefferson\\Desktop\\estantes-home-theater-decoracao-sala-casa-6.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:56:23.95810Z]
+@="C:\\Users\\jefferson\\Desktop\\texturas-em-parede-vermalhas.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:58:51.3624Z]
+@="C:\\Users\\jefferson\\Desktop\\ben-10-02.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-17T03:59:14.145Z]
+@="C:\\Users\\jefferson\\Desktop\\ben-10-02~1.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-18T06:08:10.9310Z]
+@="C:\\Users\\jefferson\\Pictures\\alvin\\Alvin_e_Esquilos_2.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-18T06:45:57.1111Z]
+@="C:\\Users\\jefferson\\Desktop\\404801_211260859019766_175607816_n.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-18T07:29:51.3823Z]
+@="C:\\Users\\jefferson\\Desktop\\1.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-18T17:11:00.7800Z]
+@="C:\\Users\\jefferson\\Pictures\\alvin\\513.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-18T17:36:50.4711Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\jeff 01.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-19T03:43:23.511Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\Originals\\4.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-19T04:00:29.6532Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\SAM_0268.JPG"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-20T00:19:38.3240Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\ATgAAAAtLOWN4LS8p6Lw_V_x-UcpwJ24FKnu4xRJIqW-4voer9ewkQ8JcZwSnH4X3sEthW7UAhrHrAUw9IrzXcuXTL3AAJtU9.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-20T00:19:53.5341Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\P060412_16.39.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-21T16:38:24.5131Z]
+@="C:\\Users\\jefferson\\Desktop\\bondinho_2.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-21T16:51:45.4510Z]
+@="C:\\Users\\jefferson\\Documents\\bond_dentro.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-21T17:22:33.4151Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\262_n1ZIz.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-21T19:06:05.1080Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\SAM_4361.JPG"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-21T19:34:12.6370Z]
+@="C:\\Users\\jefferson\\Pictures\\Renan e Ryan\\564142_106376379518219_1181253517_n.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-22T21:28:46.2310Z]
+@="C:\\Users\\jefferson\\Pictures\\alvin\\alvin-e-os-esquilos.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T05:18:05.9220Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\SAM_4209.JPG"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T07:12:48.1681Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\8.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T07:15:17.6782Z]
+@="C:\\Users\\jefferson\\Desktop\\images.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T07:28:14.4283Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\397591_534059459952675_735993648_n.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T08:00:13.9024Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\jeff 05.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T08:10:53.6785Z]
+@="C:\\Users\\jefferson\\Pictures\\fotos jefferson\\SAM_4360.JPG"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-02-25T20:22:01.9360Z]
+@="C:\\Users\\jefferson da rocha\\Pictures\\fotos jefferson\\colagem.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2013-03-17T22:56:33.2600Z]
+@="C:\\Users\\jefferson da rocha\\Pictures\\fotos jefferson\\CIMG4108.JPG"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T13:43:47.9672Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Como baixar o adobe premier cs6\\Adobe_Premiere_Pro_CS6_Icon.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T16:06:36.2930Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\C4D\\Cinema 4D logo.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T16:11:22.2901Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\C4D\\Miniatura.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T23:25:12.6030Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Adobe_Photoshop_CS6_icon.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T23:28:06.4961Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Miniatura Photoshop.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T23:44:58.6670Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Miniaturas\\android1.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-23T23:54:52.2181Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Miniaturas\\play-store-logo.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-24T16:52:40.5940Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Goat simulator\\Splash.bmp"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-27T03:36:42.4330Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Miniaturas\\Arquivo para miniaturas.psd"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-27T03:36:48.9611Z]
+@="C:\\Users\\frederico\\Videos\\Video aulas\\Miniaturas\\windows_store.png"
+
+[HKEY_CURRENT_USER\Software\Adobe\MediaBrowser\MRU\Photoshop\FileList\2014-12-27T14:25:33.6260Z]
+@="C:\\Users\\frederico\\Pictures\\13055.jpg"
+
+[HKEY_CURRENT_USER\Software\Adobe\Photoshop]
+
+[HKEY_CURRENT_USER\Software\Adobe\Photoshop\60.0]
+"uiLanguageKey CS6"="en_US"
+"oldPaletteFontTypeKey CS6"=dword:00000000
+"MemoryUsage"=dword:0000003c
+"ShowStatusWindow"=dword:00000001
+"AppWindowPosition"="[39,23,1173,691]"
+
+[HKEY_CURRENT_USER\Software\Adobe\Photoshop\60.0\VisitedDirs]
+"STARTUPIMAGEDIRECTORY"="C:\\Users\\frederico\\Pictures\\"

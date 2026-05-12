@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deus Ex: Human Revolution - Input Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="hex-bg"></div>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+
+    <div class="hud-corner hud-tl">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">INP-01</span>
+    </div>
+    <div class="hud-corner hud-tr">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">SYS.OK</span>
+    </div>
+
+    <div class="container">
+        <header class="main-header">
+            <div class="header-accent"></div>
+            <div class="logo-area">
+                <div class="logo-hex">SI</div>
+                <div class="logo-text">
+                    <span class="logo-title">SARIF INDUSTRIES</span>
+                    <span class="logo-sub">INPUT SYSTEMS</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">INPUT</h2>
+                <div class="section-line"></div>
+                <span class="section-status">ACTIVE</span>
+            </div>
+            <div class="input-group">
+                <label class="input-label">
+                    <span class="label-line"></span>
+                    <span>OPERATIVE ID</span>
+                </label>
+                <div class="sarif-input-wrap">
+                    <input type="text" class="sarif-input" placeholder="Enter operative ID">
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">TEXTAREA</h2>
+                <div class="section-line"></div>
+                <span class="section-status">MULTI</span>
+            </div>
+            <div class="input-group">
+                <label class="input-label">
+                    <span class="label-line"></span>
+                    <span>MISSION LOG</span>
+                </label>
+                <div class="sarif-textarea-wrap">
+                    <textarea class="sarif-textarea" rows="6" placeholder="Enter mission details..."></textarea>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">◈</div>
+                <h2 class="section-title">UPLOAD</h2>
+                <div class="section-line"></div>
+                <span class="section-status">READY</span>
+            </div>
+            <div class="input-group">
+                <label class="input-label">
+                    <span class="label-line"></span>
+                    <span>FILE</span>
+                </label>
+                <div class="sarif-file-wrap">
+                    <input type="file" id="fileInput" hidden>
+                    <label for="fileInput" class="sarif-file-label">
+                        <span class="file-icon">📁</span>
+                        <span class="file-text">Choose file...</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

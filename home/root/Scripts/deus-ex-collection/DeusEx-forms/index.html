@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deus Ex: Human Revolution - Form Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="hex-bg"></div>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+
+    <div class="hud-corner hud-tl">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">FRM-01</span>
+    </div>
+    <div class="hud-corner hud-tr">
+        <div class="corner-line-h"></div>
+        <div class="corner-line-v"></div>
+        <span class="corner-text">SYS.OK</span>
+    </div>
+
+    <div class="container">
+        <form class="sarif-form" id="sarifForm">
+            <div class="form-section">
+                <div class="section-header">
+                    <div class="section-icon">◈</div>
+                    <div class="section-title">IDENTITY</div>
+                    <div class="section-line"></div>
+                </div>
+                <div class="inputs-row">
+                    <div class="input-group">
+                        <label class="input-label">
+                            <span class="label-line"></span>
+                            <span>OPERATIVE ID</span>
+                        </label>
+                        <div class="sarif-input-wrap">
+                            <input type="text" name="operativeId" class="sarif-input" placeholder="Enter operative ID" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label">
+                            <span class="label-line"></span>
+                            <span>ACCESS CODE</span>
+                        </label>
+                        <div class="sarif-input-wrap">
+                            <input type="password" name="accessCode" class="sarif-input" placeholder="Enter access code" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="section-header">
+                    <div class="section-icon">◈</div>
+                    <div class="section-title">CONTACT</div>
+                    <div class="section-line"></div>
+                </div>
+                <div class="inputs-row">
+                    <div class="input-group">
+                        <label class="input-label">
+                            <span class="label-line"></span>
+                            <span>EMAIL</span>
+                        </label>
+                        <div class="sarif-input-wrap">
+                            <input type="email" name="email" class="sarif-input" placeholder="operative@sarif.net">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label">
+                            <span class="label-line"></span>
+                            <span>PRIORITY</span>
+                        </label>
+                        <div class="sarif-select-wrap">
+                            <select name="priority" class="sarif-select">
+                                <option value="low">LOW</option>
+                                <option value="medium" selected>MEDIUM</option>
+                                <option value="high">HIGH</option>
+                                <option value="critical">CRITICAL</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="section-header">
+                    <div class="section-icon">◈</div>
+                    <div class="section-title">MISSION LOG</div>
+                    <div class="section-line"></div>
+                </div>
+                <div class="input-group">
+                    <label class="input-label">
+                        <span class="label-line"></span>
+                        <span>DETAILS</span>
+                    </label>
+                    <div class="sarif-textarea-wrap">
+                        <textarea name="details" class="sarif-textarea" rows="5" placeholder="Enter mission details..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="section-header">
+                    <div class="section-icon">◈</div>
+                    <div class="section-title">UPLOAD</div>
+                    <div class="section-line"></div>
+                </div>
+                <div class="input-group">
+                    <label class="input-label">
+                        <span class="label-line"></span>
+                        <span>ATTACHMENT</span>
+                    </label>
+                    <div class="sarif-file-wrap">
+                        <input type="file" name="attachment" id="fileInput" hidden>
+                        <label for="fileInput" class="sarif-file-label">
+                            <span class="file-icon">📁</span>
+                            <span class="file-text">Choose file...</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="form-submit">
+                    <span class="submit-line-left"></span>
+                    <span class="submit-text">TRANSMIT</span>
+                    <span class="submit-icon">→</span>
+                    <span class="submit-line-right"></span>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
